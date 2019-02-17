@@ -3,10 +3,10 @@
   <channel>
     <title>The Art of Marketing Science</title>
     <description>A blog about data stuff</description>
-    <link>/fongmanfong/</link>
-    <atom:link href="/fongmanfong/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Feb 2019 16:58:16 -0500</pubDate>
-    <lastBuildDate>Sun, 17 Feb 2019 16:58:16 -0500</lastBuildDate>
+    <link>//</link>
+    <atom:link href="//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 17 Feb 2019 16:59:34 -0500</pubDate>
+    <lastBuildDate>Sun, 17 Feb 2019 16:59:34 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -76,8 +76,8 @@
 &lt;p&gt;Evolving from marketing analytics to marketing science first requires a shift in mindset. We need to understand that more data does not mean more data informed decisions. We need to look at each problem and insight and critic it with rigor to determine if we are simply making inference on correlation or causation. I’m not saying that analytics is not useful to make decisions, far from that. Analytics provide a way to draw quick “insights” (better than just throwing darts in the dark). What I’m highlighting is the need to complement analytics with more science to make sure we’re hitting bullseye.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 00:00:00 -0500</pubDate>
-        <link>/fongmanfong/AOM-from_marketing_analytics_to_marketing_science/</link>
-        <guid isPermaLink="true">/fongmanfong/AOM-from_marketing_analytics_to_marketing_science/</guid>
+        <link>//AOM-from_marketing_analytics_to_marketing_science/</link>
+        <guid isPermaLink="true">//AOM-from_marketing_analytics_to_marketing_science/</guid>
         
         
         <category>Art of Marketing Science</category>
@@ -111,7 +111,7 @@
 
 &lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using Rouge.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/fongmanfong/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
 
@@ -126,8 +126,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 -0400</pubDate>
-        <link>/fongmanfong/powerful-things-markdown-editor/</link>
-        <guid isPermaLink="true">/fongmanfong/powerful-things-markdown-editor/</guid>
+        <link>//powerful-things-markdown-editor/</link>
+        <guid isPermaLink="true">//powerful-things-markdown-editor/</guid>
         
         
         <category>Jekyll</category>
@@ -151,8 +151,8 @@
 &lt;p&gt;As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother.&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 -0400</pubDate>
-        <link>/fongmanfong/first-mass-produced/</link>
-        <guid isPermaLink="true">/fongmanfong/first-mass-produced/</guid>
+        <link>//first-mass-produced/</link>
+        <guid isPermaLink="true">//first-mass-produced/</guid>
         
         
         <category>Jekyll</category>
@@ -190,7 +190,7 @@
 
 &lt;p&gt;If you want to get really fancy, you can even add syntax highlighting using Rouge.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/fongmanfong/assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;//assets/images/8.jpg&quot; alt=&quot;walking&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;reference-lists&quot;&gt;Reference lists&lt;/h2&gt;
 
@@ -205,8 +205,8 @@
 &lt;p&gt;&lt;iframe style=&quot;width:100%;&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;amp;showinfo=0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 -0400</pubDate>
-        <link>/fongmanfong/education/</link>
-        <guid isPermaLink="true">/fongmanfong/education/</guid>
+        <link>//education/</link>
+        <guid isPermaLink="true">//education/</guid>
         
         
         <category>Jekyll</category>
@@ -230,8 +230,8 @@
 &lt;/blockquote&gt;
 </description>
         <pubDate>Tue, 12 Jun 2018 00:00:00 -0400</pubDate>
-        <link>/fongmanfong/acumulated-experience/</link>
-        <guid isPermaLink="true">/fongmanfong/acumulated-experience/</guid>
+        <link>//acumulated-experience/</link>
+        <guid isPermaLink="true">//acumulated-experience/</guid>
         
         
         <category>Jekyll</category>
@@ -338,8 +338,8 @@
 &lt;p&gt;If you have any thoughts/comments/questions about my experience, feel free to reach out over &lt;a href=&quot;https://twitter.com/fongmanfong&quot;&gt;Twitter&lt;/a&gt; or email. I would love to help address any questions or further share with you my experience. If you know of any other good short courses, please please please reach out. I would love to learn more about it!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Jun 2018 00:00:00 -0400</pubDate>
-        <link>/fongmanfong/blog_regression_modelling_strategies/</link>
-        <guid isPermaLink="true">/fongmanfong/blog_regression_modelling_strategies/</guid>
+        <link>//blog_regression_modelling_strategies/</link>
+        <guid isPermaLink="true">//blog_regression_modelling_strategies/</guid>
         
         <category>level up</category>
         
@@ -361,8 +361,8 @@
 &lt;p&gt;For more information about how to use &lt;code class=&quot;highlighter-rouge&quot;&gt;Bundler&lt;/code&gt; in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly.&lt;/p&gt;
 </description>
         <pubDate>Sat, 12 May 2018 00:00:00 -0400</pubDate>
-        <link>/fongmanfong/about-bundler/</link>
-        <guid isPermaLink="true">/fongmanfong/about-bundler/</guid>
+        <link>//about-bundler/</link>
+        <guid isPermaLink="true">//about-bundler/</guid>
         
         
         <category>Jekyll</category>
@@ -1664,8 +1664,8 @@ Name: Ticket - First Label, dtype: int64
 
 </description>
         <pubDate>Sat, 27 Jan 2018 00:00:00 -0500</pubDate>
-        <link>/fongmanfong/codelabs_kaggle_titanic/</link>
-        <guid isPermaLink="true">/fongmanfong/codelabs_kaggle_titanic/</guid>
+        <link>//codelabs_kaggle_titanic/</link>
+        <guid isPermaLink="true">//codelabs_kaggle_titanic/</guid>
         
         <category>kaggle</category>
         
@@ -1681,8 +1681,8 @@ Name: Ticket - First Label, dtype: int64
 &lt;p&gt;It seems to me that education has a two-fold function to perform in the life of man and in society: the one is utility and the other is culture. Education must enable a man to become more efficient, to achieve with increasing facility the ligitimate goals of his life.&lt;/p&gt;
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 -0500</pubDate>
-        <link>/fongmanfong/we-all-wait-for-summer/</link>
-        <guid isPermaLink="true">/fongmanfong/we-all-wait-for-summer/</guid>
+        <link>//we-all-wait-for-summer/</link>
+        <guid isPermaLink="true">//we-all-wait-for-summer/</guid>
         
         
         <category>Jekyll</category>
@@ -1707,8 +1707,8 @@ Name: Ticket - First Label, dtype: int64
 
 </description>
         <pubDate>Fri, 12 Jan 2018 00:00:00 -0500</pubDate>
-        <link>/fongmanfong/tree-of-codes/</link>
-        <guid isPermaLink="true">/fongmanfong/tree-of-codes/</guid>
+        <link>//tree-of-codes/</link>
+        <guid isPermaLink="true">//tree-of-codes/</guid>
         
         
         <category>Jekyll</category>
