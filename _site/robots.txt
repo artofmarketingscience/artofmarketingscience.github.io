@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: /mediumish-theme-jekyll/sitemap.xml
