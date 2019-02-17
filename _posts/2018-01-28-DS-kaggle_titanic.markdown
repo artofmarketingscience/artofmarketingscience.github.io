@@ -1,18 +1,9 @@
 ---
-title: "Remember Jack and Rose?"
 layout: post
-date: 2018-01-27
-image: /assets/images/markdown.jpg
-headerImage: false
-projects: true
-blog: false
-hidden: true
-tag:
-- kaggle
-star: true
-category: blog
-author: jason fong
-description: Kaggle Competition - Titanic Dataset
+title:  "Remember Jack and Rose?"
+author: Jason Fong
+categories: [Data Sandbox]
+image: /assets/images/2018-01-27-project-kaggle_titanic/jack_rose.jpg
 ---
 
 ![jpeg](/assets/images/2018-01-27-project-kaggle_titanic/jack_rose.jpg)

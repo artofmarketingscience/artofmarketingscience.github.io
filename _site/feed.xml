@@ -5,8 +5,8 @@
     <description>A blog about data stuff</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Feb 2019 17:17:00 -0500</pubDate>
-    <lastBuildDate>Sun, 17 Feb 2019 17:17:00 -0500</lastBuildDate>
+    <pubDate>Sun, 17 Feb 2019 17:42:45 -0500</pubDate>
+    <lastBuildDate>Sun, 17 Feb 2019 17:42:45 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -338,13 +338,11 @@
 &lt;p&gt;If you have any thoughts/comments/questions about my experience, feel free to reach out over &lt;a href=&quot;https://twitter.com/fongmanfong&quot;&gt;Twitter&lt;/a&gt; or email. I would love to help address any questions or further share with you my experience. If you know of any other good short courses, please please please reach out. I would love to learn more about it!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Jun 2018 00:00:00 -0400</pubDate>
-        <link>/blog_regression_modelling_strategies/</link>
-        <guid isPermaLink="true">/blog_regression_modelling_strategies/</guid>
-        
-        <category>level up</category>
+        <link>/DS-regression_modelling_strategies/</link>
+        <guid isPermaLink="true">/DS-regression_modelling_strategies/</guid>
         
         
-        <category>blog</category>
+        <category>Data Sandbox</category>
         
       </item>
     
@@ -1663,14 +1661,12 @@ Name: Ticket - First Label, dtype: int64
 &lt;p&gt;If you have any suggestions, ideas, questions, comments, feel free to shoot me a note and we can chat more!&lt;/p&gt;
 
 </description>
-        <pubDate>Sat, 27 Jan 2018 00:00:00 -0500</pubDate>
-        <link>/codelabs_kaggle_titanic/</link>
-        <guid isPermaLink="true">/codelabs_kaggle_titanic/</guid>
-        
-        <category>kaggle</category>
+        <pubDate>Sun, 28 Jan 2018 00:00:00 -0500</pubDate>
+        <link>/DS-kaggle_titanic/</link>
+        <guid isPermaLink="true">/DS-kaggle_titanic/</guid>
         
         
-        <category>blog</category>
+        <category>Data Sandbox</category>
         
       </item>
     

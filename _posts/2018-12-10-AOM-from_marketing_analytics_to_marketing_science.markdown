@@ -2,7 +2,7 @@
 layout: post
 title:  "From Marketing Analytics To Marketing Science"
 author: Jason Fong
-categories: [ Art of Marketing Science]
+categories: [Art of Marketing Science]
 image: assets/images/16.jpg
 ---
 

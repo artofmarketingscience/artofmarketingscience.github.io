@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/codelabs_intro_to_python_and_pandas/</loc>
+<loc>/DS-intro_to_python_and_pandas/</loc>
 <lastmod>2017-02-18T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>/codelabs_dimension_reduction_examples_part1/</loc>
+<loc>/DS-dimension_reduction_examples_part1/</loc>
 <lastmod>2017-04-27T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>/codelabs_dimension_reduction_pca/</loc>
+<loc>/DS-dimension_reduction_pca/</loc>
 <lastmod>2017-05-01T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>/codelabs_marvel_cinematic_plotly/</loc>
+<loc>/DS-marvel_cinematic_plotly/</loc>
 <lastmod>2017-06-01T00:00:00-04:00</lastmod>
 </url>
 <url>
@@ -53,15 +53,15 @@
 <lastmod>2018-01-12T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>/codelabs_kaggle_titanic/</loc>
-<lastmod>2018-01-27T00:00:00-05:00</lastmod>
+<loc>/DS-kaggle_titanic/</loc>
+<lastmod>2018-01-28T00:00:00-05:00</lastmod>
 </url>
 <url>
 <loc>/about-bundler/</loc>
 <lastmod>2018-05-12T00:00:00-04:00</lastmod>
 </url>
 <url>
-<loc>/blog_regression_modelling_strategies/</loc>
+<loc>/DS-regression_modelling_strategies/</loc>
 <lastmod>2018-06-02T00:00:00-04:00</lastmod>
 </url>
 <url>
@@ -92,6 +92,9 @@
 </url>
 <url>
 <loc>/</loc>
+</url>
+<url>
+<loc>/category/data-sandbox/</loc>
 </url>
 <url>
 <loc>/category/blog/</loc>

@@ -1,19 +1,9 @@
 ---
-title: "Marvel Cinematic Data Visualization With Plot.ly"
 layout: post
-date: 2017-06-01
-image: /assets/images/markdown.jpg
-headerImage: false
-projects: true
-blog: false
-hidden: true
-tag:
-- data visualization
-- plotly
-star: true
-category: blog
-author: jason fong
-description: Marvel Cinematic Data Visualization With Plot.ly
+title:  "Marvel Cinematic Data Visualization With Plot.ly"
+author: Jason Fong
+categories: [Data Sandbox]
+image: /assets/images/2017-06-01-marvel-cinematic-plotly/marvel-cinematic.png
 ---
 
 ![png](/assets/images/2017-06-01-marvel-cinematic-plotly/marvel-cinematic.png)

@@ -6,22 +6,22 @@
     
 <link rel="icon" href="/assets/images/logo.png">
     
-<title>Regression Modelling Strategies | The Art of Marketing Science</title>
+<title>Dimension Reduction Examples - Part 1 | The Art of Marketing Science</title>
         
 <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Regression Modelling Strategies | The Art of Marketing Science</title>
+<title>Dimension Reduction Examples - Part 1 | The Art of Marketing Science</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Regression Modelling Strategies" />
-<meta name="author" content="jason fong" />
+<meta property="og:title" content="Dimension Reduction Examples - Part 1" />
+<meta name="author" content="Jason Fong" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Regression Modelling Strategies" />
-<meta property="og:description" content="Regression Modelling Strategies" />
+<meta name="description" content="What is dimensionality reduction? The name might sound fancier than what it actually is. It is simply the process of reducing the number of dimensions in a dataset aka reducing the number of attributes/features/columns while retaining key information in the dataset." />
+<meta property="og:description" content="What is dimensionality reduction? The name might sound fancier than what it actually is. It is simply the process of reducing the number of dimensions in a dataset aka reducing the number of attributes/features/columns while retaining key information in the dataset." />
 <meta property="og:site_name" content="The Art of Marketing Science" />
-<meta property="og:image" content="/assets/images/markdown.jpg" />
+<meta property="og:image" content="/assets/images/2017-04-27-dimension-reduction-examples-part1/strange.jpg" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2018-06-02T00:00:00-04:00" />
+<meta property="article:published_time" content="2017-04-27T00:00:00-04:00" />
 <script type="application/ld+json">
-{"description":"Regression Modelling Strategies","author":{"@type":"Person","name":"jason fong"},"@type":"BlogPosting","url":"/blog_regression_modelling_strategies/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"},"name":"jason fong"},"image":"/assets/images/markdown.jpg","headline":"Regression Modelling Strategies","dateModified":"2018-06-02T00:00:00-04:00","datePublished":"2018-06-02T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/blog_regression_modelling_strategies/"},"@context":"http://schema.org"}</script>
+{"description":"What is dimensionality reduction? The name might sound fancier than what it actually is. It is simply the process of reducing the number of dimensions in a dataset aka reducing the number of attributes/features/columns while retaining key information in the dataset.","author":{"@type":"Person","name":"Jason Fong"},"@type":"BlogPosting","url":"/DS-dimension_reduction_examples_part1/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"},"name":"Jason Fong"},"image":"/assets/images/2017-04-27-dimension-reduction-examples-part1/strange.jpg","headline":"Dimension Reduction Examples - Part 1","dateModified":"2017-04-27T00:00:00-04:00","datePublished":"2017-04-27T00:00:00-04:00","mainEntityOfPage":{"@type":"WebPage","@id":"/DS-dimension_reduction_examples_part1/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -159,7 +159,7 @@ var documents = [{
     "body": "2018/06/12 - The die cut has also been employed in the non-juvenile sphere as well, a recent example being Jonathan Safran Foer’s ambitious Tree of Codes. As for this particular rendition of Charles Perrault’s classic tale, the text and design is by Lydia Very (1823-1901), sister of Transcendentalist poet Jones Very. The gruesome ending of the original - which sees Little Red Riding Hood being gobbled up as well as her grandmother - is avoided here, the gore giving way to the less bloody aims of the morality tale, and the lesson that one should not disobey one’s mother. The first mass-produced book to deviate from a rectilinear format, at least in the United States, is thought to be this 1863 edition of Red Riding Hood, cut into the shape of the protagonist herself with the troublesome wolf curled at her feet. Produced by the Boston-based publisher Louis Prang, this is the first in their “Doll Series”, a set of five “die-cut” books, known also as shape books — the other titles being Robinson Crusoe, Goody Two-Shoes (also written by Red Riding Hood author Lydia Very), Cinderella, and King Winter. An 1868 Prang catalogue would later claim that such “books in the shape of a regular paper Doll… originated with us”.  It would seem the claim could also extend to die cut books in general, as we can’t find anything sooner, but do let us know in the comments if you have further light to shed on this! Such books are, of course, still popular in children’s publishing today, though the die cutting is not now limited to mere outlines, as evidenced in a beautiful 2014 version of the same Little Red Riding Hood story. "
     }, {
     "id": 12,
-    "url": "/blog_regression_modelling_strategies/",
+    "url": "/DS-regression_modelling_strategies/",
     "title": "Regression Modelling Strategies",
     "body": "2018/06/02 - I feel very fortunate to work for an employer like Shopify, that places a lot of value in continuous learning and self development. One of the many benefits that we get as employees is an annual self-development budget that we can use on anything to level-up ourselves professionally. This year I decided to experiment with taking a 5 day short course on Regression Modelling Strategies offered at Vanderbilt University. This blog entry is a summary of sed course material, my experience and recommendations for other Data Scientists in the industry that might be interested in diving deeper into the topic of regression. InspirationThe most common way people tend to use their development budget is by attending conferences. I also know of some coworkers who have used their development budget over several years to pursue a formal University certification in Big Data / Data Science. Personally, I have mix feelings about both and I don’t find either one to fit my learning style very well. I’ve been to couple conferences related to data science and marketing but I felt I wasn’t able to take a whole lot away. Some felt way too product and sales focused while others lacked the content that I was looking for. The challenge that I have with some of these University Big Data certificate programs is the format of the education. Typically the format is a set of courses over several semesters and classes are mandatory on a weekly basis, with midterms, assignments, and exams. What I struggle with is the pace of the learning, I feel that it is too slow for me. I also dislike the breadth and lack of depth of the content. I feel like a lot of topics are usually covered in such programs but none are explored deeply. At this point of my career, I feel I have a better sense of what I know, what I don’t know, and what I want/need to know, which has consequently made me explore alternative options for my development budget. Browsing on Twitter ultimately led me to Frank Harrell’s RMS course. I was very intrigued by the concept of a condensed course that focused on a topic that I wanted to learn more about and thought was very relevant for my day to day work. Course SummaryThe course I took is called Regression Modelling Strategies, taught by Professor Frank Harrell at Vanderbilt University. This is a condensed version of the course that he regularly teaches during the semester. The course is broken up into 1 day (optional) R tutorial and 4 full days of course content. The course is intended for Masters and PhD level students, so there is an expectation that students already have a competent understanding of multiple regression modelling. The course becomes very challenging to follow along if students do not have that understanding or are not prepared for the lectures. For more information about the course, see here. The philosophy of the course and Professor Frank Harrell can be summarized as:  It is more productive to make model fit step by step than to postulate a simple model and find out what went wrong Carefully fitting improper model is better than badly fitting a well chosen one A good overall strategy is to decide how many degrees of freedom (regression parameters) can be “spent”, where they should be spent, and to spend them with no regretsTopics covered in the course include but not limited to the following:  Hypothesis Testing vs Estimation vs. Prediction vs. Classification General Aspects of Fitting Regression Models     Interpreting Model Parameters &amp; Understanding Interactions   Relaxing Linearity Assumptions for Continuous Predictors         Non Linear Terms     Splines for Estimating Shape of Regression Function     Cubic / Restricted Cubic Splines / Choosing Number and Position of Knots     Nonparametric Regression     Assessment of Model Fit           Handling Missing Data     Strategies for Developing Imputation Model   Predictive Mean Matching    Multivariable Modelling Strategies     Variable Selection, Sample Size, Overfitting, Limit on Number of Predictors   Shrinkage   Data Reduction Techniques    Describing, Resampling, Validating and Simplifying the Model     Model Validation   Bootstrap vs. Cross Validation    Binary Logistic Regression, Ordinal Logistic Regression, Survival Analysis Case StudiesFor a more detailed list of topics, click here. Who Should Attend This Course?The course description illustrates the target audience as “statisticians and related quantitative researchers who want to learn some general model development strategies, including approaches to missing data imputation, data reduction, model validation, and relaxing linearity assumptions”. In my opinion, I feel this topic / course is suitable for anyone who is working with data, primarily focusing on problems that require a good understanding of how variables interact with each other and affect outcome. My domain of interest is marketing and I am interested in answering questions such as, what levers affect churn or LTV, and at what magnitude? How does each marketing channel influence customer conversion? This is a traditional statistics course, with a focus on biostatistics, and not a machine learning / data science course. I don’t recommend this for anyone that is only interested in the prediction aspect of modelling and not the interpretation aspect. Although this is a biostatistics course, I think the content is relevant for people outside of the medical field as well. My class comprised of primarily doctors, postgraduate students, researchers or people from the medical industry, but there were also people from the finance sector, geology, etc. In my opinion, I actually think the biostatistics aspect of the course is beneficial and makes the course much more interesting. Surrounding yourself with people that are not in your field and looking at problems that you don’t look at on a day to day basis helps stimulate thoughts and creativity. RecommendationsOverall I highly recommend other people in the industry to take this course if they are interested in learning more about regression modelling and also have similar reservations towards conferences and long form education. I think there are couple things that can really help enhance this experience (from the perspective of someone coming from industry and not academia):  Going as a team (4-5 people): Not only is this option more cost efficient, I think you can learn a lot more when you are studying as a group, by asking each other questions, sharing ideas and thoughts, challenging ideas etc.  Being very prepared for the course so that you can have meaningful conversations with Professor Frank Harrell. There were several students that were taking the course for the 2nd or 3rd time and I noticed that they were able to have a deep conversations with the Professor about specific problems they are working on. There is a textbook that comes with this course, and I would highly encourage going over that material before attending the course as well during the course.  Course improvements mentioned below. ImprovementsThe course is not perfect and there are definitely improvements that can be made. I’ve provided the same feedback on the course feedback survey.  The R tutorial is not necessary. I would prefer the R tutorial to be removed and allot an extra day for the course. The R content can be sent out prior to the course for students to review individually There is a lack of interaction / collaboration amongst the students. I think having students from very diverse fields in one place is in itself a very valuable. The concept of having a mini group project intrigues me. Replacing the R tutorial day with extra half day of course content and half day of project presentation is also an intriguing idea Go deeper into survival analysis and ordinal regression Price for non institute members is fairly expensive and does not include airfare and accomodations, so that is something to considerTakeawayI am very happy that I experimented with using my development budget on a short course. One thing to keep in mind is that you should not make the assumption that after a 5 day course you will know everything about regression modelling. That is simply impossible.  You will need to continue to self study but the course provides you with the foundation to continue exploring this topic further. I am currently still reading/re-reading the course textbook and course notes. At the same time I am reading academic papers that apply regression in the realm of marketing and I find that I am able to understand the methodologies behind the modelling process. If you have any thoughts/comments/questions about my experience, feel free to reach out over Twitter or email. I would love to help address any questions or further share with you my experience. If you know of any other good short courses, please please please reach out. I would love to learn more about it! "
     }, {
@@ -169,9 +169,9 @@ var documents = [{
     "body": "2018/05/12 - gem install bundler installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details: bundler is a gem that manages other Ruby gems. It makes sure your gems and gem versions are compatible, and that you have all necessary dependencies each gem requires. The Gemfile and Gemfile. lock files inform Bundler about the gem requirements in your site. If your site doesn’t have these Gemfiles, you can omit bundle exec and just run jekyll serve. When you run bundle exec jekyll serve, Bundler uses the gems and versions as specified in Gemfile. lock to ensure your Jekyll site builds with no compatibility or dependency conflicts. For more information about how to use Bundler in your Jekyll project, this tutorial should provide answers to the most common questions and explain how to get up and running quickly. "
     }, {
     "id": 14,
-    "url": "/codelabs_kaggle_titanic/",
+    "url": "/DS-kaggle_titanic/",
     "title": "Remember Jack and Rose?",
-    "body": "2018/01/27 -  Remember Jack &amp; Rose? Leo &amp; Kate Winslet? Titanic movie? Nostalgia? I wish this project was half as romantic as the movie but I’d be lying to you if I said it was. TL;DR: This exercise is the infamous Titanic dataset that all Kaggle newbs start out with. It is a classification problem where we need to predict if passengers will survive. Accuracy is used to evaluate predictions. At the time of submission, I was ranked 391/9642, top 4% on the leaderboard with an accuracy of 81. 8%. By no means is this a perfect submission, nor did I write beautiful Python code. At the end, I have a section on considerations and improvements.  I won’t include all the analysis and code in this post, just the key areas of my analysis and prediction. If you want the detailed step by step, checkout my GitHub here. Table of Contents:  Introduction Feature Exploration / Cleaning / Engineering     Sex   Embarked   Name   SibSp &amp; Parch   Cabin   Ticket   Age   Fare    Modelling &amp; Making Predictions Results Considerations / ImprovementsIntroduction: As mentioned, the goal here is the predict whether passengers will survive this accident. For more information about this kaggle competition, you can checkout https://www. kaggle. com/c/titanic. A list of passenger information is broke into two datasets, training and test. The training set has information on whether a passenger survived while in the test set this information is hidden. We will use the training set to train our prediction model and apply onto the test set and kaggle will provide an accuracy score. Information provided in the data sets:  PassengerID: ID of the passenger Survived: If a passenger survived Pclass: Ticket class Name: Passenger’s name Sex: Gender Age: Age of passenger SibSp: Number of siblings and/or spouses Parch: Number of parents and/or children Ticket: Ticket number Fare: Dollar amount of ticket Cabin: Cabin unit and number Embarked: Boarding port         PassengerId   Survived   Pclass   Name   Sex   Age   SibSp   Parch   Ticket   Fare   Cabin   Embarked         0   1   0   3   Braund, Mr. Owen Harris   male   22. 0   1   0   A/5 21171   7. 2500   NaN   S       1   2   1   1   Cumings, Mrs. John Bradley (Florence Briggs Th. . .    female   38. 0   1   0   PC 17599   71. 2833   C85   C       2   3   1   3   Heikkinen, Miss. Laina   female   26. 0   0   0   STON/O2. 3101282   7. 9250   NaN   S   Total records in train &amp; test: 1309Train: Total Survived 342Train: Total People 891 Feature Exploration / Cleaning / Engineering : Here we’ll go through one feature at a time, exploring it, cleaning it if necessary and do feature engineering if it make sense. Sex: First off, we see from above Sex is a categorical variable so I’ll define a simple function map it to numerical values. It would be interesting to just see if there is a correlation between gender and survival. We see females has a significantly higher chance of survival. def map_sex(df, col):  return df[col]. map(lambda x: 1 if x == 'female' else 0)train. groupby('Sex')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Sex                  0   109   577   0. 188908       1   233   314   0. 742038   Embarked: We noticed that Embarked has one missing value in the training set. Since its a categorical, it would intuitively make sense that we can use the probability of the missing value being S, C, Q. We noticed that there is the highest chance of the missing value being S. Segmenting this by Survived, we see people Embarked = C is slightly correlated with survival rate vs S &amp; Q sns. countplot(x= Embarked , data=train, palette= Greens_d ); sns. barplot(x= Embarked , y= Survived , hue= Embarked , data=train, ci=None); Name: Name is a little more interesting. At face value, there are many different names but we see they all have a title. We know Mr. is different than Mrs. and we also see some interesting titles like Master. and Lady. Doing some research on Google we can see how these titles are used. We also notice that there are a lot of titles with similar meaning as well as titles that identify personnel with a different social class. We can group these titles together into intuitive categories to see if they have correlation with survival rate. def extract_title(df, col):  return df[col]. str. extractall('([A-Z]+[a-z]+\. )'). unstack()[0]sns. countplot(y= Title , data=train, palette= Greens_d ); Mr.     240Miss.    78Mrs.     72Master.   21Col.     2Rev.     2Dona.     1Dr.      1Ms.      1Name: Title, dtype: int64One thing to notice here is that Dona. is in test data but not the training set. We should include that in our categorization. Based on intuitive grouping, I’ve essentially classified all titles that are used for people with certain social class as Noble and anything else as Other. Similar to gender, we see female titles Mrs. and Miss have strong correlation with survival. People with noble title tend to have a higher chance of surviving, which intuitively make sense. The so called “important” people tend to get favoured treatments. title_map = {  'Mme. ': 'Mr. ',  'Mlle. ': 'Miss. ',  'Ms. ': 'Miss. ',  'Sir. ' : 'Noble',  'Rev. ' : 'Other',  'Major. ': 'Other',  'Lady. ': 'Noble',  'Jonkheer. ': 'Noble',  'Dr. ': 'Other',  'Countess. ' : 'Noble',  'Col. ': 'Other',  'Capt. ': 'Other',  'Don. ': 'Noble',   'Dona. ': 'Noble',  'Master. ': 'Noble',  'Mr. ': 'Mr. ',  'Mrs. ': 'Mrs. ',  'Miss. ': 'Miss. '}def map_title(df, col):  return df[col]. map(lambda x: title_map[x] if x in title_map. keys() else 'Other')sns. barplot(x= Title , y= Survived , hue= Title , data=train, ci=None); SibSp &amp; Parch: These two variables give us information about the passengers family, (spouse, siblings, parents, children). The tricky part is we don’t really know if someone has a sibling or a spouse, similarly a parent or a child. We can probably take some time to infer, which may give us better insight into whether that person is a mother with certain number of child. This could be a good signal since we know mothers and children tend to be saved first in situations like Titanic. Given that blurb, in this exercise, I’ve kept it basic. sns. countplot(y= SibSp , data=train, palette= Greens_d ); train. groupby('SibSp')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       SibSp                  0   210   608   0. 345395       1   112   209   0. 535885       2   13   28   0. 464286       3   4   16   0. 250000       4   3   18   0. 166667       5   0   5   0. 000000       8   0   7   0. 000000   sns. countplot(y= Parch , data=train, palette= Greens_d ); train. groupby('Parch')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Parch                  0   233   678   0. 343658       1   65   118   0. 550847       2   40   80   0. 500000       3   3   5   0. 600000       4   0   4   0. 000000       5   1   5   0. 200000       6   0   1   0. 000000   We see pasengers with one sibling or spouse have a slight correlation with survival. Similarly for passengers with 1 parent or child. One thing we can also look at is what both of these variables together tell us. Together will identify the family size of the passenger. We see more interesting results if we look at family. People with family size of 3 is highly correlated with surviving, while people with family size of 1 and 2 have a slight correlation with survival. train['Family Size'] = train['SibSp'] + train['Parch']test['Family Size'] = train['SibSp'] + train['Parch']train. groupby('Family Size')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Family Size                  0   163   537   0. 303538       1   89   161   0. 552795       2   59   102   0. 578431       3   21   29   0. 724138       4   3   15   0. 200000       5   3   22   0. 136364       6   4   12   0. 333333       7   0   6   0. 000000       10   0   7   0. 000000   Cabin: As seen above, we noticed that there are a lot of missing data points for cabin. Although I just replace this information with unknown, I can probably do a better job of inferring what cabin person could be in. For example inferring which passengers belong to the same family and use knowledge that family prefer to stay close to each other. Maybe we can use name and see which members have the same last name, look at SibSP, Parch and Family size, are they in the same Pclass. For cabin, I’m only interested in the first letter of the cabin. Reason being, the letter usually denotes the section of the cabin which implies different areas of the boat. Intuitively, even in the Titanic movie, people in different areas of the boat had different survival rate. def parse_cabin (df, col):  return df[col]. map(lambda x: re. sub(r'[0-9]+', '', x)[0])train['Cabin - Parsed'] = parse_cabin(train, 'Cabin')test['Cabin - Parsed'] = parse_cabin(test, 'Cabin')train. groupby('Cabin - Parsed')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Cabin - Parsed                  A   7   15   0. 466667       B   35   47   0. 744681       C   35   59   0. 593220       D   25   33   0. 757576       E   24   32   0. 750000       F   8   13   0. 615385       G   2   4   0. 500000       T   0   1   0. 000000       U   206   687   0. 299854   test['Cabin - Parsed']. value_counts()U  327C   35B   18D   13E   9F   8A   7G   1Name: Cabin - Parsed, dtype: int64One thing to notice here is that the test set does not have cabin T. As a result, any cabin room letters that are not in the test set I will set as U (for Unknown). The only case here is T train['Cabin - Parsed'] = train['Cabin - Parsed']. map(lambda x: x if x in test['Cabin - Parsed']. value_counts(). index. tolist() else 'U')Ticket: The approach that I’ve taken here is to look at the ticket label. Similar intuition as cabin, ticket label usually identify a certain type of ticket for certain types of passenger. Looking at the ticket values below, we see that there are a lot of clean up work to be done, like cleaning up empty spaces. I’ve made a simple assumption here that the periods are just noise. One hypothesis is that tickets were hand written back then so there could of been more variation to how tickets were labelled, like some people wrote A and some wrote A (period). Tickets with no identifier I’ve given it a no identifier label. Ticket labels with a / I’ve considered it to have two labels and introduced a label count variable. train['Ticket']. head(30). unique()array(['A/5 21171', 'PC 17599', 'STON/O2. 3101282', '113803', '373450',    '330877', '17463', '349909', '347742', '237736', 'PP 9549',    '113783', 'A/5. 2151', '347082', '350406', '248706', '382652',    '244373', '345763', '2649', '239865', '248698', '330923', '113788',    '347077', '2631', '19950', '330959', '349216'], dtype=object)def ticket_split(x):  x_split = x. split(' ')  if len(x_split) &gt; 1:    return re. sub('\. ', '', x_split[0]). lower()  else:    return 'No Identifier'def ticket_first_label(x):  return x. split('/')[0]def ticket_label_count(x):  if x == 'No Identifier':    return 0  else:    return len(x. split('/'))train['Ticket - Parsed'] = train['Ticket']. map(lambda x: ticket_split(x))train['Ticket - First Label'] = train['Ticket - Parsed']. map(lambda x: ticket_first_label(x))train['Ticket Label Count'] = train['Ticket - Parsed']. map(lambda x: ticket_label_count(x))train['Ticket - First Label']. value_counts()No Identifier  665pc        60ca        42a         26ston       18soton       17sc        16w         10c         5fcc        5soc        5so         4pp         3a5         2we         2sw         2p         2a4         1fa         1sp         1fc         1sco        1sop        1wep        1Name: Ticket - First Label, dtype: int64We see a lot of ticket labels that appears very infrequently in our dataset and can be treated like outliers/noise. I’ve grouped all the ticket labels that appear less than ~3% of training set into the Other category to produce a ticket label that has a more representative sample size. A lot of levels in a categorical variable can throw off prediction accuracy. We see some interesting correlation between ticket label PC and surviving. train['Ticket - First Label'] = train['Ticket - First Label']. map(lambda x: x if x in ['No Identifier', 'pc', 'ca', 'a'] else 'Other' )train. groupby(('Ticket - First Label'))['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Ticket - First Label                  No Identifier   255   665   0. 383459       Other   32   98   0. 326531       a   2   26   0. 076923       ca   14   42   0. 333333       pc   39   60   0. 650000   Age: Age is probably the most interesting attribute here. We have around 150 missing records and we need to do something with them. One simple way of handling this is to simple populate it with a sample statistic like mean or median. This would lose a lot of information (~1/8 of the training set would be labeled with median / average age). Instead we can consider segmenting our data set to see if we can find more meaning ways of inferring age. First, lets take a look if age has anything to do with survival rate. We saw that gender had a huge impact on survival, lets segment by Sex to see if female vs. male age distribution. h = sns. FacetGrid(train, row='Sex', col= Survived , margin_titles=True)h. map(plt. hist,  Age , color= steelblue , bins=85, lw=0)&lt;seaborn. axisgrid. FacetGrid at 0x1156b4410&gt; Results are fairly intuitive, young to middle age male has the lowest chance of survival, while young to middle age women has the highest chance. This is one variable for our segmentation. Other variables I am considering are Title and Family size. Title make sense because a title like Miss vs Mrs sometimes can give you some indication of the age range of an individual. Family size also make sense because certain age groups tend to travel certain way. E. g people travelling individually tend to fall into a younger a group while people travelling with a family tend to fall into higher age group. Because family size is a continuous variable, It would be easier to segment our data by labelling and converting it into a categorical variable. I’ve defined three labels:  Individuals (Family size = 0) Small Family (Family size between 1 and 3) Big Family (Family size above 3)Like we expected, we see very different results based on our segmentation, which we would of missed if we simply replaced the missing values with a blanket sample statistic. A teenage girl travelling with family we would call her Miss and simultaneously a young professional female that’s not married travelling individually we would also call her Miss. def define_indiv (df, col):  return df[col]. map(lambda x: 1 if x == 0 else 0)def small_family (df, col):  return df[col]. map(lambda x: 1 if x &gt; 0 and x &lt;=3 else 0)def big_family (df, col):  return df[col]. map(lambda x: 1 if x &gt;=4 else 0)segment_age = train. groupby(['Sex', 'Title', 'Individual', 'Big Family', 'Small Family'])['Age']. aggregate((np. mean, np. median, len))segment_age                     mean   median   len       Sex   Title   Individual   Big Family   Small Family                  0   Mr.    0   0   1   32. 681818   31. 0   109. 0       1   0   27. 750000   17. 5   11. 0       1   0   0   32. 388316   29. 0   397. 0       Noble   0   0   1   6. 174762   3. 0   23. 0       1   0   5. 250000   4. 0   18. 0       1   0   0   39. 000000   39. 0   2. 0       Other   0   0   1   49. 200000   50. 0   5. 0       1   0   0   45. 363636   51. 0   12. 0       1   Miss.    0   0   1   15. 901961   15. 0   59. 0       1   0   12. 000000   9. 0   23. 0       1   0   0   27. 654321   26. 0   103. 0       Mr.    1   0   0   24. 000000   24. 0   1. 0       Mrs.    0   0   1   34. 243902   33. 0   95. 0       1   0   40. 000000   40. 0   10. 0       1   0   0   41. 812500   41. 0   20. 0       Noble   0   0   1   48. 000000   48. 0   1. 0       1   0   0   33. 000000   33. 0   1. 0       Other   1   0   0   49. 000000   49. 0   1. 0   Based on the segmentation, I take the median age in each group and build a lookup dictionary. Then I simply go through missing data in the training data and test data and fill in with the inferred age. age_median_map = segment_age['median']. to_dict()age_median_map{(0, 'Mr. ', 0, 0, 1): 31. 0, (0, 'Mr. ', 0, 1, 0): 17. 5, (0, 'Mr. ', 1, 0, 0): 29. 0, (0, 'Noble', 0, 0, 1): 3. 0, (0, 'Noble', 0, 1, 0): 4. 0, (0, 'Noble', 1, 0, 0): 39. 0, (0, 'Other', 0, 0, 1): 50. 0, (0, 'Other', 1, 0, 0): 51. 0, (1, 'Miss. ', 0, 0, 1): 15. 0, (1, 'Miss. ', 0, 1, 0): 9. 0, (1, 'Miss. ', 1, 0, 0): 26. 0, (1, 'Mr. ', 1, 0, 0): 24. 0, (1, 'Mrs. ', 0, 0, 1): 33. 0, (1, 'Mrs. ', 0, 1, 0): 40. 0, (1, 'Mrs. ', 1, 0, 0): 41. 0, (1, 'Noble', 0, 0, 1): 48. 0, (1, 'Noble', 1, 0, 0): 33. 0, (1, 'Other', 1, 0, 0): 49. 0}def compile_age_segment_key (df, col1, col2, col3, col4, col5):  return list(zip(df[col1], df[col2], df[col3]))def age_map(df, age_col, lookup_col):  if df[age_col] == -1:    if df[lookup_col] in age_median_map. keys():      return age_median_map[df[lookup_col]]    else:      return 28  else:    return df[age_col]Fare: Fare only has one missing value in the training set so we can simply fill it with a sample statistic. I chose median here because average fare price can be thrown off by couple VIP super expensive tickets. print train['Fare']. mean()print train['Fare']. median()32. 204207968614. 4542Modelling and Making Prediction: Alright now that we have cleaned up our features. We have a lot of extra columns when we were doing feature engineering and we won’t be using everything. Let’s only look at what we want to use. feature = ['PassengerId', 'Pclass', 'Sex', 'Age', 'SibSp', 'Parch', \           'Fare', 'Embarked', 'Title', 'Family Size', 'Individual', \           'Cabin - Parsed', 'Ticket - First Label', 'Ticket Label Count',\           'Small Family', 'Big Family']target = ['Survived']train_cleaned = train[feature + target]Because sklearn models doesn’t like categorical variables, we need to turn the categorical variables into individual binary vectors. encode = ['Embarked', 'Title', 'Cabin - Parsed', 'Ticket - First Label', 'Pclass']train_cleaned = pd. get_dummies(train_cleaned, columns=encode)test_cleaned = pd. get_dummies(test_cleaned, columns=encode)all_name = train_cleaned. columnsfeature_name = all_name. drop(['Survived'])target_name = 'Survived'X_train = train_cleaned[feature_name]y_train = train_cleaned[target_name]I’ve decided to go with tree based based classified for several, but not perfect, reasons. Firstly because tree classifiers provide out-of-the-box tool to identify feature importance based on information gain in the algorithm. This is handy as we can fine tune the model by eliminating not important features that could overfit our model. Secondly I specifically chose RandomForest for its robustness. This is not to say my reasonings are perfect, I should definitely take the time to explore additional models and benchmark it against each other to compare overall predictability. from sklearn. ensemble import RandomForestClassifierfrom sklearn. feature_selection import SelectFromModelclf = RandomForestClassifier(n_estimators=200)clf = clf. fit(X_train, y_train)feature_importance = pd. DataFrame()feature_importance['Feature'] = X_train. columnsfeature_importance['Importance'] = clf. feature_importances_feature_importance. sort('Importance', ascending=False)         Feature   Importance         0   PassengerId   0. 144271       5   Fare   0. 138941       2   Age   0. 127578       15   Title_Mr.    0. 109264       1   Sex   0. 100539       14   Title_Miss.    0. 039642       34   Pclass_3   0. 035005       16   Title_Mrs.    0. 033395       6   Family Size   0. 032260       26   Cabin - Parsed_U   0. 026881       3   SibSp   0. 019907       32   Pclass_1   0. 017717       9   Small Family   0. 015980       4   Parch   0. 014885       10   Big Family   0. 013341       13   Embarked_S   0. 012709       8   Ticket Label Count   0. 012216       33   Pclass_2   0. 011202       11   Embarked_C   0. 010485       17   Title_Noble   0. 009934       7   Individual   0. 008314       27   Ticket - First Label_No Identifier   0. 007968       12   Embarked_Q   0. 007566       23   Cabin - Parsed_E   0. 006788       28   Ticket - First Label_Other   0. 006511       20   Cabin - Parsed_B   0. 005857       22   Cabin - Parsed_D   0. 005812       18   Title_Other   0. 005701       21   Cabin - Parsed_C   0. 005364       31   Ticket - First Label_pc   0. 004154       29   Ticket - First Label_a   0. 003145       30   Ticket - First Label_ca   0. 002252       19   Cabin - Parsed_A   0. 002128       24   Cabin - Parsed_F   0. 001254       25   Cabin - Parsed_G   0. 001032   The first classifier is to understand the feature importance based on information gain. Using this information, I remove variables that has less than median importance between all features. Using the remaining features, I retrain the Random Forest Classifier. Using the GridSearch approach provided by sklearn, I do a 10 fold stratified cross validation with different model parameters to see which one gives back the highest accuracy score. This requires a lot of computational resource so I’ve kept the number of parameters to tune to a limited number. After pruning, we’re left with 18 features (~50%) for our Random Forest model model = SelectFromModel(clf, prefit=True, threshold='median')X_train_pruned = model. transform(X_train)X_train_pruned. shape(891, 18)Results: from sklearn. model_selection import cross_val_scorefrom math import sqrtfrom sklearn. model_selection import StratifiedKFoldfrom sklearn. model_selection import GridSearchCVforest = RandomForestClassifier(max_features='auto')parameters = {  'n_estimators': [200, 400],  'max_depth': [7,8,9],  'max_features': ['auto', 'sqrt', 0. 2, 0. 1, 0. 3]}grid_search = GridSearchCV(forest, param_grid = parameters, cv=StratifiedKFold(n_splits=10), scoring='accuracy')grid_search. fit(X_train_pruned, y_train)From the grid search and 10 fold cross validation, we see that setting a max depth of 9, considering 20% of all features when looking for best split, and 200 estimators in our Random Forest produces the best average accuracy score of 83. 6%. Note that this score is not reflective of the actual score that you will get back from kaggle as cross validation is done on the training set. grid_search. best_score_0. 83613916947250277grid_search. best_params_{'max_depth': 9, 'max_features': 0. 2, 'n_estimators': 200}test['Survived'] = pd. Series(grid_search. predict(X_test))test[['PassengerId', 'Survived']]. to_csv('titanic_prediction. csv')Considerations / Improvements: As mentioned in this post, the solution here is not perfect and there are many improvements and iterations that can be done on top of this to get a better score. There are a lot of people in this Kaggle competition that has a perfect score, which shows that there are ways to go with this solution. To summarize, if I had more time in the future, I would love to explore different improvements including:  Use different models including logistic regression, SVM, gradient boosting etc to see if I can get better results Finding new and more useful features. E. g. is the passenger a parent? does last name (representing family and social class) have an effect on survival? Use machine learning for filling in missing data like age. E. g. using KNN to find top X similar ppl to infer ageIf you have any suggestions, ideas, questions, comments, feel free to shoot me a note and we can chat more! "
+    "body": "2018/01/28 -  Remember Jack &amp; Rose? Leo &amp; Kate Winslet? Titanic movie? Nostalgia? I wish this project was half as romantic as the movie but I’d be lying to you if I said it was. TL;DR: This exercise is the infamous Titanic dataset that all Kaggle newbs start out with. It is a classification problem where we need to predict if passengers will survive. Accuracy is used to evaluate predictions. At the time of submission, I was ranked 391/9642, top 4% on the leaderboard with an accuracy of 81. 8%. By no means is this a perfect submission, nor did I write beautiful Python code. At the end, I have a section on considerations and improvements.  I won’t include all the analysis and code in this post, just the key areas of my analysis and prediction. If you want the detailed step by step, checkout my GitHub here. Table of Contents:  Introduction Feature Exploration / Cleaning / Engineering     Sex   Embarked   Name   SibSp &amp; Parch   Cabin   Ticket   Age   Fare    Modelling &amp; Making Predictions Results Considerations / ImprovementsIntroduction: As mentioned, the goal here is the predict whether passengers will survive this accident. For more information about this kaggle competition, you can checkout https://www. kaggle. com/c/titanic. A list of passenger information is broke into two datasets, training and test. The training set has information on whether a passenger survived while in the test set this information is hidden. We will use the training set to train our prediction model and apply onto the test set and kaggle will provide an accuracy score. Information provided in the data sets:  PassengerID: ID of the passenger Survived: If a passenger survived Pclass: Ticket class Name: Passenger’s name Sex: Gender Age: Age of passenger SibSp: Number of siblings and/or spouses Parch: Number of parents and/or children Ticket: Ticket number Fare: Dollar amount of ticket Cabin: Cabin unit and number Embarked: Boarding port         PassengerId   Survived   Pclass   Name   Sex   Age   SibSp   Parch   Ticket   Fare   Cabin   Embarked         0   1   0   3   Braund, Mr. Owen Harris   male   22. 0   1   0   A/5 21171   7. 2500   NaN   S       1   2   1   1   Cumings, Mrs. John Bradley (Florence Briggs Th. . .    female   38. 0   1   0   PC 17599   71. 2833   C85   C       2   3   1   3   Heikkinen, Miss. Laina   female   26. 0   0   0   STON/O2. 3101282   7. 9250   NaN   S   Total records in train &amp; test: 1309Train: Total Survived 342Train: Total People 891 Feature Exploration / Cleaning / Engineering : Here we’ll go through one feature at a time, exploring it, cleaning it if necessary and do feature engineering if it make sense. Sex: First off, we see from above Sex is a categorical variable so I’ll define a simple function map it to numerical values. It would be interesting to just see if there is a correlation between gender and survival. We see females has a significantly higher chance of survival. def map_sex(df, col):  return df[col]. map(lambda x: 1 if x == 'female' else 0)train. groupby('Sex')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Sex                  0   109   577   0. 188908       1   233   314   0. 742038   Embarked: We noticed that Embarked has one missing value in the training set. Since its a categorical, it would intuitively make sense that we can use the probability of the missing value being S, C, Q. We noticed that there is the highest chance of the missing value being S. Segmenting this by Survived, we see people Embarked = C is slightly correlated with survival rate vs S &amp; Q sns. countplot(x= Embarked , data=train, palette= Greens_d ); sns. barplot(x= Embarked , y= Survived , hue= Embarked , data=train, ci=None); Name: Name is a little more interesting. At face value, there are many different names but we see they all have a title. We know Mr. is different than Mrs. and we also see some interesting titles like Master. and Lady. Doing some research on Google we can see how these titles are used. We also notice that there are a lot of titles with similar meaning as well as titles that identify personnel with a different social class. We can group these titles together into intuitive categories to see if they have correlation with survival rate. def extract_title(df, col):  return df[col]. str. extractall('([A-Z]+[a-z]+\. )'). unstack()[0]sns. countplot(y= Title , data=train, palette= Greens_d ); Mr.     240Miss.    78Mrs.     72Master.   21Col.     2Rev.     2Dona.     1Dr.      1Ms.      1Name: Title, dtype: int64One thing to notice here is that Dona. is in test data but not the training set. We should include that in our categorization. Based on intuitive grouping, I’ve essentially classified all titles that are used for people with certain social class as Noble and anything else as Other. Similar to gender, we see female titles Mrs. and Miss have strong correlation with survival. People with noble title tend to have a higher chance of surviving, which intuitively make sense. The so called “important” people tend to get favoured treatments. title_map = {  'Mme. ': 'Mr. ',  'Mlle. ': 'Miss. ',  'Ms. ': 'Miss. ',  'Sir. ' : 'Noble',  'Rev. ' : 'Other',  'Major. ': 'Other',  'Lady. ': 'Noble',  'Jonkheer. ': 'Noble',  'Dr. ': 'Other',  'Countess. ' : 'Noble',  'Col. ': 'Other',  'Capt. ': 'Other',  'Don. ': 'Noble',   'Dona. ': 'Noble',  'Master. ': 'Noble',  'Mr. ': 'Mr. ',  'Mrs. ': 'Mrs. ',  'Miss. ': 'Miss. '}def map_title(df, col):  return df[col]. map(lambda x: title_map[x] if x in title_map. keys() else 'Other')sns. barplot(x= Title , y= Survived , hue= Title , data=train, ci=None); SibSp &amp; Parch: These two variables give us information about the passengers family, (spouse, siblings, parents, children). The tricky part is we don’t really know if someone has a sibling or a spouse, similarly a parent or a child. We can probably take some time to infer, which may give us better insight into whether that person is a mother with certain number of child. This could be a good signal since we know mothers and children tend to be saved first in situations like Titanic. Given that blurb, in this exercise, I’ve kept it basic. sns. countplot(y= SibSp , data=train, palette= Greens_d ); train. groupby('SibSp')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       SibSp                  0   210   608   0. 345395       1   112   209   0. 535885       2   13   28   0. 464286       3   4   16   0. 250000       4   3   18   0. 166667       5   0   5   0. 000000       8   0   7   0. 000000   sns. countplot(y= Parch , data=train, palette= Greens_d ); train. groupby('Parch')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Parch                  0   233   678   0. 343658       1   65   118   0. 550847       2   40   80   0. 500000       3   3   5   0. 600000       4   0   4   0. 000000       5   1   5   0. 200000       6   0   1   0. 000000   We see pasengers with one sibling or spouse have a slight correlation with survival. Similarly for passengers with 1 parent or child. One thing we can also look at is what both of these variables together tell us. Together will identify the family size of the passenger. We see more interesting results if we look at family. People with family size of 3 is highly correlated with surviving, while people with family size of 1 and 2 have a slight correlation with survival. train['Family Size'] = train['SibSp'] + train['Parch']test['Family Size'] = train['SibSp'] + train['Parch']train. groupby('Family Size')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Family Size                  0   163   537   0. 303538       1   89   161   0. 552795       2   59   102   0. 578431       3   21   29   0. 724138       4   3   15   0. 200000       5   3   22   0. 136364       6   4   12   0. 333333       7   0   6   0. 000000       10   0   7   0. 000000   Cabin: As seen above, we noticed that there are a lot of missing data points for cabin. Although I just replace this information with unknown, I can probably do a better job of inferring what cabin person could be in. For example inferring which passengers belong to the same family and use knowledge that family prefer to stay close to each other. Maybe we can use name and see which members have the same last name, look at SibSP, Parch and Family size, are they in the same Pclass. For cabin, I’m only interested in the first letter of the cabin. Reason being, the letter usually denotes the section of the cabin which implies different areas of the boat. Intuitively, even in the Titanic movie, people in different areas of the boat had different survival rate. def parse_cabin (df, col):  return df[col]. map(lambda x: re. sub(r'[0-9]+', '', x)[0])train['Cabin - Parsed'] = parse_cabin(train, 'Cabin')test['Cabin - Parsed'] = parse_cabin(test, 'Cabin')train. groupby('Cabin - Parsed')['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Cabin - Parsed                  A   7   15   0. 466667       B   35   47   0. 744681       C   35   59   0. 593220       D   25   33   0. 757576       E   24   32   0. 750000       F   8   13   0. 615385       G   2   4   0. 500000       T   0   1   0. 000000       U   206   687   0. 299854   test['Cabin - Parsed']. value_counts()U  327C   35B   18D   13E   9F   8A   7G   1Name: Cabin - Parsed, dtype: int64One thing to notice here is that the test set does not have cabin T. As a result, any cabin room letters that are not in the test set I will set as U (for Unknown). The only case here is T train['Cabin - Parsed'] = train['Cabin - Parsed']. map(lambda x: x if x in test['Cabin - Parsed']. value_counts(). index. tolist() else 'U')Ticket: The approach that I’ve taken here is to look at the ticket label. Similar intuition as cabin, ticket label usually identify a certain type of ticket for certain types of passenger. Looking at the ticket values below, we see that there are a lot of clean up work to be done, like cleaning up empty spaces. I’ve made a simple assumption here that the periods are just noise. One hypothesis is that tickets were hand written back then so there could of been more variation to how tickets were labelled, like some people wrote A and some wrote A (period). Tickets with no identifier I’ve given it a no identifier label. Ticket labels with a / I’ve considered it to have two labels and introduced a label count variable. train['Ticket']. head(30). unique()array(['A/5 21171', 'PC 17599', 'STON/O2. 3101282', '113803', '373450',    '330877', '17463', '349909', '347742', '237736', 'PP 9549',    '113783', 'A/5. 2151', '347082', '350406', '248706', '382652',    '244373', '345763', '2649', '239865', '248698', '330923', '113788',    '347077', '2631', '19950', '330959', '349216'], dtype=object)def ticket_split(x):  x_split = x. split(' ')  if len(x_split) &gt; 1:    return re. sub('\. ', '', x_split[0]). lower()  else:    return 'No Identifier'def ticket_first_label(x):  return x. split('/')[0]def ticket_label_count(x):  if x == 'No Identifier':    return 0  else:    return len(x. split('/'))train['Ticket - Parsed'] = train['Ticket']. map(lambda x: ticket_split(x))train['Ticket - First Label'] = train['Ticket - Parsed']. map(lambda x: ticket_first_label(x))train['Ticket Label Count'] = train['Ticket - Parsed']. map(lambda x: ticket_label_count(x))train['Ticket - First Label']. value_counts()No Identifier  665pc        60ca        42a         26ston       18soton       17sc        16w         10c         5fcc        5soc        5so         4pp         3a5         2we         2sw         2p         2a4         1fa         1sp         1fc         1sco        1sop        1wep        1Name: Ticket - First Label, dtype: int64We see a lot of ticket labels that appears very infrequently in our dataset and can be treated like outliers/noise. I’ve grouped all the ticket labels that appear less than ~3% of training set into the Other category to produce a ticket label that has a more representative sample size. A lot of levels in a categorical variable can throw off prediction accuracy. We see some interesting correlation between ticket label PC and surviving. train['Ticket - First Label'] = train['Ticket - First Label']. map(lambda x: x if x in ['No Identifier', 'pc', 'ca', 'a'] else 'Other' )train. groupby(('Ticket - First Label'))['Survived']. aggregate((np. sum, len, np. mean))         sum   len   mean       Ticket - First Label                  No Identifier   255   665   0. 383459       Other   32   98   0. 326531       a   2   26   0. 076923       ca   14   42   0. 333333       pc   39   60   0. 650000   Age: Age is probably the most interesting attribute here. We have around 150 missing records and we need to do something with them. One simple way of handling this is to simple populate it with a sample statistic like mean or median. This would lose a lot of information (~1/8 of the training set would be labeled with median / average age). Instead we can consider segmenting our data set to see if we can find more meaning ways of inferring age. First, lets take a look if age has anything to do with survival rate. We saw that gender had a huge impact on survival, lets segment by Sex to see if female vs. male age distribution. h = sns. FacetGrid(train, row='Sex', col= Survived , margin_titles=True)h. map(plt. hist,  Age , color= steelblue , bins=85, lw=0)&lt;seaborn. axisgrid. FacetGrid at 0x1156b4410&gt; Results are fairly intuitive, young to middle age male has the lowest chance of survival, while young to middle age women has the highest chance. This is one variable for our segmentation. Other variables I am considering are Title and Family size. Title make sense because a title like Miss vs Mrs sometimes can give you some indication of the age range of an individual. Family size also make sense because certain age groups tend to travel certain way. E. g people travelling individually tend to fall into a younger a group while people travelling with a family tend to fall into higher age group. Because family size is a continuous variable, It would be easier to segment our data by labelling and converting it into a categorical variable. I’ve defined three labels:  Individuals (Family size = 0) Small Family (Family size between 1 and 3) Big Family (Family size above 3)Like we expected, we see very different results based on our segmentation, which we would of missed if we simply replaced the missing values with a blanket sample statistic. A teenage girl travelling with family we would call her Miss and simultaneously a young professional female that’s not married travelling individually we would also call her Miss. def define_indiv (df, col):  return df[col]. map(lambda x: 1 if x == 0 else 0)def small_family (df, col):  return df[col]. map(lambda x: 1 if x &gt; 0 and x &lt;=3 else 0)def big_family (df, col):  return df[col]. map(lambda x: 1 if x &gt;=4 else 0)segment_age = train. groupby(['Sex', 'Title', 'Individual', 'Big Family', 'Small Family'])['Age']. aggregate((np. mean, np. median, len))segment_age                     mean   median   len       Sex   Title   Individual   Big Family   Small Family                  0   Mr.    0   0   1   32. 681818   31. 0   109. 0       1   0   27. 750000   17. 5   11. 0       1   0   0   32. 388316   29. 0   397. 0       Noble   0   0   1   6. 174762   3. 0   23. 0       1   0   5. 250000   4. 0   18. 0       1   0   0   39. 000000   39. 0   2. 0       Other   0   0   1   49. 200000   50. 0   5. 0       1   0   0   45. 363636   51. 0   12. 0       1   Miss.    0   0   1   15. 901961   15. 0   59. 0       1   0   12. 000000   9. 0   23. 0       1   0   0   27. 654321   26. 0   103. 0       Mr.    1   0   0   24. 000000   24. 0   1. 0       Mrs.    0   0   1   34. 243902   33. 0   95. 0       1   0   40. 000000   40. 0   10. 0       1   0   0   41. 812500   41. 0   20. 0       Noble   0   0   1   48. 000000   48. 0   1. 0       1   0   0   33. 000000   33. 0   1. 0       Other   1   0   0   49. 000000   49. 0   1. 0   Based on the segmentation, I take the median age in each group and build a lookup dictionary. Then I simply go through missing data in the training data and test data and fill in with the inferred age. age_median_map = segment_age['median']. to_dict()age_median_map{(0, 'Mr. ', 0, 0, 1): 31. 0, (0, 'Mr. ', 0, 1, 0): 17. 5, (0, 'Mr. ', 1, 0, 0): 29. 0, (0, 'Noble', 0, 0, 1): 3. 0, (0, 'Noble', 0, 1, 0): 4. 0, (0, 'Noble', 1, 0, 0): 39. 0, (0, 'Other', 0, 0, 1): 50. 0, (0, 'Other', 1, 0, 0): 51. 0, (1, 'Miss. ', 0, 0, 1): 15. 0, (1, 'Miss. ', 0, 1, 0): 9. 0, (1, 'Miss. ', 1, 0, 0): 26. 0, (1, 'Mr. ', 1, 0, 0): 24. 0, (1, 'Mrs. ', 0, 0, 1): 33. 0, (1, 'Mrs. ', 0, 1, 0): 40. 0, (1, 'Mrs. ', 1, 0, 0): 41. 0, (1, 'Noble', 0, 0, 1): 48. 0, (1, 'Noble', 1, 0, 0): 33. 0, (1, 'Other', 1, 0, 0): 49. 0}def compile_age_segment_key (df, col1, col2, col3, col4, col5):  return list(zip(df[col1], df[col2], df[col3]))def age_map(df, age_col, lookup_col):  if df[age_col] == -1:    if df[lookup_col] in age_median_map. keys():      return age_median_map[df[lookup_col]]    else:      return 28  else:    return df[age_col]Fare: Fare only has one missing value in the training set so we can simply fill it with a sample statistic. I chose median here because average fare price can be thrown off by couple VIP super expensive tickets. print train['Fare']. mean()print train['Fare']. median()32. 204207968614. 4542Modelling and Making Prediction: Alright now that we have cleaned up our features. We have a lot of extra columns when we were doing feature engineering and we won’t be using everything. Let’s only look at what we want to use. feature = ['PassengerId', 'Pclass', 'Sex', 'Age', 'SibSp', 'Parch', \           'Fare', 'Embarked', 'Title', 'Family Size', 'Individual', \           'Cabin - Parsed', 'Ticket - First Label', 'Ticket Label Count',\           'Small Family', 'Big Family']target = ['Survived']train_cleaned = train[feature + target]Because sklearn models doesn’t like categorical variables, we need to turn the categorical variables into individual binary vectors. encode = ['Embarked', 'Title', 'Cabin - Parsed', 'Ticket - First Label', 'Pclass']train_cleaned = pd. get_dummies(train_cleaned, columns=encode)test_cleaned = pd. get_dummies(test_cleaned, columns=encode)all_name = train_cleaned. columnsfeature_name = all_name. drop(['Survived'])target_name = 'Survived'X_train = train_cleaned[feature_name]y_train = train_cleaned[target_name]I’ve decided to go with tree based based classified for several, but not perfect, reasons. Firstly because tree classifiers provide out-of-the-box tool to identify feature importance based on information gain in the algorithm. This is handy as we can fine tune the model by eliminating not important features that could overfit our model. Secondly I specifically chose RandomForest for its robustness. This is not to say my reasonings are perfect, I should definitely take the time to explore additional models and benchmark it against each other to compare overall predictability. from sklearn. ensemble import RandomForestClassifierfrom sklearn. feature_selection import SelectFromModelclf = RandomForestClassifier(n_estimators=200)clf = clf. fit(X_train, y_train)feature_importance = pd. DataFrame()feature_importance['Feature'] = X_train. columnsfeature_importance['Importance'] = clf. feature_importances_feature_importance. sort('Importance', ascending=False)         Feature   Importance         0   PassengerId   0. 144271       5   Fare   0. 138941       2   Age   0. 127578       15   Title_Mr.    0. 109264       1   Sex   0. 100539       14   Title_Miss.    0. 039642       34   Pclass_3   0. 035005       16   Title_Mrs.    0. 033395       6   Family Size   0. 032260       26   Cabin - Parsed_U   0. 026881       3   SibSp   0. 019907       32   Pclass_1   0. 017717       9   Small Family   0. 015980       4   Parch   0. 014885       10   Big Family   0. 013341       13   Embarked_S   0. 012709       8   Ticket Label Count   0. 012216       33   Pclass_2   0. 011202       11   Embarked_C   0. 010485       17   Title_Noble   0. 009934       7   Individual   0. 008314       27   Ticket - First Label_No Identifier   0. 007968       12   Embarked_Q   0. 007566       23   Cabin - Parsed_E   0. 006788       28   Ticket - First Label_Other   0. 006511       20   Cabin - Parsed_B   0. 005857       22   Cabin - Parsed_D   0. 005812       18   Title_Other   0. 005701       21   Cabin - Parsed_C   0. 005364       31   Ticket - First Label_pc   0. 004154       29   Ticket - First Label_a   0. 003145       30   Ticket - First Label_ca   0. 002252       19   Cabin - Parsed_A   0. 002128       24   Cabin - Parsed_F   0. 001254       25   Cabin - Parsed_G   0. 001032   The first classifier is to understand the feature importance based on information gain. Using this information, I remove variables that has less than median importance between all features. Using the remaining features, I retrain the Random Forest Classifier. Using the GridSearch approach provided by sklearn, I do a 10 fold stratified cross validation with different model parameters to see which one gives back the highest accuracy score. This requires a lot of computational resource so I’ve kept the number of parameters to tune to a limited number. After pruning, we’re left with 18 features (~50%) for our Random Forest model model = SelectFromModel(clf, prefit=True, threshold='median')X_train_pruned = model. transform(X_train)X_train_pruned. shape(891, 18)Results: from sklearn. model_selection import cross_val_scorefrom math import sqrtfrom sklearn. model_selection import StratifiedKFoldfrom sklearn. model_selection import GridSearchCVforest = RandomForestClassifier(max_features='auto')parameters = {  'n_estimators': [200, 400],  'max_depth': [7,8,9],  'max_features': ['auto', 'sqrt', 0. 2, 0. 1, 0. 3]}grid_search = GridSearchCV(forest, param_grid = parameters, cv=StratifiedKFold(n_splits=10), scoring='accuracy')grid_search. fit(X_train_pruned, y_train)From the grid search and 10 fold cross validation, we see that setting a max depth of 9, considering 20% of all features when looking for best split, and 200 estimators in our Random Forest produces the best average accuracy score of 83. 6%. Note that this score is not reflective of the actual score that you will get back from kaggle as cross validation is done on the training set. grid_search. best_score_0. 83613916947250277grid_search. best_params_{'max_depth': 9, 'max_features': 0. 2, 'n_estimators': 200}test['Survived'] = pd. Series(grid_search. predict(X_test))test[['PassengerId', 'Survived']]. to_csv('titanic_prediction. csv')Considerations / Improvements: As mentioned in this post, the solution here is not perfect and there are many improvements and iterations that can be done on top of this to get a better score. There are a lot of people in this Kaggle competition that has a perfect score, which shows that there are ways to go with this solution. To summarize, if I had more time in the future, I would love to explore different improvements including:  Use different models including logistic regression, SVM, gradient boosting etc to see if I can get better results Finding new and more useful features. E. g. is the passenger a parent? does last name (representing family and social class) have an effect on survival? Use machine learning for filling in missing data like age. E. g. using KNN to find top X similar ppl to infer ageIf you have any suggestions, ideas, questions, comments, feel free to shoot me a note and we can chat more! "
     }, {
     "id": 15,
     "url": "/we-all-wait-for-summer/",
@@ -219,23 +219,23 @@ var documents = [{
     "body": "2018/01/11 - No more databases, comment moderation, or pesky updates to install-just your content. Markdown, Liquid, HTML &amp; CSS go in. Static sites come out ready for deployment. Permalinks, categories, pages, posts, and custom layouts are all first-class citizens here. Sick of dealing with hosting companies? GitHub Pages are powered by Jekyll, so you can easily deploy your site using GitHub for free-custom domain name and all. What is Jekyll?: Jekyll is a simple, blog-aware, static site generator. You create your content as text files (Markdown), and organize them into folders. Then, you build the shell of your site using Liquid-enhanced HTML templates. Jekyll automatically stitches the content and templates together, generating a website made entirely of static assets, suitable for uploading to any server. Jekyll happens to be the engine behind GitHub Pages, so you can host your project’s Jekyll page/blog/website on GitHub’s servers for free. "
     }, {
     "id": 24,
-    "url": "/codelabs_marvel_cinematic_plotly/",
+    "url": "/DS-marvel_cinematic_plotly/",
     "title": "Marvel Cinematic Data Visualization With Plot.ly",
     "body": "2017/06/01 -  I’m a huge sucker for Marvel cinematic and in this article I will do a fun exercise with building a simple interactive 3D network graph based on the relationship between Marvel characters. I will be using one of my favourite plotting libraries in Python, Plot. ly. Plot. ly is very easy to use and the way graphs are constructed is very intuitive. The dataset can be found on my GitHub or at the following link: https://www. kaggle. com/csanhueza/the-marvel-universe-social-network Setting up and exploring the data: import plotly. plotly as pyfrom plotly. graph_objs import *import plotly. offline as offlineimport pandas as pdKey thing to remember with Plot. ly is if you want to build graphs locally on you computer using Jupyter notebooks, you need to initiate offline notebook mode offline. init_notebook_mode()The hero-network. csv dataset contains two columns, hero1 and hero2 and represents a connection between the two characters. heros = pd. read_csv('hero-network. csv')heros. describe()         hero1   hero2         count   574467   574467       unique   6211   6173       top   CAPTAIN AMERICA   CAPTAIN AMERICA       freq   8149   8350   Some quick data cleaning to remove empty spaces for i in range(0,2):  heros[heros. columns[i]] = heros[heros. columns[i]]. map(lambda x: x. rstrip())If you are playing around with the same code and want to explore additional characters, you can use the following line to explore what type of characters are included in the dataset #heros[heros['hero1']. str. contains('DAREDEVIL')]['hero1']. unique()For this exercise, I’m interested in looking at the connection between some of the marvel characters and villains that we’ve see in theatres! avengers_name = ['HULK/DR. ROBERT BRUC', 'BLACK WIDOW/NATASHA', 'CAPTAIN AMERICA', 'IRON MAN/TONY STARK',         'WAR MACHINE II/PARNE', 'HAWKEYE | MUTANT X-V', 'FALCON/SAM WILSON',         'SCARLET WITCH/WANDA', 'VISION', 'ANT-MAN II/SCOTT HAR', 'SPIDER-MAN/PETER PAR',          BLACK PANTHER/T'CHAL , 'DR. STRANGE/STEPHEN', 'THOR IV/DARGO', 'FURY, COL. NICHOLAS',         'QUICKSILVER/PIETRO M'        ]villain_name = [ 'BUCKY/BUCKY BARNES', 'MALEKITH/MALCOLM KEI', 'THANOS', 'ULTRON',         'LOKI [ASGARDIAN]', 'BARON MORDO/KARL MOR', 'DORMAMMU', 'RED SKULL/JOHANN SCH']all = []all. extend(avengers_name)all. extend(villain_name)First lets just explore The Avenger’s social circle: We do a quick count on how many relationships each avengers have and how many comic books they appeared in avenger_info = {'hero': [], 'buddies': []}for i in avengers_name:  avenger_info['hero']. append(i)  avenger_info['buddies']. append(len(heros[heros['hero1']==i]))avenger_df = pd. DataFrame(avenger_info, columns = ['hero', 'buddies', 'comics'])Building a grouped bar chart in Plotly is very simple. Each set of bar is treated as seperate data, we define the x and y values and the aesthetics for each group of bars. Then we define the layout like axes, chart title etc. Lastly we pass data and layout into Plot. ly’s figure function to build the graph buddies = Bar(  x = avenger_df['hero'],  y = avenger_df['buddies'],  name = 'buddies',  marker=dict(    color='rgba(234, 35, 40, 0. 7)',    line=dict(      color='rgba(234, 35, 40, 1. 0)',      width=1    )  ))data = [buddies]layout = Layout(  barmode = 'group',  bargroupgap=0. 1,  title = 'Avengers - Buddies')fig = Figure(data = data, layout = layout)offline. iplot(fig)We can see our fellow Captain Steve Rogers is quite popular along with friendly neighborhood Spiderman and Mr. Tony Stark. One weird data point here is Thor who in my mind is should be quite popular… This might be because there are several Thor characters in the dataset, representing different Thors from different universes, as well as the comic book universe being different from cinematics. Now lets build the network graph for our Avengers and villains: First off, there are a whole lot of characters in our dataset, lets just keep our avengers and villains def keep_avengers(x, characters):  if ((x['hero1'] in characters) and (x['hero2'] in characters)):    return 1  else:    return 0heros['keep'] = heros. apply(lambda x: keep_avengers(x, all), axis=1)heros = heros[heros['keep']==1]. drop('keep', axis=1). reset_index(). drop('index', axis=1)Next we use the igraph libary which is a library for high-performance graph generation and analysis. For more information on installation, visit http://igraph. org/python/ import igraph as igOne of the requirement to build this network graph is to express the source and destination nodes as integer values. So we start off with encoding our heros into numbers heros. head(3)         hero1   hero2         0   SPIDER-MAN/PETER PAR   HULK/DR. ROBERT BRUC       1   QUICKSILVER/PIETRO M   SCARLET WITCH/WANDA       2   QUICKSILVER/PIETRO M   IRON MAN/TONY STARK   Edges = []mapper = {}character_group = []unique_heros = pd. concat([heros['hero1'], heros['hero2']]). unique()num_unique_heros = len(unique_heros)for i in range(num_unique_heros):  mapper[unique_heros[i]] = iheros['hero1_node'] = heros['hero1']. map(lambda x: mapper[x])heros['hero2_node'] = heros['hero2']. map(lambda x: mapper[x])heros. head(3)         hero1   hero2   hero1_node   hero2_node         0   SPIDER-MAN/PETER PAR   HULK/DR. ROBERT BRUC   0   3       1   QUICKSILVER/PIETRO M   SCARLET WITCH/WANDA   1   4       2   QUICKSILVER/PIETRO M   IRON MAN/TONY STARK   1   2   Next I’d like to seperate our good guys from the bad guys visually, so let’s group them up. for j in unique_heros:  character_group. append(1) if (j in avengers_name) else character_group. append(0)Now were ready to build our nodes and links. We start off with links by putting our (source, destination) for every node into Edges and pass Edges into our igraph. The layout function here defines the overall structure of our network graph and we use ‘sphere’. There are other options like    gfr, grid_fr, grid_fruchterman_reingold: grid-based Fruchterman-Reingold layout     kk, kamada_kawai: Kamada-Kawai layout     kk_3d, kk3d, kamada_kawai_3d: 3D Kamada-Kawai layout  Play around with some of these to see the different structures. for i in range(len(heros)):  Edges. append((heros['hero1_node'][i], heros['hero2_node'][i]))G = ig. Graph(Edges, directed=False)layt=G. layout('sphere', dim=3)This part looks a little intimidating and complicated but its not so bad. Layout function helps us define the layout of the network graph, what we are doing here is populating our X, Y, Z coordinates for each node and edge to be placed into our 3D space Xn=[layt[k][0] for k in range(num_unique_heros)]# x-coordinates of nodesYn=[layt[k][1] for k in range(num_unique_heros)]# y-coordinatesZn=[layt[k][2] for k in range(num_unique_heros)]# z-coordinatesXe=[]Ye=[]Ze=[]for e in Edges:  Xe+=[layt[e[0]][0],layt[e[1]][0], None]# x-coordinates of edge ends  Ye+=[layt[e[0]][1],layt[e[1]][1], None]  Ze+=[layt[e[0]][2],layt[e[1]][2], None]Same as how we built the bar chart, we define our data &amp; layout and pass into the Figure function. Instead of bar chart, we are using Scatter3d for our data trace1=Scatter3d(x=Xe,        y=Ye,        z=Ze,        mode='lines',        line=Line(color='rgb(125,125,125)', width=1),        hoverinfo='none'           )trace2=Scatter3d(x=Xn,        y=Yn,        z=Zn,        mode='markers',        name='actors',        marker=Marker(symbol='dot',               size=13,               color=character_group,               colorscale=[                [0, 'black'],                [1, 'red']],               line=Line(color='rgb(50,50,50)', width=0. 5),               opacity = 0. 8               ),        text=unique_heros,        hoverinfo='text'       )axis=dict(showbackground=False,     showline=False,     zeroline=False,     showgrid=False,     showticklabels=False,     title='',     showspikes = False     )layout = Layout(     title= Marvel Cinematic - Social Network ,     width=1000,     height=700,     showlegend=False,     scene=Scene(     xaxis=XAxis(axis),     yaxis=YAxis(axis),     zaxis=ZAxis(axis)    ),    hovermode='closest'  )data=Data([trace1, trace2])fig=Figure(data=data, layout=layout)offline. iplot(fig)"
     }, {
     "id": 25,
-    "url": "/codelabs_dimension_reduction_pca/",
+    "url": "/DS-dimension_reduction_pca/",
     "title": "Dimension Reduction - Principal Component Analysis",
     "body": "2017/05/01 - PCA is one of the most popular techniques for dimensionality reduction. If you have no idea what I mean by dimensionality reduction, check out part 1 of this topic. In this article, we’ll explore PCA with a more applied approach rather than mathematical and we’ll keep certain details in a blackbox for future discussions. What is PCA? PCA is an algorithm that transforms a dataset to lower dimensional dataset. The keyword here is transform which is different from feature selection that I’ve talked about in part 1. The difference being that features are not removed from the dataset but instead the dataset itself is transformed. Simple hypothetical example: We have on the left the original dataset comprising of length, width, and height in centimetres. If we were to apply PCA to reduce this down to two dimensional dataset, we would get something like the right where we have two features, let say, Z1 and Z2. Z1 and Z2 is not produced from removing one of the features but instead all three features (L, W, H) are transformed and Z1 and Z2 does not represent the same measurements (cm) anymore. The goal of this algorithm is to reduce the dimensions of the dataset while retaining majority of the information, meaning maximizing the amount of variance kept. Another way of interpreting this is that the algorithm looks for vector(s) when projecting the data that minimizes the overall projection error. Lets take a look at what this means: On the left we couple data points in 2D space that we hope to use PCA to reduce down to a one dimension vector. On the top right, we project the data onto the solid line. The dotted lines from the data point to the solid line is what we call the projection error. On the bottom right is another way of projecting the data onto another line. It is evident that the projection error of the bottom right graph is much bigger than the projection error of the top right. What is not as evident is that the variance of the projected data points on the line is much bigger for the top right graph vs. the bottom right. Whether it is to minimize projection error or maximize variance, PCA’s goal is to retain as much information about the dataset as possible. For this reason, one important step before applying this algorithm is to perform normalization on the mean and variance for each feature and scaling on the range. A feature (before scaling) with a disproportionately large variance will be tend to be favoured in PCA because to the algorithm this feature explains majority of the variance in the original dataset. Now that you have a high level conceptual understanding of PCA, checkout the notebook belong on practical examples of how to apply PCA with sci-kit learn! I will illustrate two examples, one to highlight visually the results of PCA on a simple 2D &amp; 3D dataset and another applying PCA on a high dimensional dataset. For the high dimensional datset, I will use the same dataset from Kaggle about food nutrients that I’ve used previously. https://www. kaggle. com/openfoodfacts/world-food-factsThis data set has 134754 rows and 161 columns. One row per food product. import pandas as pdimport numpy as npfrom sklearn import datasetsfrom sklearn. decomposition import PCAimport matplotlib. pyplot as plt%matplotlib inlinefrom sklearn import preprocessingDefined # of Principal Components: We use the iris dataset from sklearn to demonstrate visually how to apply PCA on a 2D dataset and reduce to 1D and a 3D dataset into 2D. iris = datasets. load_iris()Before applying PCA, we need to normalize our data to mean of 0 and unit variance. We can use the scale function in the preprocessing module from sklearn. X_2d = iris. data[:, :2] X_2d_scale = preprocessing. scale(X_2d)print  Mean:   + str(X_2d_scale. mean(axis=0)). strip('[]')print  Standard Deviation:   + str(X_2d_scale. std(axis=0)). strip('[]')Mean: -1. 69031455e-15 -1. 63702385e-15Standard Deviation: 1.  1. Plotting the original and scaled data set. The two plot looks very similar because the range and variance of Sepal Length and Sepal Width are naturally similar. fig = plt. figure()fig. set_size_inches(15, 5)ax1= fig. add_subplot(121)ax1. scatter(X_2d[:, 0], X_2d[:, 1])ax1. set_xlabel('Sepal Length - Original')ax1. set_ylabel('Sepal Width - Original')ax2= fig. add_subplot(122)ax2. scatter(X_2d_scale[:,0], X_2d_scale[:,1])ax2. set_xlabel('Sepal Length - Scaled')ax2. set_ylabel('Sepal Width - Scaled')fig. suptitle('Sepal Length vs. Sepal Width (Original &amp; Scaled)') We want to reduce this dataset from 2D to 1D, using the PCA module from sklearn we specify to keep 1 component. pca = PCA(n_components = 1)pca_2d = pca. fit_transform(X_2d)To demonstrate more visually the results of PCA, lets take a look at reducing 3D dataset to 2D. Like previously, we first normalize our dataset X_3d = iris. data[:, :3] X_3d_scale = preprocessing. scale(X_3d)print  Mean:   + str(X_3d_scale. mean(axis=0)). strip('[]')print  Standard Deviation:   + str(X_3d_scale. std(axis=0)). strip('[]')Mean: -1. 69031455e-15 -1. 63702385e-15 -1. 48251781e-15Standard Deviation: 1.  1.  1. from mpl_toolkits. mplot3d import Axes3Dfig = plt. figure()fig. set_size_inches(15, 10)ax1 = fig. add_subplot(121, projection='3d')ax1. scatter(X_3d_scale[:, 0], X_3d_scale[:, 1], X_3d_scale[:, 2])ax1. set_xlabel('Sepal Length - Scaled')ax1. set_ylabel('Sepal Width - Scaled')ax1. set_zlabel('Petal Length - Scaled')ax2 = fig. add_subplot(122, projection='3d')ax2. scatter(X_3d_scale[:, 0], X_3d_scale[:, 1], X_3d_scale[:, 2])ax2. view_init(elev=0)ax2. set_xlabel('Sepal Length - Scaled')ax2. set_ylabel('Sepal Width - Scaled')ax2. set_zlabel('Petal Length - Scaled')fig. suptitle('Sepal Length vs Sepal Width vs Petal Length - Scaled') Specify to keep 2 principal components. After PCA, our dataset no longer represent Sepal Width, Sepal Length and Petal Length as PCA has transformed and projected our dataset into an arbitrary space, let say Z1, Z2, Z3 pca = PCA(n_components = 2)pca_3d = pca. fit_transform(X_3d_scale)fig = plt. figure()fig. set_size_inches(15, 10)ax1= fig. add_subplot(121, projection='3d')ax1. scatter(pca_3d[:, 0], pca_3d[:, 1], 0)ax1. set_xlabel('Z1')ax1. set_ylabel('Z2')ax1. set_zlabel('Z3')ax2= fig. add_subplot(122, projection='3d')ax2. scatter(pca_3d[:, 0], pca_3d[:, 1], 0)ax2. view_init(elev=0)ax2. set_xlabel('Z1')ax2. set_ylabel('Z2')ax2. set_zlabel('Z3') Solving For Number Of Principal Components: Whats powerful about sklearn is that the same modules we used previously for PCA, under the circumstances that we don’t know the number of principal components prior to applying the reduction, can be used to solve for the number of principal components required to keep a certain % of variance within the dataset. Typically we want to retain 90%, 95% or 99% of the variance but depends on use case. Lets use the same iris data as an example first then the food nutrient dataset from Kaggle. iris_3d = X_3d_scaleTo find the number of principal components, in the same PCA function, we define n_components to be 0 &lt; n_components &lt; 1 which is the % of variance that we want to keep in the dataset and we specify svd_solver == ‘full’. Lets start with 95% then 30% and see what happens p_95 = PCA(n_components = 0. 95, svd_solver='full')p_95. fit(iris_3d)PCA(copy=True, iterated_power='auto', n_components=0. 95, random_state=None, svd_solver='full', tol=0. 0, whiten=False)print  We see that to keep 95% of the variance in the original dataset, we can reduce the dataset into 2D \n print  The number of components :  + str(p_95. n_components_)print  The % of variance explained by each component:   + str(p_95. explained_variance_ratio_)We see that to keep 95% of the variance in the original dataset, we can reduce the dataset into 2D The number of components :2The % of variance explained by each component: [ 0. 67127544 0. 30494357]p_30 = PCA(n_components = 0. 30, svd_solver='full')p_30. fit(iris_3d)PCA(copy=True, iterated_power='auto', n_components=0. 3, random_state=None, svd_solver='full', tol=0. 0, whiten=False)print  We see that to keep only 30% of the variance in the original dataset, we can reduce the dataset into 1D \n print  The number of components :  + str(p_30. n_components_)print  The % of variance explained by each component:   + str(p_30. explained_variance_ratio_)We see that to keep only 30% of the variance in the original dataset, we can reduce the dataset into 1D The number of components :1The % of variance explained by each component: [ 0. 67127544]Applying PCA on food nutrient dataset from Kaggle: If you haven’t already, check out part 1 of dimensionality reduction where I’ve applied simple feature selection methods to the same dataset. food_data = pd. read_csv('openfoodfacts. tsv', sep='\t')We will do some preprocessing work on this dataset for this example:  dataset contains categorical variables, we will only explore the numerical variables for now there are variables with no data, we will remove these variables apply normalization apply feature scaling because different nutrients have different units and range of valuesfood = food_data. copy()numeric_columns = food. dtypes[food. dtypes == 'float64']. index #Extract numerical variablesfood = food[numeric_columns]missing = food. isnull(). sum() #Count number of missing valuespct_missing = 1. 0*missing/len(food) #Calculate percentagefood = food[pct_missing[pct_missing != 1. 0]. index] #Remove variables that have no datafood. shape(134754, 89)for i in food. columns:  food[i]. fillna(value=food[i]. mean(), inplace=True) #replace NaN with mean of dimension  food[i] = preprocessing. scale(food[i]) #normalization  food[i] = preprocessing. MinMaxScaler(). fit_transform(food[i]. values. reshape(-1,1)) #scale min max to 0-1There are 89 variables that we are exploring now in this processed dataset. How many do we keep? Let’s define that we want to keep 95% of the variance p = PCA(n_components = 0. 95, svd_solver='full')p. fit(food)PCA(copy=True, iterated_power='auto', n_components=0. 95, random_state=None, svd_solver='full', tol=0. 0, whiten=False)p. n_components_11p. explained_variance_ratio_array([ 0. 46515374, 0. 19124263, 0. 09001465, 0. 0692121 , 0. 04144684,    0. 03047795, 0. 01878442, 0. 0172208 , 0. 01577135, 0. 00958264,    0. 0090774 ])sum(p. explained_variance_ratio_)0. 95798452774543918As seen, we can reduce the 89 variables down to 11 components to keep 95% of the variance. The explain_variance_ratio provides information on how much variance is kept for each component. The sum of it we can see is &gt;95% which is the minimal we’ve defined. If we want more variance to be kept then # of components will increase and vice versa! "
     }, {
     "id": 26,
-    "url": "/codelabs_dimension_reduction_examples_part1/",
+    "url": "/DS-dimension_reduction_examples_part1/",
     "title": "Dimension Reduction Examples - Part 1",
     "body": "2017/04/27 - What is dimensionality reduction? The name might sound fancier than what it actually is. It is simply the process of reducing the number of dimensions in a dataset aka reducing the number of attributes/features/columns while retaining key information in the dataset.  Wait, but why?  Because more data does not necessarily mean we get better model performance. Many attributes could be noise to the key signals in a dataset (overfitting, curse of dimensionality).  Data compression to reduce storage size, which reduces computational resource and helps speed up algorithm.  Reducing data to 2D or 3D allows us to visualize the data. There are two approaches to dimensionality reduction comprising different techniques/algorithms:  Feature Selection – selecting subset of feature in the dataset without transforming the dataset as a whole Feature Extraction – transforming the dataset into a lower dimensional spaceFor part 1 of dimensionality reduction, we’ll get started with applying three simple feature selection techniques using Python. import pandas as pdimport numpy as npTo explore how to apply different dimension reduction techniques in Python, I will use a data set on food nutrient facts from Kaggle as an example. This data set has 134754 rows and 161 columns. One row per food product. https://www. kaggle. com/openfoodfacts/world-food-facts food_data = pd. read_csv('openfoodfacts. tsv', sep='\t')food_data. shape(134754, 161)food_data. columnsIndex([u'code', u'url', u'creator', u'created_t', u'created_datetime',    u'last_modified_t', u'last_modified_datetime', u'product_name',    u'generic_name', u'quantity',    . . .    u'ph_100g', u'fruits-vegetables-nuts_100g',    u'collagen-meat-protein-ratio_100g', u'cocoa_100g', u'chlorophyl_100g',    u'carbon-footprint_100g', u'nutrition-score-fr_100g',    u'nutrition-score-uk_100g', u'glycemic-index_100g',    u'water-hardness_100g'],    dtype='object', length=161)food_data. head(4)         code   url   creator   created_t   created_datetime   last_modified_t   last_modified_datetime   product_name   generic_name   quantity   . . .    ph_100g   fruits-vegetables-nuts_100g   collagen-meat-protein-ratio_100g   cocoa_100g   chlorophyl_100g   carbon-footprint_100g   nutrition-score-fr_100g   nutrition-score-uk_100g   glycemic-index_100g   water-hardness_100g         0   3087   http://world-en. openfoodfacts. org/product/0000. . .    openfoodfacts-contributors   1474103866   2016-09-17T09:17:46Z   1474103893   2016-09-17T09:18:13Z   Farine de blé noir   NaN   1kg   . . .    NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN       1   24600   http://world-en. openfoodfacts. org/product/0000. . .    date-limite-app   1434530704   2015-06-17T08:45:04Z   1434535914   2015-06-17T10:11:54Z   Filet de bœuf   NaN   2. 46 kg   . . .    NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN       2   27083   http://world-en. openfoodfacts. org/product/0000. . .    canieatthis-app   1472223782   2016-08-26T15:03:02Z   1472223782   2016-08-26T15:03:02Z   Marks % Spencer 2 Blueberry Muffins   NaN   230g   . . .    NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN       3   27205   http://world-en. openfoodfacts. org/product/0000. . .    tacinte   1458238630   2016-03-17T18:17:10Z   1458238638   2016-03-17T18:17:18Z   NaN   NaN   NaN   . . .    NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   NaN   4 rows × 161 columns food_data. isnull(). sum()code                  23url                   23creator                 2created_t                4created_datetime            10last_modified_t             0last_modified_datetime          0product_name             18578generic_name             84411quantity               35948packaging              59313packaging_tags            59311brands                27194brands_tags             27200categories              56286categories_tags           56307categories_en            56286origins               113257origins_tags            113294manufacturing_places        100295manufacturing_places_tags      100301labels                93449labels_tags             93363labels_en              93342emb_codes              106460emb_codes_tags           106463first_packaging_code_geo      116621cities               134732cities_tags             115136purchase_places           79454                   . . .  biotin_100g             134437pantothenic-acid_100g        134074silica_100g             134717bicarbonate_100g          134676potassium_100g           134058chloride_100g            134601calcium_100g            130445phosphorus_100g           133870iron_100g              132149magnesium_100g           133475zinc_100g              134271copper_100g             134598manganese_100g           134609fluoride_100g            134676selenium_100g            134575chromium_100g            134735molybdenum_100g           134744iodine_100g             134499caffeine_100g            134705taurine_100g            134720ph_100g               134706fruits-vegetables-nuts_100g     133091collagen-meat-protein-ratio_100g  134591cocoa_100g             133904chlorophyl_100g           134754carbon-footprint_100g        134489nutrition-score-fr_100g       67502nutrition-score-uk_100g       67502glycemic-index_100g         134754water-hardness_100g         134754dtype: int64Missing Value Ratio: Attributes with a lot of missing values are not providing a lot of information. We can either impute the values for these attributes or remove from dataset. We compute the % of missing values and determine whether to drop the attribute or not. The threshold is up to you but roughly speaking an attribute with ~40-50% missing values could be dropped. We can leverage isnull function from pandas dataframe to count how many empty fields are in each column. We can also leverage this information to calculate the % of missing values for each attribute. missing = food_data. isnull(). sum()pct_missing = 1. 0*missing/len(food_data)print pct_missing. sort_values(ascending=False)water-hardness_100g           1. 000000-nervonic-acid_100g           1. 000000no_nutriments              1. 000000ingredients_from_palm_oil        1. 000000ingredients_that_may_be_from_palm_oil  1. 000000nutrition_grade_uk            1. 000000-butyric-acid_100g            1. 000000-caproic-acid_100g            1. 000000-lignoceric-acid_100g          1. 000000-cerotic-acid_100g            1. 000000glycemic-index_100g           1. 000000-elaidic-acid_100g            1. 000000-mead-acid_100g             1. 000000-erucic-acid_100g            1. 000000-melissic-acid_100g           1. 000000chlorophyl_100g             1. 000000-myristic-acid_100g           0. 999993-caprylic-acid_100g           0. 999993-montanic-acid_100g           0. 999993-stearic-acid_100g            0. 999993-palmitic-acid_100g           0. 999993-capric-acid_100g            0. 999985-lauric-acid_100g            0. 999970-maltose_100g              0. 999970nucleotides_100g             0. 999948-arachidonic-acid_100g          0. 999941molybdenum_100g             0. 999926-maltodextrins_100g           0. 999918-oleic-acid_100g             0. 999911serum-proteins_100g           0. 999896                      . . .  proteins_100g              0. 445916energy_100g               0. 440907packaging                0. 440158packaging_tags              0. 440143image_url                0. 434577image_small_url             0. 434577main_category              0. 418021main_category_en             0. 418021categories_tags             0. 417850categories                0. 417694categories_en              0. 417694pnns_groups_1              0. 372085pnns_groups_2              0. 351440quantity                 0. 266768brands_tags               0. 201849brands                  0. 201805product_name               0. 137866countries_tags              0. 002070countries                0. 002070countries_en               0. 002070states_en                0. 000341states_tags               0. 000341states                  0. 000341url                   0. 000171code                   0. 000171created_datetime             0. 000074created_t                0. 000030creator                 0. 000015last_modified_datetime          0. 000000last_modified_t             0. 000000dtype: float64It is evident there are significant number of attributes that barely have any information. Lets remove features that have less than 25% value. new_food_data = food_data[pct_missing[pct_missing &lt; 0. 75]. index. tolist()]new_food_data. columnsIndex([u'code', u'url', u'creator', u'created_t', u'created_datetime',    u'last_modified_t', u'last_modified_datetime', u'product_name',    u'generic_name', u'quantity', u'packaging', u'packaging_tags',    u'brands', u'brands_tags', u'categories', u'categories_tags',    u'categories_en', u'manufacturing_places', u'manufacturing_places_tags',    u'labels', u'labels_tags', u'labels_en', u'purchase_places', u'stores',    u'countries', u'countries_tags', u'countries_en', u'ingredients_text',    u'serving_size', u'additives_n', u'additives', u'additives_tags',    u'additives_en', u'ingredients_from_palm_oil_n',    u'ingredients_that_may_be_from_palm_oil_n', u'nutrition_grade_fr',    u'pnns_groups_1', u'pnns_groups_2', u'states', u'states_tags',    u'states_en', u'main_category', u'main_category_en', u'image_url',    u'image_small_url', u'energy_100g', u'fat_100g', u'saturated-fat_100g',    u'carbohydrates_100g', u'sugars_100g', u'fiber_100g', u'proteins_100g',    u'salt_100g', u'sodium_100g', u'nutrition-score-fr_100g',    u'nutrition-score-uk_100g'],   dtype='object')Low Variance Filter: Attributes with very little change in its data, e. g. all values are 1s, also provides very little information. Similar to Missing Value Ratio, we remove attributes based on a define threshold of variance. Variance is range dependent therefore normalization is required and only applicable to numerical attributes. We need to normalize each dimension as variance is range dependent. We can use the MinMaxScaler function from sklearn preprocessing module to normalize value in each dimension to a value between 0 and 1. The challenge with this is that sklearn estimators does not handle NaN or missing values. An intermediate step is required to infer missing data with either mean or median or whatever statistics that would make most sense. There are different ways to do this like using fillna() function in pandas or Imputer module from sklearn. Another method we can simple define our own normalization function. from sklearn import preprocessingvar_fil_food_data = new_food_data. copy()scaler = preprocessing. MinMaxScaler()#Extract numeric columns because cannot normalize and compute variance on categoricalnumeric_columns = var_fil_food_data. dtypes[var_fil_food_data. dtypes == 'float64']. indexfor i in numeric_columns:  var_fil_food_data[i]. fillna(value=var_fil_food_data[i]. mean(), inplace=True) #replace NaN with mean of dimension  var_fil_food_data[i] = scaler. fit_transform(var_fil_food_data[i]. values. reshape(-1,1))   #Normalize. if we don't use . values. reshapes it still works but sklearn throws depracated warningvar_fil_food_data[numeric_columns]. mean()additives_n                0. 054490ingredients_from_palm_oil_n        0. 031198ingredients_that_may_be_from_palm_oil_n  0. 020675energy_100g                0. 012728fat_100g                  0. 133428saturated-fat_100g             0. 054690carbohydrates_100g             0. 072374sugars_100g                0. 130803fiber_100g                 0. 027809proteins_100g               0. 075218salt_100g                 0. 001004sodium_100g                0. 001005nutrition-score-fr_100g          0. 427915nutrition-score-uk_100g          0. 457145dtype: float64var_fil_food_data[numeric_columns]. var()additives_n                0. 003423ingredients_from_palm_oil_n        0. 008250ingredients_that_may_be_from_palm_oil_n  0. 002640energy_100g                0. 000061fat_100g                  0. 014988saturated-fat_100g             0. 003620carbohydrates_100g             0. 002530sugars_100g                0. 017339fiber_100g                 0. 000658proteins_100g               0. 003247salt_100g                 0. 000020sodium_100g                0. 000020nutrition-score-fr_100g          0. 013776nutrition-score-uk_100g          0. 017170dtype: float64Looking at the mean and variance, we could explore removing energy_100g, salt_100g sodium_100g. new_food_data = new_food_data. drop(['energy_100g', 'salt_100g', 'sodium_100g'], axis=1)Correlation Filter: Attributes that are highly correlated tends to carry similar information, e. g. a company’s overall spend and its marketing spend. Because highly correlated attributes contain similar information, we can keep just one of these attributes. To keep this example simple, we will only look at the correlation between numeric variables. For categorical variables, there is an additional encoding step (covered in another blog article) that is required, which simply splits every categorical value of one dimension into individual columns with binary values of 1 or 0. We can build a correlation matrix using the corr function in pandas. We could also use a more visual approach by using heatmap from seaborn library. corr_fil_food_data = new_food_data. copy()#Extract numeric columns because cannot normalize and compute variance on categoricalnumeric_columns = corr_fil_food_data. dtypes[corr_fil_food_data. dtypes == 'float64']. indexcorr_fil_food_data = corr_fil_food_data[numeric_columns]corr_fil_food_data. corr()         additives_n   ingredients_from_palm_oil_n   ingredients_that_may_be_from_palm_oil_n   fat_100g   saturated-fat_100g   carbohydrates_100g   sugars_100g   fiber_100g   proteins_100g   nutrition-score-fr_100g   nutrition-score-uk_100g         additives_n   1. 000000   0. 247840   0. 433042   -0. 027467   -0. 019006   0. 119767   0. 124980   -0. 107708   -0. 083062   0. 202419   0. 187053       ingredients_from_palm_oil_n   0. 247840   1. 000000   0. 179777   0. 108486   0. 142192   0. 211748   0. 168584   0. 011094   -0. 036060   0. 245711   0. 248023       ingredients_that_may_be_from_palm_oil_n   0. 433042   0. 179777   1. 000000   0. 042765   0. 044454   0. 122512   0. 052955   -0. 038976   -0. 058680   0. 121939   0. 125042       fat_100g   -0. 027467   0. 108486   0. 042765   1. 000000   0. 735497   -0. 071676   0. 023426   0. 082148   0. 146350   0. 591396   0. 655143       saturated-fat_100g   -0. 019006   0. 142192   0. 044454   0. 735497   1. 000000   -0. 012336   0. 121237   0. 020530   0. 131305   0. 623594   0. 664247       carbohydrates_100g   0. 119767   0. 211748   0. 122512   -0. 071676   -0. 012336   1. 000000   0. 637138   0. 246810   -0. 103593   0. 257640   0. 248387       sugars_100g   0. 124980   0. 168584   0. 052955   0. 023426   0. 121237   0. 637138   1. 000000   0. 034637   -0. 237634   0. 480360   0. 448149       fiber_100g   -0. 107708   0. 011094   -0. 038976   0. 082148   0. 020530   0. 246810   0. 034637   1. 000000   0. 230218   -0. 102295   -0. 092460       proteins_100g   -0. 083062   -0. 036060   -0. 058680   0. 146350   0. 131305   -0. 103593   -0. 237634   0. 230218   1. 000000   0. 094913   0. 156746       nutrition-score-fr_100g   0. 202419   0. 245711   0. 121939   0. 591396   0. 623594   0. 257640   0. 480360   -0. 102295   0. 094913   1. 000000   0. 967227       nutrition-score-uk_100g   0. 187053   0. 248023   0. 125042   0. 655143   0. 664247   0. 248387   0. 448149   -0. 092460   0. 156746   0. 967227   1. 000000   import seaborn as snsimport matplotlib. pyplot as plt%matplotlib inlinesns. set()fig, ax = plt. subplots()fig. set_size_inches(15, 15)sns. heatmap(corr_fil_food_data. corr(), annot=True, ) It is evident that:  nutrition-score-fr_100g is highly correlated with nutrition-score-uk_100g fat_100g is pretty correlated with saturated-fat_100g nutrition-score-uk_100g is pretty correlated with fat_100g and saturated-fat_100g nutrition-score-fr_100g is pretty correlated with fat_100g and saturated-fat_100g sugars_100g is pretty correlated with carbohydrate_100gLets remove one of these attributes fig, ax = plt. subplots()fig. set_size_inches(15, 15)sns. heatmap(corr_fil_food_data. drop(    ['nutrition-score-fr_100g',     'nutrition-score-uk_100g',     'fat_100g', 'sugars_100g'],    axis=1). corr(), annot=True, ) Result: Using these three simple techniques for dimension reduction, we’ve reduce this dataset from 161 variables down to 49. Do keep in mind that the goal of dimension reduction is to remove attributes that are not very informative. More data does not necessarily mean better and at the same time less data does not necessarily mean better as well. The art is to find a set of attributes within a high dimension data set that will provide sufficient information. new_food_data. shape(134754, 49)"
     }, {
     "id": 27,
-    "url": "/codelabs_intro_to_python_and_pandas/",
-    "title": "Intro To Python and Pandas?",
+    "url": "/DS-intro_to_python_and_pandas/",
+    "title": "Intro To Python and Pandas",
     "body": "2017/02/18 - Python is one of the most popular and fastest growing software languages used in data analytics today and there are many reasons for that. I will cover majority of the topics in this blog in Python and occasionally R. For those who are completely new to Python and programming, I encourage you to check out Codeacademy and do their free Python course. It’s important to get a good feel for this language and understand some fundamental concepts like syntax, libraries, data structures etc. The course is very straight forward and suitable for all level. pandas is a Python library (prewritten code for us to use) and is the bread &amp; butter for data analysis. I’m assuming everyone that’s reading this used Excel or some sort of spreadsheet before. Pandas essentially stores data in a tabular format (rows and columns like a spreadsheet) with predefined functionalities to manipulate &amp; analyze data. After learning about basic Python, I encourage you to check out this tutorial from Greg Reda on how to use pandas. In this series of blog articles, I will instead focus on this Panda’s cheatsheet and additional common functionalities, walking through some examples and relating to how you would use it on a day to day task. Lets start with creating Series an DataFrames, getting some data and removing some data. import pandas as pdCreating Series and DataFrame: Lets first define a Series. A Series is simply a one dimensional array, kind of like your Excel spreadsheet but with one column. pd. Series([3, -5, 7, 4])0  31  -52  73  4dtype: int64The 0, 1, 2, 3 here is the index of the series. They are like the row #s in excel. We can also have predefined index labels for our Series. Lets label it a, b, c, d s = pd. Series([3, -5, 7, 4], index=['a', 'b', 'c', 'd'])sa  3b  -5c  7d  4dtype: int64DataFrame on the other hand is like a Series but two dimensional, so like your full Excel sheet instead of one column. There are many ways to create a DataFrame with your data, its quite flexible and up to you what is the easiest based on the data set you have. #if your data is already in dictionary formdata = {'Country': ['Belgium', 'India', 'Brazil'],    'Capital': ['Brussels', 'New Delhi', 'Brasília'],    'Population': [11190846, 1303171035, 207847528]}df = pd. DataFrame(data)df         Capital   Country   Population         0   Brussels   Belgium   11190846       1   New Delhi   India   1303171035       2   Brasília   Brazil   207847528   Or you could have some Series you already defined and want to put them together into a DataFrame. The NaN here means there is unknown value. s1 = pd. Series([3, -5, 7, 4])s2 = pd. Series([1, 3, 6])pd. DataFrame({    's1': s1,    's2': s2})         s1   s2         0   3   1. 0       1   -5   3. 0       2   7   6. 0       3   4   NaN   Retrieving Data: Remember previously your Series by default is indexed by number (0,1,2,3) and you also labeled the index. You can get information either way, using index number or your label print s['a']print s[0]33DataFrame is similar. Earlier we created a DataFrame with country information. We can get a column by specifying the column name df['Country']0  Belgium1   India2   BrazilName: Country, dtype: objectOr multiple columns df[['Country', 'Capital']]         Country   Capital         0   Belgium   Brussels       1   India   New Delhi       2   Brazil   Brasília   And to select a range of rows, we use the : operator. It simply means select from this index value up to this index value. E. g. 0:2 means select row index 0 and 1 df[0:2]         Capital   Country   Population         0   Brussels   Belgium   11190846       1   New Delhi   India   1303171035   Deleting Data: Sometimes we dont need all the data in our DataFrame or Series. Pandas provide a very convenient way of removing the data using the drop function s. drop('a')b  -5c  7d  4dtype: int64s. drop(['a','d'])b  -5c  7dtype: int64DataFrame has an extra parameter that you need to specif, axis. Axis = 0 means you are looking to remove a row. Axis = 1 means you want to remove a column. df. drop('Capital', axis=1)         Country   Population         0   Belgium   11190846       1   India   1303171035       2   Brazil   207847528   df. drop([1,2], axis=0)         Capital   Country   Population         0   Brussels   Belgium   11190846   A very simple function in Python is the range function, which allows you to define a range of number range([start],[stop]) range(0,2)[0, 1]df. drop(range(0,2))         Capital   Country   Population         2   Brasília   Brazil   207847528   "
     }];
 
@@ -370,19 +370,19 @@ $(function() {
     </p>
     <ul>
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=Regression Modelling Strategies&url=/blog_regression_modelling_strategies/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Dimension Reduction Examples - Part 1&url=/DS-dimension_reduction_examples_part1/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <i class="fab fa-twitter"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://facebook.com/sharer.php?u=/blog_regression_modelling_strategies/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=/DS-dimension_reduction_examples_part1/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
         <i class="fab fa-facebook-f"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://plus.google.com/share?url=/blog_regression_modelling_strategies/" onclick="window.open(this.href, 'facebook-google', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://plus.google.com/share?url=/DS-dimension_reduction_examples_part1/" onclick="window.open(this.href, 'facebook-google', 'width=550,height=435');return false;">
         <i class="fab fa-google"></i>
         </a>
         </li>
@@ -421,117 +421,686 @@ $(function() {
                 
                 
                 <!-- Post Title -->
-				<h1 class="posttitle">Regression Modelling Strategies</h1> 
+				<h1 class="posttitle">Dimension Reduction Examples - Part 1</h1> 
                 
 			</div>
 
 			<!-- Post Featured Image -->
-			<img class="featured-image img-fluid" src="/assets/images/markdown.jpg" alt="Regression Modelling Strategies">
+			<img class="featured-image img-fluid" src="/assets/images/2017-04-27-dimension-reduction-examples-part1/strange.jpg" alt="Dimension Reduction Examples - Part 1">
 			<!-- End Featured Image -->
 
 			<!-- Post Content -->
 			<div class="article-post">
-				<p>I feel very fortunate to work for an employer like Shopify, that places a lot of value in continuous learning and self development. One of the many benefits that we get as employees is an annual self-development budget that we can use on anything to level-up ourselves professionally. This year I decided to experiment with taking a 5 day short course on Regression Modelling Strategies offered at Vanderbilt University. This blog entry is a summary of sed course material, my experience and recommendations for other Data Scientists in the industry that might be interested in diving deeper into the topic of regression.</p>
+				<p>What is dimensionality reduction? The name might sound fancier than what it actually is. It is simply the process of reducing the number of dimensions in a dataset aka reducing the number of attributes/features/columns while retaining key information in the dataset.</p>
 
-<h1 id="inspiration">Inspiration</h1>
+<p><img src="/assets/images/2017-04-27-dimension-reduction-examples-part1/strange.jpg" alt="jpg" /></p>
 
-<p>The most common way people tend to use their development budget is by attending conferences. I also know of some coworkers who have used their development budget over several years to pursue a formal University certification in Big Data / Data Science. Personally, I have mix feelings about both and I don’t find either one to fit my learning style very well. I’ve been to couple conferences related to data science and marketing but I felt I wasn’t able to take a whole lot away. Some felt way too product and sales focused while others lacked the content that I was looking for. The challenge that I have with some of these University Big Data certificate programs is the format of the education. Typically the format is a set of courses over several semesters and classes are mandatory on a weekly basis, with midterms, assignments, and exams. What I struggle with is the pace of the learning, I feel that it is too slow for me. I also dislike the breadth and lack of depth of the content. I feel like a lot of topics are usually covered in such programs but none are explored deeply. At this point of my career, I feel I have a better sense of what I know, what I don’t know, and what I want/need to know, which has consequently made me explore alternative options for my development budget.</p>
-
-<p>Browsing on Twitter ultimately led me to Frank Harrell’s RMS course. I was very intrigued by the concept of a condensed course that focused on a topic that I wanted to learn more about and thought was very relevant for my day to day work.</p>
-
-<h1 id="course-summary">Course Summary</h1>
-
-<p>The course I took is called Regression Modelling Strategies, taught by Professor <a href="https://twitter.com/f2harrell?lang=en">Frank Harrell</a> at Vanderbilt University. This is a condensed version of the course that he regularly teaches during the semester. The course is broken up into 1 day (optional) R tutorial and 4 full days of course content. The course is intended for Masters and PhD level students, so there is an expectation that students already have a competent understanding of multiple regression modelling. The course becomes very challenging to follow along if students do not have that understanding or are not prepared for the lectures. For more information about the course, see <a href="http://biostat.mc.vanderbilt.edu/wiki/Main/RmS">here</a>.</p>
-
-<p>The philosophy of the course and Professor Frank Harrell can be summarized as:</p>
-<ul>
-  <li>It is more productive to make model fit step by step than to postulate a simple model and find out what went wrong</li>
-  <li>Carefully fitting improper model is better than badly fitting a well chosen one</li>
-  <li>A good overall strategy is to decide how many degrees of freedom (regression parameters) can be “spent”, where they should be spent, and to spend them with no regrets</li>
-</ul>
-
-<p>Topics covered in the course include but not limited to the following:</p>
+<p>Wait, but why?</p>
 
 <ul>
-  <li>Hypothesis Testing vs Estimation vs. Prediction vs. Classification</li>
-  <li>General Aspects of Fitting Regression Models
-    <ul>
-      <li>Interpreting Model Parameters &amp; Understanding Interactions</li>
-      <li>Relaxing Linearity Assumptions for Continuous Predictors
-        <ul>
-          <li>Non Linear Terms</li>
-          <li>Splines for Estimating Shape of Regression Function</li>
-          <li>Cubic / Restricted Cubic Splines / Choosing Number and Position of Knots</li>
-          <li>Nonparametric Regression</li>
-          <li>Assessment of Model Fit</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Handling Missing Data
-    <ul>
-      <li>Strategies for Developing Imputation Model</li>
-      <li>Predictive Mean Matching</li>
-    </ul>
-  </li>
-  <li>Multivariable Modelling Strategies
-    <ul>
-      <li>Variable Selection, Sample Size, Overfitting, Limit on Number of Predictors</li>
-      <li>Shrinkage</li>
-      <li>Data Reduction Techniques</li>
-    </ul>
-  </li>
-  <li>Describing, Resampling, Validating and Simplifying the Model
-    <ul>
-      <li>Model Validation</li>
-      <li>Bootstrap vs. Cross Validation</li>
-    </ul>
-  </li>
-  <li>Binary Logistic Regression, Ordinal Logistic Regression, Survival Analysis</li>
-  <li>Case Studies</li>
+  <li>Because more data does not necessarily mean we get better model performance. Many attributes could be noise to the key signals in a dataset (overfitting, curse of dimensionality).</li>
+  <li>Data compression to reduce storage size, which reduces computational resource and helps speed up algorithm.</li>
+  <li>Reducing data to 2D or 3D allows us to visualize the data.</li>
 </ul>
 
-<p>For a more detailed list of topics, <a href="http://biostat.mc.vanderbilt.edu/wiki/pub/Main/RmS/rmsDescription.pdf">click here</a>.</p>
-
-<h1 id="who-should-attend-this-course">Who Should Attend This Course?</h1>
-
-<p>The course description illustrates the target audience as “statisticians and related quantitative researchers who want to learn some general model development strategies, including approaches to missing data imputation, data reduction, model validation, and relaxing linearity assumptions”. In my opinion, I feel this topic / course is suitable for anyone who is working with data, primarily focusing on problems that require a good understanding of how variables interact with each other and affect outcome. My domain of interest is marketing and I am interested in answering questions such as, what levers affect churn or LTV, and at what magnitude? How does each marketing channel influence customer conversion?</p>
-
-<p>This is a traditional statistics course, with a focus on biostatistics, and not a machine learning / data science course. I don’t recommend this for anyone that is only interested in the prediction aspect of modelling and not the interpretation aspect. Although this is a biostatistics course, I think the content is relevant for people outside of the medical field as well. My class comprised of primarily doctors, postgraduate students, researchers or people from the medical industry, but there were also people from the finance sector, geology, etc. In my opinion, I actually think the biostatistics aspect of the course is beneficial and makes the course much more interesting. Surrounding yourself with people that are not in your field and looking at problems that you don’t look at on a day to day basis helps stimulate thoughts and creativity.</p>
-
-<h1 id="recommendations">Recommendations</h1>
-
-<p>Overall I highly recommend other people in the industry to take this course if they are interested in learning more about regression modelling and also have similar reservations towards conferences and long form education. I think there are couple things that can really help enhance this experience (from the perspective of someone coming from industry and not academia):</p>
+<p>There are two approaches to dimensionality reduction comprising different techniques/algorithms:</p>
 
 <ul>
-  <li>Going as a team (4-5 people): Not only is this option more cost efficient, I think you can learn a lot more when you are studying as a group, by asking each other questions, sharing ideas and thoughts, challenging ideas etc.</li>
-  <li>Being very prepared for the course so that you can have meaningful conversations with Professor Frank Harrell. There were several students that were taking the course for the 2nd or 3rd time and I noticed that they were able to have a deep conversations with the Professor about specific problems they are working on. There is a textbook that comes with this course, and I would highly encourage going over that material before attending the course as well during the course.</li>
-  <li>Course improvements mentioned below.</li>
+  <li><strong>Feature Selection</strong> – selecting subset of feature in the dataset without transforming the dataset as a whole</li>
+  <li><strong>Feature Extraction</strong> – transforming the dataset into a lower dimensional space</li>
 </ul>
 
-<h1 id="improvements">Improvements</h1>
+<p>For part 1 of dimensionality reduction, we’ll get started with applying three simple feature selection techniques using Python.</p>
 
-<p>The course is not perfect and there are definitely improvements that can be made. I’ve provided the same feedback on the course feedback survey.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+</code></pre></div></div>
 
+<p>To explore how to apply different dimension reduction techniques in Python, I will use a data set on food nutrient facts from Kaggle as an example. This data set has 134754 rows and 161 columns. One row per food product.</p>
+
+<p><a href="https://www.kaggle.com/openfoodfacts/world-food-facts">https://www.kaggle.com/openfoodfacts/world-food-facts</a></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">food_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'openfoodfacts.tsv'</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">'</span><span class="se">\t</span><span class="s">'</span><span class="p">)</span>
+<span class="n">food_data</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(134754, 161)
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">food_data</span><span class="o">.</span><span class="n">columns</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">Index</span><span class="p">([</span><span class="s">u'code'</span><span class="p">,</span> <span class="s">u'url'</span><span class="p">,</span> <span class="s">u'creator'</span><span class="p">,</span> <span class="s">u'created_t'</span><span class="p">,</span> <span class="s">u'created_datetime'</span><span class="p">,</span>
+       <span class="s">u'last_modified_t'</span><span class="p">,</span> <span class="s">u'last_modified_datetime'</span><span class="p">,</span> <span class="s">u'product_name'</span><span class="p">,</span>
+       <span class="s">u'generic_name'</span><span class="p">,</span> <span class="s">u'quantity'</span><span class="p">,</span>
+        <span class="o">...</span>
+       <span class="s">u'ph_100g'</span><span class="p">,</span> <span class="s">u'fruits-vegetables-nuts_100g'</span><span class="p">,</span>
+       <span class="s">u'collagen-meat-protein-ratio_100g'</span><span class="p">,</span> <span class="s">u'cocoa_100g'</span><span class="p">,</span> <span class="s">u'chlorophyl_100g'</span><span class="p">,</span>
+       <span class="s">u'carbon-footprint_100g'</span><span class="p">,</span> <span class="s">u'nutrition-score-fr_100g'</span><span class="p">,</span>
+       <span class="s">u'nutrition-score-uk_100g'</span><span class="p">,</span> <span class="s">u'glycemic-index_100g'</span><span class="p">,</span>
+       <span class="s">u'water-hardness_100g'</span><span class="p">],</span>
+       <span class="n">dtype</span><span class="o">=</span><span class="s">'object'</span><span class="p">,</span> <span class="n">length</span><span class="o">=</span><span class="mi">161</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">food_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>code</th>
+      <th>url</th>
+      <th>creator</th>
+      <th>created_t</th>
+      <th>created_datetime</th>
+      <th>last_modified_t</th>
+      <th>last_modified_datetime</th>
+      <th>product_name</th>
+      <th>generic_name</th>
+      <th>quantity</th>
+      <th>...</th>
+      <th>ph_100g</th>
+      <th>fruits-vegetables-nuts_100g</th>
+      <th>collagen-meat-protein-ratio_100g</th>
+      <th>cocoa_100g</th>
+      <th>chlorophyl_100g</th>
+      <th>carbon-footprint_100g</th>
+      <th>nutrition-score-fr_100g</th>
+      <th>nutrition-score-uk_100g</th>
+      <th>glycemic-index_100g</th>
+      <th>water-hardness_100g</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3087</td>
+      <td>http://world-en.openfoodfacts.org/product/0000...</td>
+      <td>openfoodfacts-contributors</td>
+      <td>1474103866</td>
+      <td>2016-09-17T09:17:46Z</td>
+      <td>1474103893</td>
+      <td>2016-09-17T09:18:13Z</td>
+      <td>Farine de blé noir</td>
+      <td>NaN</td>
+      <td>1kg</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>24600</td>
+      <td>http://world-en.openfoodfacts.org/product/0000...</td>
+      <td>date-limite-app</td>
+      <td>1434530704</td>
+      <td>2015-06-17T08:45:04Z</td>
+      <td>1434535914</td>
+      <td>2015-06-17T10:11:54Z</td>
+      <td>Filet de bœuf</td>
+      <td>NaN</td>
+      <td>2.46 kg</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>27083</td>
+      <td>http://world-en.openfoodfacts.org/product/0000...</td>
+      <td>canieatthis-app</td>
+      <td>1472223782</td>
+      <td>2016-08-26T15:03:02Z</td>
+      <td>1472223782</td>
+      <td>2016-08-26T15:03:02Z</td>
+      <td>Marks % Spencer 2 Blueberry Muffins</td>
+      <td>NaN</td>
+      <td>230g</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>27205</td>
+      <td>http://world-en.openfoodfacts.org/product/0000...</td>
+      <td>tacinte</td>
+      <td>1458238630</td>
+      <td>2016-03-17T18:17:10Z</td>
+      <td>1458238638</td>
+      <td>2016-03-17T18:17:18Z</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>...</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+    </tr>
+  </tbody>
+</table>
+<p>4 rows × 161 columns</p>
+</div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">food_data</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>code                                    23
+url                                     23
+creator                                  2
+created_t                                4
+created_datetime                        10
+last_modified_t                          0
+last_modified_datetime                   0
+product_name                         18578
+generic_name                         84411
+quantity                             35948
+packaging                            59313
+packaging_tags                       59311
+brands                               27194
+brands_tags                          27200
+categories                           56286
+categories_tags                      56307
+categories_en                        56286
+origins                             113257
+origins_tags                        113294
+manufacturing_places                100295
+manufacturing_places_tags           100301
+labels                               93449
+labels_tags                          93363
+labels_en                            93342
+emb_codes                           106460
+emb_codes_tags                      106463
+first_packaging_code_geo            116621
+cities                              134732
+cities_tags                         115136
+purchase_places                      79454
+                                     ...  
+biotin_100g                         134437
+pantothenic-acid_100g               134074
+silica_100g                         134717
+bicarbonate_100g                    134676
+potassium_100g                      134058
+chloride_100g                       134601
+calcium_100g                        130445
+phosphorus_100g                     133870
+iron_100g                           132149
+magnesium_100g                      133475
+zinc_100g                           134271
+copper_100g                         134598
+manganese_100g                      134609
+fluoride_100g                       134676
+selenium_100g                       134575
+chromium_100g                       134735
+molybdenum_100g                     134744
+iodine_100g                         134499
+caffeine_100g                       134705
+taurine_100g                        134720
+ph_100g                             134706
+fruits-vegetables-nuts_100g         133091
+collagen-meat-protein-ratio_100g    134591
+cocoa_100g                          133904
+chlorophyl_100g                     134754
+carbon-footprint_100g               134489
+nutrition-score-fr_100g              67502
+nutrition-score-uk_100g              67502
+glycemic-index_100g                 134754
+water-hardness_100g                 134754
+dtype: int64
+</code></pre></div></div>
+
+<h3 id="missing-value-ratio">Missing Value Ratio</h3>
+
+<p>Attributes with a lot of missing values are not providing a lot of information. We can either impute the values for these attributes or remove from dataset. We compute the % of missing values and determine whether to drop the attribute or not. The threshold is up to you but roughly speaking an attribute with ~40-50% missing values could be dropped.</p>
+
+<p>We can leverage <code class="highlighter-rouge">isnull</code> function from pandas dataframe to count how many empty fields are in each column. We can also leverage this information to calculate the % of missing values for each attribute.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">missing</span> <span class="o">=</span> <span class="n">food_data</span><span class="o">.</span><span class="n">isnull</span><span class="p">()</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span>
+<span class="n">pct_missing</span> <span class="o">=</span> <span class="mf">1.0</span><span class="o">*</span><span class="n">missing</span><span class="o">/</span><span class="nb">len</span><span class="p">(</span><span class="n">food_data</span><span class="p">)</span>
+<span class="k">print</span> <span class="n">pct_missing</span><span class="o">.</span><span class="n">sort_values</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>water-hardness_100g                      1.000000
+-nervonic-acid_100g                      1.000000
+no_nutriments                            1.000000
+ingredients_from_palm_oil                1.000000
+ingredients_that_may_be_from_palm_oil    1.000000
+nutrition_grade_uk                       1.000000
+-butyric-acid_100g                       1.000000
+-caproic-acid_100g                       1.000000
+-lignoceric-acid_100g                    1.000000
+-cerotic-acid_100g                       1.000000
+glycemic-index_100g                      1.000000
+-elaidic-acid_100g                       1.000000
+-mead-acid_100g                          1.000000
+-erucic-acid_100g                        1.000000
+-melissic-acid_100g                      1.000000
+chlorophyl_100g                          1.000000
+-myristic-acid_100g                      0.999993
+-caprylic-acid_100g                      0.999993
+-montanic-acid_100g                      0.999993
+-stearic-acid_100g                       0.999993
+-palmitic-acid_100g                      0.999993
+-capric-acid_100g                        0.999985
+-lauric-acid_100g                        0.999970
+-maltose_100g                            0.999970
+nucleotides_100g                         0.999948
+-arachidonic-acid_100g                   0.999941
+molybdenum_100g                          0.999926
+-maltodextrins_100g                      0.999918
+-oleic-acid_100g                         0.999911
+serum-proteins_100g                      0.999896
+                                           ...   
+proteins_100g                            0.445916
+energy_100g                              0.440907
+packaging                                0.440158
+packaging_tags                           0.440143
+image_url                                0.434577
+image_small_url                          0.434577
+main_category                            0.418021
+main_category_en                         0.418021
+categories_tags                          0.417850
+categories                               0.417694
+categories_en                            0.417694
+pnns_groups_1                            0.372085
+pnns_groups_2                            0.351440
+quantity                                 0.266768
+brands_tags                              0.201849
+brands                                   0.201805
+product_name                             0.137866
+countries_tags                           0.002070
+countries                                0.002070
+countries_en                             0.002070
+states_en                                0.000341
+states_tags                              0.000341
+states                                   0.000341
+url                                      0.000171
+code                                     0.000171
+created_datetime                         0.000074
+created_t                                0.000030
+creator                                  0.000015
+last_modified_datetime                   0.000000
+last_modified_t                          0.000000
+dtype: float64
+</code></pre></div></div>
+
+<p>It is evident there are significant number of attributes that barely have any information. Lets remove features that have less than 25% value.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">new_food_data</span> <span class="o">=</span> <span class="n">food_data</span><span class="p">[</span><span class="n">pct_missing</span><span class="p">[</span><span class="n">pct_missing</span> <span class="o">&lt;</span> <span class="mf">0.75</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">tolist</span><span class="p">()]</span>
+<span class="n">new_food_data</span><span class="o">.</span><span class="n">columns</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Index([u'code', u'url', u'creator', u'created_t', u'created_datetime',
+       u'last_modified_t', u'last_modified_datetime', u'product_name',
+       u'generic_name', u'quantity', u'packaging', u'packaging_tags',
+       u'brands', u'brands_tags', u'categories', u'categories_tags',
+       u'categories_en', u'manufacturing_places', u'manufacturing_places_tags',
+       u'labels', u'labels_tags', u'labels_en', u'purchase_places', u'stores',
+       u'countries', u'countries_tags', u'countries_en', u'ingredients_text',
+       u'serving_size', u'additives_n', u'additives', u'additives_tags',
+       u'additives_en', u'ingredients_from_palm_oil_n',
+       u'ingredients_that_may_be_from_palm_oil_n', u'nutrition_grade_fr',
+       u'pnns_groups_1', u'pnns_groups_2', u'states', u'states_tags',
+       u'states_en', u'main_category', u'main_category_en', u'image_url',
+       u'image_small_url', u'energy_100g', u'fat_100g', u'saturated-fat_100g',
+       u'carbohydrates_100g', u'sugars_100g', u'fiber_100g', u'proteins_100g',
+       u'salt_100g', u'sodium_100g', u'nutrition-score-fr_100g',
+       u'nutrition-score-uk_100g'],
+      dtype='object')
+</code></pre></div></div>
+
+<h3 id="low-variance-filter">Low Variance Filter</h3>
+
+<p>Attributes with very little change in its data, e.g. all values are 1s, also provides very little information. Similar to Missing Value Ratio, we remove attributes based on a define threshold of variance. Variance is range dependent therefore normalization is required and only applicable to numerical attributes.</p>
+
+<p>We need to normalize each dimension as variance is range dependent. We can use the <code class="highlighter-rouge">MinMaxScaler</code> function from sklearn preprocessing module to normalize value in each dimension to a value between 0 and 1. The challenge with this is that sklearn estimators does not handle NaN or missing values. An intermediate step is required to infer missing data with either mean or median or whatever statistics that would make most sense. There are different ways to do this like using <code class="highlighter-rouge">fillna()</code> function in pandas or <code class="highlighter-rouge">Imputer</code> module from sklearn.</p>
+
+<p>Another method we can simple define our own normalization function.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">from</span> <span class="nn">sklearn</span> <span class="kn">import</span> <span class="n">preprocessing</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">var_fil_food_data</span> <span class="o">=</span> <span class="n">new_food_data</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+<span class="n">scaler</span> <span class="o">=</span> <span class="n">preprocessing</span><span class="o">.</span><span class="n">MinMaxScaler</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Extract numeric columns because cannot normalize and compute variance on categorical
+</span><span class="n">numeric_columns</span> <span class="o">=</span> <span class="n">var_fil_food_data</span><span class="o">.</span><span class="n">dtypes</span><span class="p">[</span><span class="n">var_fil_food_data</span><span class="o">.</span><span class="n">dtypes</span> <span class="o">==</span> <span class="s">'float64'</span><span class="p">]</span><span class="o">.</span><span class="n">index</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">numeric_columns</span><span class="p">:</span>
+    <span class="n">var_fil_food_data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="n">var_fil_food_data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span> <span class="c1">#replace NaN with mean of dimension
+</span>    <span class="n">var_fil_food_data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="n">scaler</span><span class="o">.</span><span class="n">fit_transform</span><span class="p">(</span><span class="n">var_fil_food_data</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">values</span><span class="o">.</span><span class="n">reshape</span><span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">))</span> 
+    <span class="c1">#Normalize. if we don't use .values.reshapes it still works but sklearn throws depracated warning
+</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">var_fil_food_data</span><span class="p">[</span><span class="n">numeric_columns</span><span class="p">]</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>additives_n                                0.054490
+ingredients_from_palm_oil_n                0.031198
+ingredients_that_may_be_from_palm_oil_n    0.020675
+energy_100g                                0.012728
+fat_100g                                   0.133428
+saturated-fat_100g                         0.054690
+carbohydrates_100g                         0.072374
+sugars_100g                                0.130803
+fiber_100g                                 0.027809
+proteins_100g                              0.075218
+salt_100g                                  0.001004
+sodium_100g                                0.001005
+nutrition-score-fr_100g                    0.427915
+nutrition-score-uk_100g                    0.457145
+dtype: float64
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">var_fil_food_data</span><span class="p">[</span><span class="n">numeric_columns</span><span class="p">]</span><span class="o">.</span><span class="n">var</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>additives_n                                0.003423
+ingredients_from_palm_oil_n                0.008250
+ingredients_that_may_be_from_palm_oil_n    0.002640
+energy_100g                                0.000061
+fat_100g                                   0.014988
+saturated-fat_100g                         0.003620
+carbohydrates_100g                         0.002530
+sugars_100g                                0.017339
+fiber_100g                                 0.000658
+proteins_100g                              0.003247
+salt_100g                                  0.000020
+sodium_100g                                0.000020
+nutrition-score-fr_100g                    0.013776
+nutrition-score-uk_100g                    0.017170
+dtype: float64
+</code></pre></div></div>
+
+<p>Looking at the mean and variance, we could explore removing energy_100g, salt_100g sodium_100g.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">new_food_data</span> <span class="o">=</span> <span class="n">new_food_data</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s">'energy_100g'</span><span class="p">,</span> <span class="s">'salt_100g'</span><span class="p">,</span> <span class="s">'sodium_100g'</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="correlation-filter">Correlation Filter</h3>
+
+<p>Attributes that are highly correlated tends to carry similar information, e.g. a company’s overall spend and its marketing spend. Because highly correlated attributes contain similar information, we can keep just one of these attributes.</p>
+
+<p>To keep this example simple, we will only look at the correlation between numeric variables. For categorical variables, there is an additional encoding step (covered in another blog article) that is required, which simply splits every categorical value of one dimension into individual columns with binary values of 1 or 0.</p>
+
+<p>We can build a correlation matrix using the <code class="highlighter-rouge">corr</code> function in pandas. We could also use a more visual approach by using heatmap from seaborn library.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">corr_fil_food_data</span> <span class="o">=</span> <span class="n">new_food_data</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#Extract numeric columns because cannot normalize and compute variance on categorical
+</span><span class="n">numeric_columns</span> <span class="o">=</span> <span class="n">corr_fil_food_data</span><span class="o">.</span><span class="n">dtypes</span><span class="p">[</span><span class="n">corr_fil_food_data</span><span class="o">.</span><span class="n">dtypes</span> <span class="o">==</span> <span class="s">'float64'</span><span class="p">]</span><span class="o">.</span><span class="n">index</span>
+<span class="n">corr_fil_food_data</span> <span class="o">=</span> <span class="n">corr_fil_food_data</span><span class="p">[</span><span class="n">numeric_columns</span><span class="p">]</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">corr_fil_food_data</span><span class="o">.</span><span class="n">corr</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>additives_n</th>
+      <th>ingredients_from_palm_oil_n</th>
+      <th>ingredients_that_may_be_from_palm_oil_n</th>
+      <th>fat_100g</th>
+      <th>saturated-fat_100g</th>
+      <th>carbohydrates_100g</th>
+      <th>sugars_100g</th>
+      <th>fiber_100g</th>
+      <th>proteins_100g</th>
+      <th>nutrition-score-fr_100g</th>
+      <th>nutrition-score-uk_100g</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>additives_n</th>
+      <td>1.000000</td>
+      <td>0.247840</td>
+      <td>0.433042</td>
+      <td>-0.027467</td>
+      <td>-0.019006</td>
+      <td>0.119767</td>
+      <td>0.124980</td>
+      <td>-0.107708</td>
+      <td>-0.083062</td>
+      <td>0.202419</td>
+      <td>0.187053</td>
+    </tr>
+    <tr>
+      <th>ingredients_from_palm_oil_n</th>
+      <td>0.247840</td>
+      <td>1.000000</td>
+      <td>0.179777</td>
+      <td>0.108486</td>
+      <td>0.142192</td>
+      <td>0.211748</td>
+      <td>0.168584</td>
+      <td>0.011094</td>
+      <td>-0.036060</td>
+      <td>0.245711</td>
+      <td>0.248023</td>
+    </tr>
+    <tr>
+      <th>ingredients_that_may_be_from_palm_oil_n</th>
+      <td>0.433042</td>
+      <td>0.179777</td>
+      <td>1.000000</td>
+      <td>0.042765</td>
+      <td>0.044454</td>
+      <td>0.122512</td>
+      <td>0.052955</td>
+      <td>-0.038976</td>
+      <td>-0.058680</td>
+      <td>0.121939</td>
+      <td>0.125042</td>
+    </tr>
+    <tr>
+      <th>fat_100g</th>
+      <td>-0.027467</td>
+      <td>0.108486</td>
+      <td>0.042765</td>
+      <td>1.000000</td>
+      <td>0.735497</td>
+      <td>-0.071676</td>
+      <td>0.023426</td>
+      <td>0.082148</td>
+      <td>0.146350</td>
+      <td>0.591396</td>
+      <td>0.655143</td>
+    </tr>
+    <tr>
+      <th>saturated-fat_100g</th>
+      <td>-0.019006</td>
+      <td>0.142192</td>
+      <td>0.044454</td>
+      <td>0.735497</td>
+      <td>1.000000</td>
+      <td>-0.012336</td>
+      <td>0.121237</td>
+      <td>0.020530</td>
+      <td>0.131305</td>
+      <td>0.623594</td>
+      <td>0.664247</td>
+    </tr>
+    <tr>
+      <th>carbohydrates_100g</th>
+      <td>0.119767</td>
+      <td>0.211748</td>
+      <td>0.122512</td>
+      <td>-0.071676</td>
+      <td>-0.012336</td>
+      <td>1.000000</td>
+      <td>0.637138</td>
+      <td>0.246810</td>
+      <td>-0.103593</td>
+      <td>0.257640</td>
+      <td>0.248387</td>
+    </tr>
+    <tr>
+      <th>sugars_100g</th>
+      <td>0.124980</td>
+      <td>0.168584</td>
+      <td>0.052955</td>
+      <td>0.023426</td>
+      <td>0.121237</td>
+      <td>0.637138</td>
+      <td>1.000000</td>
+      <td>0.034637</td>
+      <td>-0.237634</td>
+      <td>0.480360</td>
+      <td>0.448149</td>
+    </tr>
+    <tr>
+      <th>fiber_100g</th>
+      <td>-0.107708</td>
+      <td>0.011094</td>
+      <td>-0.038976</td>
+      <td>0.082148</td>
+      <td>0.020530</td>
+      <td>0.246810</td>
+      <td>0.034637</td>
+      <td>1.000000</td>
+      <td>0.230218</td>
+      <td>-0.102295</td>
+      <td>-0.092460</td>
+    </tr>
+    <tr>
+      <th>proteins_100g</th>
+      <td>-0.083062</td>
+      <td>-0.036060</td>
+      <td>-0.058680</td>
+      <td>0.146350</td>
+      <td>0.131305</td>
+      <td>-0.103593</td>
+      <td>-0.237634</td>
+      <td>0.230218</td>
+      <td>1.000000</td>
+      <td>0.094913</td>
+      <td>0.156746</td>
+    </tr>
+    <tr>
+      <th>nutrition-score-fr_100g</th>
+      <td>0.202419</td>
+      <td>0.245711</td>
+      <td>0.121939</td>
+      <td>0.591396</td>
+      <td>0.623594</td>
+      <td>0.257640</td>
+      <td>0.480360</td>
+      <td>-0.102295</td>
+      <td>0.094913</td>
+      <td>1.000000</td>
+      <td>0.967227</td>
+    </tr>
+    <tr>
+      <th>nutrition-score-uk_100g</th>
+      <td>0.187053</td>
+      <td>0.248023</td>
+      <td>0.125042</td>
+      <td>0.655143</td>
+      <td>0.664247</td>
+      <td>0.248387</td>
+      <td>0.448149</td>
+      <td>-0.092460</td>
+      <td>0.156746</td>
+      <td>0.967227</td>
+      <td>1.000000</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="n">sns</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sns</span><span class="o">.</span><span class="nb">set</span><span class="p">()</span>
+<span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">set_size_inches</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">corr_fil_food_data</span><span class="o">.</span><span class="n">corr</span><span class="p">(),</span> <span class="n">annot</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="p">)</span>
+</code></pre></div></div>
+
+<p><img src="/assets/images/2017-04-27-dimension-reduction-examples-part1/output_30_1.png" alt="png" /></p>
+
+<p>It is evident that:</p>
 <ul>
-  <li>The R tutorial is not necessary. I would prefer the R tutorial to be removed and allot an extra day for the course. The R content can be sent out prior to the course for students to review individually</li>
-  <li>There is a lack of interaction / collaboration amongst the students. I think having students from very diverse fields in one place is in itself a very valuable. The concept of having a mini group project intrigues me. Replacing the R tutorial day with extra half day of course content and half day of project presentation is also an intriguing idea</li>
-  <li>Go deeper into survival analysis and ordinal regression</li>
-  <li>Price for non institute members is fairly expensive and does not include airfare and accomodations, so that is something to consider</li>
+  <li>nutrition-score-fr_100g is highly correlated with nutrition-score-uk_100g</li>
+  <li>fat_100g is pretty correlated with saturated-fat_100g</li>
+  <li>nutrition-score-uk_100g is pretty correlated with fat_100g and saturated-fat_100g</li>
+  <li>nutrition-score-fr_100g is pretty correlated with fat_100g and saturated-fat_100g</li>
+  <li>sugars_100g is pretty correlated with carbohydrate_100g</li>
 </ul>
 
-<h1 id="takeaway">Takeaway</h1>
+<p>Lets remove one of these attributes</p>
 
-<p>I am very happy that I experimented with using my development budget on a short course. One thing to keep in mind is that you should not make the assumption that after a 5 day course you will know everything about regression modelling. That is simply impossible.  You will need to continue to self study but the course provides you with the foundation to continue exploring this topic further. I am currently still reading/re-reading the course textbook and course notes. At the same time I am reading academic papers that apply regression in the realm of marketing and I  find that I am able to understand the methodologies behind the modelling process.</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">fig</span><span class="p">,</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">()</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">set_size_inches</span><span class="p">(</span><span class="mi">15</span><span class="p">,</span> <span class="mi">15</span><span class="p">)</span>
+<span class="n">sns</span><span class="o">.</span><span class="n">heatmap</span><span class="p">(</span><span class="n">corr_fil_food_data</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span>
+        <span class="p">[</span><span class="s">'nutrition-score-fr_100g'</span><span class="p">,</span>
+         <span class="s">'nutrition-score-uk_100g'</span><span class="p">,</span> 
+         <span class="s">'fat_100g'</span><span class="p">,</span> <span class="s">'sugars_100g'</span><span class="p">],</span>
+        <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span><span class="o">.</span><span class="n">corr</span><span class="p">(),</span> <span class="n">annot</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="p">)</span>
+</code></pre></div></div>
 
-<p>If you have any thoughts/comments/questions about my experience, feel free to reach out over <a href="https://twitter.com/fongmanfong">Twitter</a> or email. I would love to help address any questions or further share with you my experience. If you know of any other good short courses, please please please reach out. I would love to learn more about it!</p>
+<p><img src="/assets/images/2017-04-27-dimension-reduction-examples-part1/output_32_1.png" alt="png" /></p>
+
+<h2 id="result">Result</h2>
+
+<p>Using these three simple techniques for dimension reduction, we’ve reduce this dataset from 161 variables down to 49. Do keep in mind that the goal of dimension reduction is to remove attributes that are not very informative. More data does not necessarily mean better and at the same time less data does not necessarily mean better as well. The art is to find a set of attributes within a high dimension data set that will provide sufficient information.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">new_food_data</span><span class="o">.</span><span class="n">shape</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(134754, 49)
+</code></pre></div></div>
+
 
 			</div>
 
             <!-- Post Date -->
             <p>
             <small>
-                <span class="post-date"><time class="post-date" datetime="2018-06-02">02 Jun 2018</time></span>           
+                <span class="post-date"><time class="post-date" datetime="2017-04-27">27 Apr 2017</time></span>           
                 
                 </small>
             </p>
@@ -542,7 +1111,7 @@ $(function() {
                     
                     
                     <li>                        
-                     <a class="smoothscroll" href="/categories.html#blog">blog</a>
+                     <a class="smoothscroll" href="/categories.html#data sandbox">Data Sandbox</a>
                     </li>
                     
 				</ul>
@@ -552,10 +1121,10 @@ $(function() {
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
             
-            <a class="prev d-block col-md-6" href="/about-bundler/"> &laquo; About Bundler</a>
+            <a class="prev d-block col-md-6" href="/DS-intro_to_python_and_pandas/"> &laquo; Intro To Python and Pandas</a>
             
             
-            <a class="next d-block col-md-6 text-lg-right" href="/acumulated-experience/">Accumulated experience of social living &raquo; </a>
+            <a class="next d-block col-md-6 text-lg-right" href="/DS-dimension_reduction_pca/">Dimension Reduction - Principal Component Analysis &raquo; </a>
             
             <div class="clearfix"></div>
             </div>
@@ -631,7 +1200,9 @@ $(function() {
             
             
             
-            <a href="/categories#blog">blog (6)</a>
+            <a href="/categories#data-sandbox">Data Sandbox (5)</a>
+            
+            <a href="/categories#blog">blog (1)</a>
             
             <a href="/categories#jekyll">Jekyll (14)</a>
             

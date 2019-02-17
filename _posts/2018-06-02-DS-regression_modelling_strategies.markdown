@@ -1,15 +1,9 @@
 ---
-title: "Regression Modelling Strategies"
 layout: post
-date: 2018-06-02
-image: /assets/images/markdown.jpg
-headerImage: false
-tag:
-- level up
-star: true
-category: blog
-author: jason fong
-description: Regression Modelling Strategies
+title:  "Regression Modelling Strategies"
+author: Jason Fong
+categories: [Data Sandbox]
+image: assets/images/16.jpg
 ---
 
 I feel very fortunate to work for an employer like Shopify, that places a lot of value in continuous learning and self development. One of the many benefits that we get as employees is an annual self-development budget that we can use on anything to level-up ourselves professionally. This year I decided to experiment with taking a 5 day short course on Regression Modelling Strategies offered at Vanderbilt University. This blog entry is a summary of sed course material, my experience and recommendations for other Data Scientists in the industry that might be interested in diving deeper into the topic of regression. 

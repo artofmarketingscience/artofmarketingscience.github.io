@@ -1,19 +1,9 @@
 ---
-title: "Dimension Reduction Examples - Part 1"
 layout: post
-date: 2017-04-27
-image: /assets/images/markdown.jpg
-headerImage: false
-projects: true
-blog: false
-hidden: true
-tag:
-- feature engineering
-- dimension reduction
-star: true
-category: blog
-author: jason fong
-description: Dimension Reduction with Feature Engineering
+title:  "Dimension Reduction Examples - Part 1"
+author: Jason Fong
+categories: [Data Sandbox]
+image: /assets/images/2017-04-27-dimension-reduction-examples-part1/strange.jpg
 ---
 
 What is dimensionality reduction? The name might sound fancier than what it actually is. It is simply the process of reducing the number of dimensions in a dataset aka reducing the number of attributes/features/columns while retaining key information in the dataset.
