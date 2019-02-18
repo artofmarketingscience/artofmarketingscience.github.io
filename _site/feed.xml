@@ -3,10 +3,10 @@
   <channel>
     <title>The Art of Marketing Science</title>
     <description>A blog about data stuff</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Feb 2019 17:45:52 -0500</pubDate>
-    <lastBuildDate>Sun, 17 Feb 2019 17:45:52 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 17 Feb 2019 22:41:21 -0500</pubDate>
+    <lastBuildDate>Sun, 17 Feb 2019 22:41:21 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -76,8 +76,8 @@
 &lt;p&gt;Evolving from marketing analytics to marketing science first requires a shift in mindset. We need to understand that more data does not mean more data informed decisions. We need to look at each problem and insight and critic it with rigor to determine if we are simply making inference on correlation or causation. I’m not saying that analytics is not useful to make decisions, far from that. Analytics provide a way to draw quick “insights” (better than just throwing darts in the dark). What I’m highlighting is the need to complement analytics with more science to make sure we’re hitting bullseye.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 00:00:00 -0500</pubDate>
-        <link>/AOM-from_marketing_analytics_to_marketing_science/</link>
-        <guid isPermaLink="true">/AOM-from_marketing_analytics_to_marketing_science/</guid>
+        <link>http://localhost:4000/AOM-from_marketing_analytics_to_marketing_science/</link>
+        <guid isPermaLink="true">http://localhost:4000/AOM-from_marketing_analytics_to_marketing_science/</guid>
         
         
         <category>Art of Marketing Science</category>
@@ -182,8 +182,8 @@
 &lt;p&gt;If you have any thoughts/comments/questions about my experience, feel free to reach out over &lt;a href=&quot;https://twitter.com/fongmanfong&quot;&gt;Twitter&lt;/a&gt; or email. I would love to help address any questions or further share with you my experience. If you know of any other good short courses, please please please reach out. I would love to learn more about it!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Jun 2018 00:00:00 -0400</pubDate>
-        <link>/DS-regression_modelling_strategies/</link>
-        <guid isPermaLink="true">/DS-regression_modelling_strategies/</guid>
+        <link>http://localhost:4000/DS-regression_modelling_strategies/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-regression_modelling_strategies/</guid>
         
         
         <category>Data Sandbox</category>
@@ -192,9 +192,7 @@
     
       <item>
         <title>Remember Jack and Rose?</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/2018-01-27-project-kaggle_titanic/jack_rose.jpg&quot; alt=&quot;jpeg&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Remember Jack &amp;amp; Rose? Leo &amp;amp; Kate Winslet? Titanic movie? Nostalgia? I wish this project was half as romantic as the movie but I’d be lying to you if I said it was.&lt;/p&gt;
+        <description>&lt;p&gt;Remember Jack &amp;amp; Rose? Leo &amp;amp; Kate Winslet? Titanic movie? Nostalgia? I wish this project was half as romantic as the movie but I’d be lying to you if I said it was.&lt;/p&gt;
 
 &lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
 
@@ -1485,19 +1483,17 @@ Name: Ticket - First Label, dtype: int64
 
 </description>
         <pubDate>Sun, 28 Jan 2018 00:00:00 -0500</pubDate>
-        <link>/DS-kaggle_titanic/</link>
-        <guid isPermaLink="true">/DS-kaggle_titanic/</guid>
+        <link>http://localhost:4000/DS-kaggle_titanic/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-kaggle_titanic/</guid>
         
         
-        <category>Data Sandbox</category>
+        <category>Art of Marketing Science</category>
         
       </item>
     
       <item>
         <title>Marvel Cinematic Data Visualization With Plot.ly</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/2017-06-01-marvel-cinematic-plotly/marvel-cinematic.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I’m a huge sucker for Marvel cinematic and in this article I will do a fun exercise with building a simple interactive 3D network graph based on the relationship between Marvel characters. I will be using one of my favourite plotting libraries in Python, Plot.ly. Plot.ly is very easy to use and the way graphs are constructed is very intuitive. The dataset can be found on my GitHub or at the following link: &lt;a href=&quot;https://www.kaggle.com/csanhueza/the-marvel-universe-social-network&quot;&gt;https://www.kaggle.com/csanhueza/the-marvel-universe-social-network&lt;/a&gt;&lt;/p&gt;
+        <description>&lt;p&gt;I’m a huge sucker for Marvel cinematic and in this article I will do a fun exercise with building a simple interactive 3D network graph based on the relationship between Marvel characters. I will be using one of my favourite plotting libraries in Python, Plot.ly. Plot.ly is very easy to use and the way graphs are constructed is very intuitive. The dataset can be found on my GitHub or at the following link: &lt;a href=&quot;https://www.kaggle.com/csanhueza/the-marvel-universe-social-network&quot;&gt;https://www.kaggle.com/csanhueza/the-marvel-universe-social-network&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;setting-up-and-exploring-the-data&quot;&gt;Setting up and exploring the data&lt;/h3&gt;
 
@@ -1843,8 +1839,8 @@ Name: Ticket - First Label, dtype: int64
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~datafong/6.embed&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 01 Jun 2017 00:00:00 -0400</pubDate>
-        <link>/DS-marvel_cinematic_plotly/</link>
-        <guid isPermaLink="true">/DS-marvel_cinematic_plotly/</guid>
+        <link>http://localhost:4000/DS-marvel_cinematic_plotly/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-marvel_cinematic_plotly/</guid>
         
         
         <category>Data Sandbox</category>
@@ -1852,7 +1848,7 @@ Name: Ticket - First Label, dtype: int64
       </item>
     
       <item>
-        <title>Dimension Reduction - Principal Component Analysis</title>
+        <title>Dimension Reduction with Principal Component Analysis</title>
         <description>&lt;p&gt;PCA is one of the most popular techniques for dimensionality reduction. If you have no idea what I mean by dimensionality reduction, check out &lt;a href=&quot;./dimension-reduction-examples-part1&quot;&gt;part 1&lt;/a&gt; of this topic. In this article, we’ll explore PCA with a more applied approach rather than mathematical and we’ll keep certain details in a blackbox for future discussions.&lt;/p&gt;
 
 &lt;p&gt;What is PCA? PCA is an algorithm that transforms a dataset to lower dimensional dataset. The keyword here is transform which is different from feature selection that I’ve talked about in &lt;a href=&quot;./dimension-reduction-examples-part1&quot;&gt;part 1&lt;/a&gt;. The difference being that features are not removed from the dataset but instead the dataset itself is transformed. Simple hypothetical example:&lt;/p&gt;
@@ -2104,15 +2100,11 @@ The % of variance explained by each component: [ 0.67127544]
 &lt;p&gt;As seen, we can reduce the 89 variables down to 11 components to keep 95% of the variance. The &lt;code class=&quot;highlighter-rouge&quot;&gt;explain_variance_ratio&lt;/code&gt; provides information on how much variance is kept for each component. The sum of it we can see is &amp;gt;95% which is the minimal we’ve defined. If we want more variance to be kept then # of components will increase and vice versa!&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 May 2017 00:00:00 -0400</pubDate>
-        <link>/DS-dimension_reduction_pca/</link>
-        <guid isPermaLink="true">/DS-dimension_reduction_pca/</guid>
-        
-        <category>feature engineering</category>
-        
-        <category>dimension reduction</category>
+        <link>http://localhost:4000/DS-dimension_reduction_pca/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-dimension_reduction_pca/</guid>
         
         
-        <category>blog</category>
+        <category>Data Sandbox</category>
         
       </item>
     
@@ -2783,8 +2775,8 @@ dtype: float64
 
 </description>
         <pubDate>Thu, 27 Apr 2017 00:00:00 -0400</pubDate>
-        <link>/DS-dimension_reduction_examples_part1/</link>
-        <guid isPermaLink="true">/DS-dimension_reduction_examples_part1/</guid>
+        <link>http://localhost:4000/DS-dimension_reduction_examples_part1/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-dimension_reduction_examples_part1/</guid>
         
         
         <category>Data Sandbox</category>
@@ -3119,8 +3111,8 @@ dtype: int64
 
 </description>
         <pubDate>Sat, 18 Feb 2017 00:00:00 -0500</pubDate>
-        <link>/DS-intro_to_python_and_pandas/</link>
-        <guid isPermaLink="true">/DS-intro_to_python_and_pandas/</guid>
+        <link>http://localhost:4000/DS-intro_to_python_and_pandas/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-intro_to_python_and_pandas/</guid>
         
         
         <category>Data Sandbox</category>

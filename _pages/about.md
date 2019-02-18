@@ -1,153 +1,88 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: About Me
 permalink: /about
 comments: true
 ---
 
 <div class="row justify-content-between">
-<div class="col-md-8 pr-5">    
+<div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
+	<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/avatar/black_white_profile.jpg" alt="jason_fong_profile" /></p>
 
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
+<p>Hey, nice to meet you! My name is **Jason Fong** and I am a Data Scientist focused on solving marketing problems. I am currently working at [Shopify](https://www.shopify.com) and I'm leading the Marketing Data Science team. </p>
 
-<h4 id="features" class="mt-4">Features</h4>
-
-<ul>
-<li>Built for Jekyll</li>
-
-<li>Compatible with Github pages</li>
-
-<li>Featured Posts</li>
-
-<li>Index Pagination</li>
-
-<li>SEO</li>
-
-<li>Feed</li>
-
-<li>Sitemap</li>
-
-<li>Post Share</li>
-
-<li>Post Categories</li>
-
-<li>Prev/Next Link</li>
-
-<li>Category Archives (Compatible with Github pages)</li>
-
-<li>Jumbotron Categories</li>
-
-<li>Integrations:
-
+<p>My job is pretty straightforward: help marketing make more data informed decisions to reduce cost of acquisition and increase revenue for Shopify. How do I do this with my team? Well that is not so straightforward. We're working on things like: </p>
 
 <ul>
-<li>Disqus Comments</li>
-
-<li>Google Analaytics</li>
-
-<li>Mailchimp Integration</li></ul>
-</li>
-
-<li>Design Features:
-
-
-<ul>
-<li>Bootstrap v4.x</li>
-
-<li>Font Awesome</li>
-
-<li>Masonry</li></ul>
-</li>
-
-<li>Layouts:
-
-
-<ul>
-<li>Default</li>
-
-<li>Post</li>
-
-<li>Page</li>
-
-<li>Archive</li>
-
-<li>Categories (for 100% compatibility with Github pages)</li>
+	<li>Building and productionizing an algorithmic attribution model</li>
+	<li>Media Mix Modelling to complement multi-touch attribution model</li>
+	<li>Geo Experimentation to understand causal impact of marketing campaigns</li>
+	<li>Building a state-of-the-art data infrastructure with scalable data pipelines to produce high quality datasets</li>
+	<li>Statistical Modelling & Machine Learning (churn, LTV, propensity, lead scoring etc)</li>
+	<li>A/B testing and experimental design</li>
+	<li>Causal inference and regression modelling to understand what levers move the needle</li>
 
 </ul>
-</li>
+
+<p>Marketing is a complex domain and I'm just scratching the surface. If you're also solving marketing problems with data science, please reach out, I would love to connect and exchange knowledge. I'm also hiring, please reach out if you would like to learn more about the work I'm doing at Shopify. Add me on LinkedIn, follow me on Instagram or Twitter, or even better lets get COFFEE (if you're in Toronto).</p>
+
+
+<h4 id="nittygritty" class="mt-4">The Nitty Gritty (Resume)</h4>
+
+<h5> Tools I Use: </h5>
+
+<ul>
+<li>Python</li>
+
+<li>R</li>
+
+<li>SQL</li>
+
+<li>Ruby</li>
+
+<li>Preso / Redshift / PostgreSQL / MySQL</li>
+
+<li>Tableau / Mode</li>
+
+<li>Spark / PySpark / MapReduce / Hadoop</li>
+
+<li>ETL / Dimensional Modelling / Data Pipeline</li>
+
+<li>Google Analytics</li>
+
+<li>HTML / CSS / Bootstrap / Javascript</li>
+
+<li>Git / Github</li>
 </ul>
 
-<h4 id="howtouse">What's Jekyll</h4>
+<h4 id="previous_experiences">Some Places I've Worked At</h4>
+
+<ul>
+	<li>Data Science Lead - **Shopify** (Oct 2018 - Present)</li>
+	<li>Data Scentist - **Shopify** (July 2016 - Sept 2018)</li>
+	<li>Marketing Manager - **TELUS** (Sept 2014 - July 2016)</li>
+	<li>Product Specialist Pricing Strategy - **TELUS** (Jun 2013 - Sept 2014)</li>
+	<li>Consulting Analyst  - **Accenture** (Jan 2012 - Jun 2013)</li>
+</ul>
 
 <p>If you aren't familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked...just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! This page itself is free hosted on Github with the help of Jekyll and Mediumish template that you're currently previewing. If you are a beginner we recommend you start with <a target="_blank" href="https://jekyllrb.com/docs/installation/">Jekyll's Docs</a>. Now if you know how to use Jekyll, let's move on to using Mediumish template in Jekyll:</p>
 
-<h4 id="usingmediumish">How to use "Mediumish" theme</h4>
-
-<ol>
-<li><a href="https://github.com/wowthemesnet/mediumish-theme-jekyll/archive/master.zip">Download</a> or <code>git clone https://github.com/wowthemesnet/mediumish-theme-jekyll.git</code></li>
-
-<li><code>cd mediumish-theme-jekyll</code></li>
-
-<li><code>bundle</code></li>
-
-<li>Edit <code>_config.yml</code> options. If your site is in root: <code>baseurl: ''</code>. Also, change your Google Analytics code, disqus username, authors, Mailchimp list etc.</li>
-
-<li><code>jekyll serve --watch</code></li>
-
-<li>Start by adding your <code>.md</code> files in <code>_posts</code>. Mediumish already has a few examples. </li>
-
-<li>YAML front matter
+<h4 id="education">Where I've Studied</h4>
 
 <ul>
-<li>featured post - <code>featured:true</code></li>
+<li>University of Waterloo - Systems Design Engineering (2006 - 2011)</li>
+</ul>
 
-<li>exclude featured post from "All stories" loop to avoid duplicated posts - <code>hidden:true</code></li>
-
-<li>post image - <code>image: assets/images/mypic.jpg</code></li>
-
-<li>external post image - <code>image: "https://externalwebsite.com/image4.jpg"</code></li>
-
-<li>page comments - <code>comments:true</code></li>
-
-<li>meta description (optional) - <code>description: "this is my meta description"</code></li></ul></li>
-</ol>
-
-<h5 id="yamlpostexample">YAML Post Example:</h5>
-
-<pre><code>---
-layout: post
-title:  "We all wait for summer"
-author: john
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
-featured: true
----
-</code></pre>
-
-<h5 id="yamlpageexample">YAML Page Example</h5>
-
-<pre><code>---
-layout: page
-title: Mediumish Template for Jekyll
-comments: true
----
-</code></pre>
-
-
-<h4>Questions or bug reports?</h4>
-
-Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!
 
 </div>
 
 <div class="col-md-4">
     
 <div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
+<h5>Let's grab coffee</h5>
 
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
+<p>We should connect if you are interested in learning more about data science & marketing analytics. Please reach out if you're company needs advice on marketing science & data strategy, you're in the same problem space and would like to share knowledge or you're pursuing a career in data science and need advice!</p>
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 

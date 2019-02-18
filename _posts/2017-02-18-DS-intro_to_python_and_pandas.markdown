@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Intro To Python and Pandas"
-author: Jason Fong
-categories: [Data Sandbox]
-image: assets/images/16.jpg
+author: "Jason Fong"
+categories: ["Data Sandbox"]
+image: /assets/images/2017-02-18-intro_to_python_and_pandas/gangster_panda.jpg
 ---
 
 Python is one of the most popular and fastest growing software languages used in data analytics today and there are many reasons for that. I will cover majority of the topics in this blog in Python and occasionally R.

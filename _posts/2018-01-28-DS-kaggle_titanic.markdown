@@ -2,15 +2,11 @@
 layout: post
 title:  "Remember Jack and Rose?"
 author: Jason Fong
-categories: [Data Sandbox]
+categories: ["Art of Marketing Science"]
 image: /assets/images/2018-01-27-project-kaggle_titanic/jack_rose.jpg
 ---
 
-![jpeg](/assets/images/2018-01-27-project-kaggle_titanic/jack_rose.jpg)
-
 Remember Jack & Rose? Leo & Kate Winslet? Titanic movie? Nostalgia? I wish this project was half as romantic as the movie but I'd be lying to you if I said it was.
-
-
 
 ## TL;DR
 

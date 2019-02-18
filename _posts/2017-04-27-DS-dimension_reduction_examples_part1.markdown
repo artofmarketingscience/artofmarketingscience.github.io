@@ -2,7 +2,7 @@
 layout: post
 title:  "Dimension Reduction Examples - Part 1"
 author: Jason Fong
-categories: [Data Sandbox]
+categories: ["Data Sandbox"]
 image: /assets/images/2017-04-27-dimension-reduction-examples-part1/strange.jpg
 ---
 

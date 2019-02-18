@@ -1,19 +1,9 @@
 ---
-title: "Dimension Reduction - Principal Component Analysis"
 layout: post
-date: 2017-05-01
-image: /assets/images/markdown.jpg
-headerImage: false
-projects: true
-blog: false
-hidden: true
-tag:
-- feature engineering
-- dimension reduction
-star: true
-category: blog
-author: jason fong
-description: Dimension Reduction with Principal Component Analysis
+title:  "Dimension Reduction with Principal Component Analysis"
+author: Jason Fong
+categories: ["Data Sandbox"]
+image: assets/images/16.jpg
 ---
 
 
