@@ -3,11 +3,110 @@
   <channel>
     <title>The Art of Marketing Science</title>
     <description>A blog about data stuff</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Feb 2019 22:58:14 -0500</pubDate>
-    <lastBuildDate>Sun, 17 Feb 2019 22:58:14 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 18 Feb 2019 02:56:45 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Feb 2019 02:56:45 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>One Thing Marketing Analysts Should Have In Their Analytics Toolkit</title>
+        <description>&lt;p&gt;Let’s be real here, being a data scientist ain’t easy. Have you seen what a modern data scientist should know?! 😱&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//modern_data_scientist.png&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;That’s a pretty extensive list of requirements but how feasible and practical is it to know everything on this list? In my opinion, not that feasible nor practical. In reality, a data scientist shouldn’t need to know everything mentioned (at least with the same level of competency). Instead, the problem space that a data scientist is working in should define the set of tools he/she needs. Similar to doctors, you either have family doctors who are generalists or you have doctors specializing in different areas. You don’t expect one doctor to know everything and be a specialist in everything.&lt;/p&gt;
+
+&lt;p&gt;So for a marketing analyst or data scientist in marketing, what are some tools they should have in their toolkit? Most of the time we hear about things like machine learning, R, Python, domain knowledge, communication skills etc. but one tool that has not gotten enough spotlight in marketing is &lt;strong&gt;regression&lt;/strong&gt;. To answer why regression should be in every marketing analysts analytics toolkit, we should first think about what makes a good tool for marketing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What Makes A Good Tool For Marketing?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;And to answer this question, we should think about what problems or questions a marketing organization or a CMO needs to answer. Some bigger questions include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is the growth and revenue for the company?&lt;/li&gt;
+  &lt;li&gt;What is a customer’s lifetime value?&lt;/li&gt;
+  &lt;li&gt;Who is at risk of churning?&lt;/li&gt;
+  &lt;li&gt;Who should we send this promotional offer to?&lt;/li&gt;
+  &lt;li&gt;What is the ROI of my advertising investment?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In theory, a good tool should help with answering some of these questions (but it would be naive to think that there is one tool that can solve all the problems aka No Free Lunch Theorem). In addition to just answering these questions, what’s equally as important for a CMO is understanding what levers are moving the needle.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//levers.gif&quot; alt=&quot;gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For example, it’s not enough to know whether a company is growing or if revenue is increasing, a CMO needs to know what is moving the needle. Who is at risk of churning and what signals indicate a high risk of churning? Therefore a good tool in marketing should not only help with answering some of these questions but also provide insight into what variables are moving the needle.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What is Regression?&lt;/strong&gt;
+I won’t be going into any details on regression in this article. I have some resources at the end if you are interested in learning more about regression. At a high-level, regression is a family of statistical analysis techniques that examine the relationships between variables. There are different types of regressions (logistic, linear, survival etc) in the family but the overall objective is to model the relationship between variables.&lt;/p&gt;
+
+&lt;p&gt;For example, we may be interested in understanding how investment in each marketing channel influences customer acquisition. We can build a model where the independent variables (factors you hypothesize to have a relationship) is the investment in each marketing channel and the dependent variable (factors you are trying to understand) being customers acquired. It could hypothetically look something like&lt;/p&gt;
+
+&lt;p&gt;Customers Acquired = B0 + B1 * AdWords_Spend + B2 * Facebook_Spend + B3 * Snapchat_Spend&lt;/p&gt;
+
+&lt;h3 id=&quot;oh-no-equations-and-formulas-&quot;&gt;Oh No, Equations and Formulas 😰&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//oh_no.gif&quot; alt=&quot;gif&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The beauty of regression lies in the equation. Why? Because if we’ve modeled the data appropriately, we can make interpretations of the coefficients (the Betas) in the equation to &lt;strong&gt;make decisions&lt;/strong&gt;. This is different than some of the more popular machine learning techniques like deep learning, random forest etc. which are powerful tools for making predictions but the blackbox nature of the method makes it not interpretable.&lt;/p&gt;
+
+&lt;p&gt;Depending on how the data is modeled (e.g. logistic vs linear vs log-log) we can interpret the coefficient in different ways to understand the relationship between a dependent variable to the independent variable. Let’s take the equation above as an example: we’ve used linear regression to model marketing spend versus customers acquired. The coefficients can be interpreted as a dollar spent in Google Adwords gets 2 number of customers.&lt;/p&gt;
+
+&lt;p&gt;Customers Acquire = 100+ 2.0 * AdWords_Spend + 1.3 * Facebook_Spend + 0.5 * Snapchat_Spend&lt;/p&gt;
+
+&lt;p&gt;In other words, the coefficients can be interpreted as the levers that a CMO would be interested in knowing.&lt;/p&gt;
+
+&lt;p&gt;Regression also provides nice statistical properties including, but not limited to, statistical significance, confidence interval, &amp;amp; standard error of each estimator (our coefficients of interest) which provides a CMO with upper/lower bound of estimates and level of confidence for our estimates. (In From Marketing Analytics To Marketing Science I talk more about why we should look at marketing problems from more of a scientific lens)&lt;/p&gt;
+
+&lt;h3 id=&quot;swiss-army-knife-of-data-science&quot;&gt;Swiss Army Knife of Data Science&lt;/h3&gt;
+
+&lt;p&gt;We should also appreciate regression for its versatility and the wide variety of applications within marketing. Regression is primarily used for:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Predictive Analytics — regression is also a foundational piece for predictive analytics. This is what we’ve been talking about so far. We model the relationships between variables to make predictions about the value of the independent variable based on what we know for the dependent variables.&lt;/li&gt;
+  &lt;li&gt;Causal Inference — extending beyond just modeling the relationship between variables, we can leverage regression to make causal inference. Meaning making causal claims between variables.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Some applications in marketing include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Geo experimentation&lt;/li&gt;
+  &lt;li&gt;Causal impact of marketing events including IRL / Offline Marketing&lt;/li&gt;
+  &lt;li&gt;Leading scoring&lt;/li&gt;
+  &lt;li&gt;Product marketing and upsell / cross-sell&lt;/li&gt;
+  &lt;li&gt;Media mix modeling and budget optimization&lt;/li&gt;
+  &lt;li&gt;Forecasting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;learning-regression&quot;&gt;Learning Regression&lt;/h3&gt;
+
+&lt;p&gt;I wish learning regression was as simple as doodling some dots and drawing a line through them but the reality is that it is a vastly deep and complicated subject. But there are good news!&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;There is a saying “Nothing in life worth having come easy.” Therefore regression must be worth having.&lt;/li&gt;
+  &lt;li&gt;You don’t need to master regression before applying it. It is one of those subjects that you build up knowledge over time. There are plenty of Ph.D. students in statistics still learning regression.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I have a couple links below as a starting point. If you have any good resources, please share in the comments below as well for others!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.coursera.org/lecture/wharton-quantitative-modeling/4-1-introduction-to-regression-model-DEymf&quot;&gt;Introduction To Regression Model (Coursera)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://newonlinecourses.science.psu.edu/stat501/node/250/&quot;&gt;Penn State — Stats 501 Regression Methods&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.com/Mastering-Metrics-Path-Cause-Effect/dp/0691152845&quot;&gt;Mastering ‘Metrics: The Path from Cause to Effect&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.amazon.ca/Regression-Modeling-Strategies-Applications-Logistic/dp/0387952322&quot;&gt;Regression Modeling Strategies — Frank Harrell (Textbook)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://artofmarketingscience.github.io/DS-regression_modelling_strategies/&quot;&gt;Regression Modeling Strategies — Frank Harrell (Course)&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Dec 2018 00:00:00 -0500</pubDate>
+        <link>/AOM-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit/</link>
+        <guid isPermaLink="true">/AOM-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit/</guid>
+        
+        
+        <category>Art of Marketing Science</category>
+        
+      </item>
     
       <item>
         <title>From Marketing Analytics To Marketing Science</title>
@@ -76,8 +175,8 @@
 &lt;p&gt;Evolving from marketing analytics to marketing science first requires a shift in mindset. We need to understand that more data does not mean more data informed decisions. We need to look at each problem and insight and critic it with rigor to determine if we are simply making inference on correlation or causation. I’m not saying that analytics is not useful to make decisions, far from that. Analytics provide a way to draw quick “insights” (better than just throwing darts in the dark). What I’m highlighting is the need to complement analytics with more science to make sure we’re hitting bullseye.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/AOM-from_marketing_analytics_to_marketing_science/</link>
-        <guid isPermaLink="true">http://localhost:4000/AOM-from_marketing_analytics_to_marketing_science/</guid>
+        <link>/AOM-from_marketing_analytics_to_marketing_science/</link>
+        <guid isPermaLink="true">/AOM-from_marketing_analytics_to_marketing_science/</guid>
         
         
         <category>Art of Marketing Science</category>
@@ -182,8 +281,8 @@
 &lt;p&gt;If you have any thoughts/comments/questions about my experience, feel free to reach out over &lt;a href=&quot;https://twitter.com/fongmanfong&quot;&gt;Twitter&lt;/a&gt; or email. I would love to help address any questions or further share with you my experience. If you know of any other good short courses, please please please reach out. I would love to learn more about it!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Jun 2018 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/DS-regression_modelling_strategies/</link>
-        <guid isPermaLink="true">http://localhost:4000/DS-regression_modelling_strategies/</guid>
+        <link>/DS-regression_modelling_strategies/</link>
+        <guid isPermaLink="true">/DS-regression_modelling_strategies/</guid>
         
         
         <category>Data Sandbox</category>
@@ -1483,8 +1582,8 @@ Name: Ticket - First Label, dtype: int64
 
 </description>
         <pubDate>Sun, 28 Jan 2018 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/DS-kaggle_titanic/</link>
-        <guid isPermaLink="true">http://localhost:4000/DS-kaggle_titanic/</guid>
+        <link>/DS-kaggle_titanic/</link>
+        <guid isPermaLink="true">/DS-kaggle_titanic/</guid>
         
         
         <category>Data Sandbox</category>
@@ -1839,8 +1938,8 @@ Name: Ticket - First Label, dtype: int64
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~datafong/6.embed&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 01 Jun 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/DS-marvel_cinematic_plotly/</link>
-        <guid isPermaLink="true">http://localhost:4000/DS-marvel_cinematic_plotly/</guid>
+        <link>/DS-marvel_cinematic_plotly/</link>
+        <guid isPermaLink="true">/DS-marvel_cinematic_plotly/</guid>
         
         
         <category>Data Sandbox</category>
@@ -2100,8 +2199,8 @@ The % of variance explained by each component: [ 0.67127544]
 &lt;p&gt;As seen, we can reduce the 89 variables down to 11 components to keep 95% of the variance. The &lt;code class=&quot;highlighter-rouge&quot;&gt;explain_variance_ratio&lt;/code&gt; provides information on how much variance is kept for each component. The sum of it we can see is &amp;gt;95% which is the minimal we’ve defined. If we want more variance to be kept then # of components will increase and vice versa!&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 May 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/DS-dimension_reduction_pca/</link>
-        <guid isPermaLink="true">http://localhost:4000/DS-dimension_reduction_pca/</guid>
+        <link>/DS-dimension_reduction_pca/</link>
+        <guid isPermaLink="true">/DS-dimension_reduction_pca/</guid>
         
         
         <category>Data Sandbox</category>
@@ -2775,8 +2874,8 @@ dtype: float64
 
 </description>
         <pubDate>Thu, 27 Apr 2017 00:00:00 -0400</pubDate>
-        <link>http://localhost:4000/DS-dimension_reduction_examples_part1/</link>
-        <guid isPermaLink="true">http://localhost:4000/DS-dimension_reduction_examples_part1/</guid>
+        <link>/DS-dimension_reduction_examples_part1/</link>
+        <guid isPermaLink="true">/DS-dimension_reduction_examples_part1/</guid>
         
         
         <category>Data Sandbox</category>
@@ -3111,8 +3210,8 @@ dtype: int64
 
 </description>
         <pubDate>Sat, 18 Feb 2017 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/DS-intro_to_python_and_pandas/</link>
-        <guid isPermaLink="true">http://localhost:4000/DS-intro_to_python_and_pandas/</guid>
+        <link>/DS-intro_to_python_and_pandas/</link>
+        <guid isPermaLink="true">/DS-intro_to_python_and_pandas/</guid>
         
         
         <category>Data Sandbox</category>

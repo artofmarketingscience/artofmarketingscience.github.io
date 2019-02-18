@@ -66,7 +66,7 @@ comments: true
 	<li>Consulting Analyst  - **Accenture** (Jan 2012 - Jun 2013)</li>
 </ul>
 
-<p>If you aren't familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked...just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! This page itself is free hosted on Github with the help of Jekyll and Mediumish template that you're currently previewing. If you are a beginner we recommend you start with <a target="_blank" href="https://jekyllrb.com/docs/installation/">Jekyll's Docs</a>. Now if you know how to use Jekyll, let's move on to using Mediumish template in Jekyll:</p>
+
 
 <h4 id="education">Where I've Studied</h4>
 
@@ -84,6 +84,7 @@ comments: true
 
 <p>We should connect if you are interested in learning more about data science & marketing analytics. Please reach out if you're company needs advice on marketing science & data strategy, you're in the same problem space and would like to share knowledge or you're pursuing a career in data science and need advice!</p>
 
+
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
 <!-- Identify your business so that you can collect the payments. -->
@@ -93,8 +94,6 @@ comments: true
 <input type="hidden" name="contributor-message" value="Message to Sal" />
 <textarea class="w-100 d-block p-2 mb-4" type="text" name="contributor-message" placeholder="Your message to @Sal"></textarea>
 
-<!-- Specify a Donate button. -->
-<input type="hidden" name="cmd" value="_donations" />
 
 <!-- Specify details about the contribution -->
 <input type="hidden" name="item_name" value="Donation" />

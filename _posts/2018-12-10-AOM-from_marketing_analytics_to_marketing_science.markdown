@@ -3,7 +3,7 @@ layout: post
 title:  "From Marketing Analytics To Marketing Science"
 author: art_of_marketing_science
 categories: ["Art of Marketing Science"]
-image: /assets/images/2018-12-10-from_marketing_analytics_to_marketing_science/true_false.jpeg
+image: /assets/images/2018-12-10-from_marketing_analytics_to_marketing_science/marketing_science_experiment.png
 ---
 
 _“Half the money I spend on advertising is wasted; the trouble is I don’t know which half.”_

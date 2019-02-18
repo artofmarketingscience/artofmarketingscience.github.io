@@ -3,7 +3,7 @@ layout: post
 title:  "Dimension Reduction with Principal Component Analysis"
 author: data_sandbox
 categories: ["Data Sandbox"]
-image: assets/images/16.jpg
+image: /assets/images/2017-05-01-dimension-reduction-pca/pca_dimension.jpg
 ---
 
 
