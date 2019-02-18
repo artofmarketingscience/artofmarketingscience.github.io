@@ -8,7 +8,8 @@ favicon: 'assets/images/logo.png'
 baseurl: 
 google_analytics: 'UA-112419219-1'
 disqus: 'https-fongmanfong-github-io'
-mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+mailchimp-list: 'https://github.us20.list-manage.com/subscribe/post?u=7e19d52d70f2181f9f5f666db&amp;id=2158c5e28a'
+
 include: ["_pages"]
 permalink: /:title/
 
@@ -22,7 +23,7 @@ authors:
     email: fongjason23@gmail.com
     web: https://fongmanfong.github.io
     twitter: https://twitter.com/fongmanfong
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "Using data science & engineering to understand and solve marketing problems"
   data_sandbox:
     name: "Data Sandbox"
     display_name: "Data Sandbox"
@@ -31,7 +32,7 @@ authors:
     email: fongjason23@gmail.com
     web: https://fongmanfong.github.io
     twitter: https://twitter.com/fongmanfong
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    description: "Playing is the most natural way to learn. These are the artifacts in my sandbox playground."
 # Plugins
 plugins: 
   - jekyll-paginate

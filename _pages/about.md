@@ -84,33 +84,6 @@ comments: true
 
 <p>We should connect if you are interested in learning more about data science & marketing analytics. Please reach out if you're company needs advice on marketing science & data strategy, you're in the same problem space and would like to share knowledge or you're pursuing a career in data science and need advice!</p>
 
-
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-
-<!-- Identify your business so that you can collect the payments. -->
-<input type="hidden" name="business" value="F8CU3MPC2LA72" />
-
-<!-- Identify the message of the kind contributor. -->
-<input type="hidden" name="contributor-message" value="Message to Sal" />
-<textarea class="w-100 d-block p-2 mb-4" type="text" name="contributor-message" placeholder="Your message to @Sal"></textarea>
-
-
-<!-- Specify details about the contribution -->
-<input type="hidden" name="item_name" value="Donation" />
-<input type="hidden" name="item_number" value="Donation" /> 
-<select name="amount">
-    <option value="5.00">$5.00</option>
-    <option value="10.00">$10.00</option>
-    <option value="25.00">$25.00</option>
-    <option value="50.00">$50.00</option>
-    <option value="100.00">$100.00</option>
-</select>
-<input type="hidden" name="currency_code" value="USD" />
-
-<br /><br />
-<!-- Display the payment button. -->
-<input type="image" name="submit" border="0" src="https://www.paypal.com/en_US/i/btn/btn_donate_LG.gif" alt="PayPal - The safer, easier way to pay online" />
-</form>
 </div>
 </div>
 </div>

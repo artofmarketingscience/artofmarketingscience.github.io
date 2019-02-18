@@ -15,7 +15,7 @@ That’s a pretty extensive list of requirements but how feasible and practical 
 
 So for a marketing analyst or data scientist in marketing, what are some tools they should have in their toolkit? Most of the time we hear about things like machine learning, R, Python, domain knowledge, communication skills etc. but one tool that has not gotten enough spotlight in marketing is **regression**. To answer why regression should be in every marketing analysts analytics toolkit, we should first think about what makes a good tool for marketing.
 
-**What Makes A Good Tool For Marketing?**
+### What Makes A Good Tool For Marketing?
 
 And to answer this question, we should think about what problems or questions a marketing organization or a CMO needs to answer. Some bigger questions include:
 
@@ -31,7 +31,7 @@ In theory, a good tool should help with answering some of these questions (but i
 
 For example, it’s not enough to know whether a company is growing or if revenue is increasing, a CMO needs to know what is moving the needle. Who is at risk of churning and what signals indicate a high risk of churning? Therefore a good tool in marketing should not only help with answering some of these questions but also provide insight into what variables are moving the needle.
 
-**What is Regression?**
+### What is Regression?
 I won’t be going into any details on regression in this article. I have some resources at the end if you are interested in learning more about regression. At a high-level, regression is a family of statistical analysis techniques that examine the relationships between variables. There are different types of regressions (logistic, linear, survival etc) in the family but the overall objective is to model the relationship between variables.
 
 For example, we may be interested in understanding how investment in each marketing channel influences customer acquisition. We can build a model where the independent variables (factors you hypothesize to have a relationship) is the investment in each marketing channel and the dependent variable (factors you are trying to understand) being customers acquired. It could hypothetically look something like
@@ -46,11 +46,11 @@ The beauty of regression lies in the equation. Why? Because if we’ve modeled t
 
 Depending on how the data is modeled (e.g. logistic vs linear vs log-log) we can interpret the coefficient in different ways to understand the relationship between a dependent variable to the independent variable. Let’s take the equation above as an example: we’ve used linear regression to model marketing spend versus customers acquired. The coefficients can be interpreted as a dollar spent in Google Adwords gets 2 number of customers.
 
-Customers Acquire = 100+ 2.0 * AdWords_Spend + 1.3 * Facebook_Spend + 0.5 * Snapchat_Spend
+_Customers Acquire = 100+ 2.0 * AdWords_Spend + 1.3 * Facebook_Spend + 0.5 * Snapchat_Spend_
 
 In other words, the coefficients can be interpreted as the levers that a CMO would be interested in knowing.
 
-Regression also provides nice statistical properties including, but not limited to, statistical significance, confidence interval, & standard error of each estimator (our coefficients of interest) which provides a CMO with upper/lower bound of estimates and level of confidence for our estimates. (In From Marketing Analytics To Marketing Science I talk more about why we should look at marketing problems from more of a scientific lens)
+Regression also provides nice statistical properties including, but not limited to, statistical significance, confidence interval, & standard error of each estimator (our coefficients of interest) which provides a CMO with upper/lower bound of estimates and level of confidence for our estimates. ([In From Marketing Analytics To Marketing Science](https://artofmarketingscience.github.io/AOM-from_marketing_analytics_to_marketing_science/) I talk more about why we should look at marketing problems from more of a scientific lens)
 
 ### Swiss Army Knife of Data Science
 
