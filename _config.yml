@@ -1,8 +1,8 @@
 # Site
 name: "The Art of Marketing Science"
 title: "The Art of Marketing Science"
-description: "A blog about data stuff"
-meta_description: "Jekyll template, Medium styled, free for bloggers."
+description: "Data science in marketing with practical examples"
+meta_description: "Data science in marketing with practical examples"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 

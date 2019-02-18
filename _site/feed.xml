@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Art of Marketing Science</title>
-    <description>A blog about data stuff</description>
+    <description>Data science in marketing with practical examples</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 18 Feb 2019 17:54:02 -0500</pubDate>
-    <lastBuildDate>Mon, 18 Feb 2019 17:54:02 -0500</lastBuildDate>
+    <pubDate>Mon, 18 Feb 2019 18:23:58 -0500</pubDate>
+    <lastBuildDate>Mon, 18 Feb 2019 18:23:58 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
