@@ -3,10 +3,10 @@
   <channel>
     <title>The Art of Marketing Science</title>
     <description>A blog about data stuff</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Feb 2019 22:56:52 -0500</pubDate>
-    <lastBuildDate>Sun, 17 Feb 2019 22:56:52 -0500</lastBuildDate>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 17 Feb 2019 22:58:14 -0500</pubDate>
+    <lastBuildDate>Sun, 17 Feb 2019 22:58:14 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -76,8 +76,8 @@
 &lt;p&gt;Evolving from marketing analytics to marketing science first requires a shift in mindset. We need to understand that more data does not mean more data informed decisions. We need to look at each problem and insight and critic it with rigor to determine if we are simply making inference on correlation or causation. I’m not saying that analytics is not useful to make decisions, far from that. Analytics provide a way to draw quick “insights” (better than just throwing darts in the dark). What I’m highlighting is the need to complement analytics with more science to make sure we’re hitting bullseye.&lt;/p&gt;
 </description>
         <pubDate>Mon, 10 Dec 2018 00:00:00 -0500</pubDate>
-        <link>/AOM-from_marketing_analytics_to_marketing_science/</link>
-        <guid isPermaLink="true">/AOM-from_marketing_analytics_to_marketing_science/</guid>
+        <link>http://localhost:4000/AOM-from_marketing_analytics_to_marketing_science/</link>
+        <guid isPermaLink="true">http://localhost:4000/AOM-from_marketing_analytics_to_marketing_science/</guid>
         
         
         <category>Art of Marketing Science</category>
@@ -182,8 +182,8 @@
 &lt;p&gt;If you have any thoughts/comments/questions about my experience, feel free to reach out over &lt;a href=&quot;https://twitter.com/fongmanfong&quot;&gt;Twitter&lt;/a&gt; or email. I would love to help address any questions or further share with you my experience. If you know of any other good short courses, please please please reach out. I would love to learn more about it!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 Jun 2018 00:00:00 -0400</pubDate>
-        <link>/DS-regression_modelling_strategies/</link>
-        <guid isPermaLink="true">/DS-regression_modelling_strategies/</guid>
+        <link>http://localhost:4000/DS-regression_modelling_strategies/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-regression_modelling_strategies/</guid>
         
         
         <category>Data Sandbox</category>
@@ -1483,8 +1483,8 @@ Name: Ticket - First Label, dtype: int64
 
 </description>
         <pubDate>Sun, 28 Jan 2018 00:00:00 -0500</pubDate>
-        <link>/DS-kaggle_titanic/</link>
-        <guid isPermaLink="true">/DS-kaggle_titanic/</guid>
+        <link>http://localhost:4000/DS-kaggle_titanic/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-kaggle_titanic/</guid>
         
         
         <category>Data Sandbox</category>
@@ -1839,8 +1839,8 @@ Name: Ticket - First Label, dtype: int64
 &lt;iframe width=&quot;900&quot; height=&quot;800&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; src=&quot;//plot.ly/~datafong/6.embed&quot;&gt;&lt;/iframe&gt;
 </description>
         <pubDate>Thu, 01 Jun 2017 00:00:00 -0400</pubDate>
-        <link>/DS-marvel_cinematic_plotly/</link>
-        <guid isPermaLink="true">/DS-marvel_cinematic_plotly/</guid>
+        <link>http://localhost:4000/DS-marvel_cinematic_plotly/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-marvel_cinematic_plotly/</guid>
         
         
         <category>Data Sandbox</category>
@@ -2100,8 +2100,8 @@ The % of variance explained by each component: [ 0.67127544]
 &lt;p&gt;As seen, we can reduce the 89 variables down to 11 components to keep 95% of the variance. The &lt;code class=&quot;highlighter-rouge&quot;&gt;explain_variance_ratio&lt;/code&gt; provides information on how much variance is kept for each component. The sum of it we can see is &amp;gt;95% which is the minimal we’ve defined. If we want more variance to be kept then # of components will increase and vice versa!&lt;/p&gt;
 </description>
         <pubDate>Mon, 01 May 2017 00:00:00 -0400</pubDate>
-        <link>/DS-dimension_reduction_pca/</link>
-        <guid isPermaLink="true">/DS-dimension_reduction_pca/</guid>
+        <link>http://localhost:4000/DS-dimension_reduction_pca/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-dimension_reduction_pca/</guid>
         
         
         <category>Data Sandbox</category>
@@ -2775,8 +2775,8 @@ dtype: float64
 
 </description>
         <pubDate>Thu, 27 Apr 2017 00:00:00 -0400</pubDate>
-        <link>/DS-dimension_reduction_examples_part1/</link>
-        <guid isPermaLink="true">/DS-dimension_reduction_examples_part1/</guid>
+        <link>http://localhost:4000/DS-dimension_reduction_examples_part1/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-dimension_reduction_examples_part1/</guid>
         
         
         <category>Data Sandbox</category>
@@ -3111,8 +3111,8 @@ dtype: int64
 
 </description>
         <pubDate>Sat, 18 Feb 2017 00:00:00 -0500</pubDate>
-        <link>/DS-intro_to_python_and_pandas/</link>
-        <guid isPermaLink="true">/DS-intro_to_python_and_pandas/</guid>
+        <link>http://localhost:4000/DS-intro_to_python_and_pandas/</link>
+        <guid isPermaLink="true">http://localhost:4000/DS-intro_to_python_and_pandas/</guid>
         
         
         <category>Data Sandbox</category>
