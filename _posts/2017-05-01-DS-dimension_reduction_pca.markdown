@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Dimension Reduction with Principal Component Analysis"
-author: Jason Fong
+author: data_sandbox
 categories: ["Data Sandbox"]
 image: assets/images/16.jpg
 ---

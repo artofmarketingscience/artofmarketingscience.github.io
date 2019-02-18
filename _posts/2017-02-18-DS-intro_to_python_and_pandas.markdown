@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Intro To Python and Pandas"
-author: "Jason Fong"
+author: data_sandbox
 categories: ["Data Sandbox"]
 image: /assets/images/2017-02-18-intro_to_python_and_pandas/gangster_panda.jpg
 ---

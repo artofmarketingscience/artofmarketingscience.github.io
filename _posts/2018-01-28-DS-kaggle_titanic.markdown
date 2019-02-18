@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Remember Jack and Rose?"
-author: Jason Fong
-categories: ["Art of Marketing Science"]
+author: data_sandbox
+categories: ["Data Sandbox"]
 image: /assets/images/2018-01-27-project-kaggle_titanic/jack_rose.jpg
 ---
 

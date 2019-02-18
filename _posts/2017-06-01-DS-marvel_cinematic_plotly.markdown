@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Marvel Cinematic Data Visualization With Plot.ly"
-author: Jason Fong
+author: data_sandbox
 categories: ["Data Sandbox"]
 image: /assets/images/2017-06-01-marvel-cinematic-plotly/marvel-cinematic.png
 ---

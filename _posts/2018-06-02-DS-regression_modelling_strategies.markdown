@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Regression Modelling Strategies"
-author: Jason Fong
+author: data_sandbox
 category_ds: true
 categories: ["Data Sandbox"]
 image: assets/images/16.jpg
