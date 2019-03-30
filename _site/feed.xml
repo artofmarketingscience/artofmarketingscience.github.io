@@ -5,9 +5,60 @@
     <description>Data science in marketing with practical examples</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 Mar 2019 20:30:57 -0400</pubDate>
-    <lastBuildDate>Mon, 25 Mar 2019 20:30:57 -0400</lastBuildDate>
+    <pubDate>Fri, 29 Mar 2019 20:52:37 -0400</pubDate>
+    <lastBuildDate>Fri, 29 Mar 2019 20:52:37 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Problems before tools: An alternative perspective to the full stack data science generalist</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/tape.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I recently read an &lt;a href=&quot;[https://multithreaded.stitchfix.com/blog/2019/03/11/FullStackDS-Generalists/&quot;&gt;article&lt;/a&gt; from Eric Colson, Chief Algorithm Officer at Stitch Fix, where he talked about how we should avoid building data science teams like a manufacturing plant, comprising of highly specialized individuals operating different parts of a manufacturing process. Instead data science teams should be built with a full stack approach where data scientists are considered to be generalists. Generalists refers to the capability of performing diverse functions from conception to modelling to implementation to measurement. I won’t go into a detail summary of the article here but you should read Eric’s article before continuing on.&lt;/p&gt;
+
+&lt;p&gt;The purpose of this article is to provide a complementary view into Eric’s philosophy. In his article, he took a very top down approach to describing why a data science team should be built with generalists. I believe the same conclusion can be drawn through the lens of a bottoms up approach, from a perspective of a practitioner of data science and what it really means to be in data science.&lt;/p&gt;
+
+&lt;p&gt;Let’s start this discussion of with just defining data science. What exactly is data science or what does a data scientist do? Looking to our friendly neighbourhood Mr. Interweb for some help, here are some definitions that I’ve found.&lt;/p&gt;
+
+&lt;h3 id=&quot;tell-me-sir-what-is-this-data-science-you-refer-to&quot;&gt;Tell Me Sir, What Is This Data Science You Refer To?&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;“Data science is a multi-disciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from data in various forms, both structured and unstructured, similar to data mining.”&lt;/em&gt; – &lt;a href=&quot;https://en.wikipedia.org/wiki/Data_science&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Data science is a “concept to unify statistics, data analysis, machine learning and their related methods” in order to “understand and analyze actual phenomena” with data. It employs techniques and theories drawn from many fields within the context of mathematics, statistics, information science, and computer science.”&lt;/em&gt; – &lt;a href=&quot;https://en.wikipedia.org/wiki/Data_science&quot;&gt;Wikipedia&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Data science is an interdisciplinary field that uses scientific methods, processes, algorithms, and systems to extract value from data. Data scientists combine a range of skills—including statistics, computer science, and business knowledge—to analyze data collected from the web, smartphones, customers, sensors, and other sources.&lt;/em&gt; - &lt;a href=&quot;https://www.oracle.com/ca-en/artificial-intelligence/what-is-data-science.html&quot;&gt;Oracle&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Data science is the field of study that combines domain expertise, programming skills, and knowledge of math and statistics to extract meaningful insights from data. Data science practitioners apply machine learning algorithms to numbers, text, images, video, audio, and more to produce artificial intelligence (AI) systems that perform tasks which ordinarily require human intelligence. In turn, these systems generate insights that analysts and business users translate into tangible business value.”&lt;/em&gt; – &lt;a href=&quot;https://www.datarobot.com/wiki/data-science/&quot;&gt;Data Robot&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;These are some nicely crafted definitions (way better than I would have been able to articulate it) but an observable and consistent pattern across these definitions (along with numerous other on the internet) is that data science tends to be defined by doing a set of specific tasks or using a set of specific tools. If you do X, Y, Z and use A, B, C then that’s considered data science. The causal chain would look something this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/wrong_causal_diagram.jpg&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Data Science - The Most Unsexy Field In The 21st Century&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/right_causal_diagram.jpg&quot; alt=&quot;png&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Practicing data science will lead you to use math and statistics, apply machine learning algorithm, learn programming, increase domain expertise. Why? First, I think through the process of packaging up and marketing data science to be this sexy field, we have incorrectly defined the definition of data science. I don’t think the definitions mentioned above are incorrect but I think a definition like this one is more authentic:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;“Data science, in its most basic terms, can be defined as obtaining insights and information, really anything of value, out of data. Like any new field, it’s often tempting but counterproductive to try to put concrete bounds on its definition.”&lt;/em&gt; – &lt;a href=&quot;https://www.thinkful.com/blog/what-is-data-science/&quot;&gt;Thinkful&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To make the definition even less sexy, I believe data science should be simply: &lt;em&gt;“Just using data to solve problems”.&lt;/em&gt; Data scientist should be “the data girl or the data guy”. Not so sexy anymore.&lt;/p&gt;
+
+&lt;p&gt;Though we still have all the same elements in the two causal chains, the subtle difference in reversal of causality actually leads to a big difference in how data science is practiced in reality. This is the same concept as viewing a cup of water as half full vs. half empty. Although both views are correct, there is a significant difference in how individuals that see things as half full behave and act versus individuals that sees it as half empty.&lt;/p&gt;
+
+&lt;p&gt;In the world through the first causal chain, we see a lot of data science practitioners that are solely interested in specific tasks of data science. Have you met anybody that explicitly indicated they are only interested in building models and don’t care about analytics or working with stakeholders? Odds are you probably have. In the world through the second causal chain, specific data science tasks are performed &lt;em&gt;because&lt;/em&gt; it helps solve the problem at hand.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-does-this-relate-to-being-a-generalist&quot;&gt;How Does This Relate to Being A Generalist?&lt;/h3&gt;
+
+&lt;p&gt;So, after all of this detour, how does any of this stuff relate to being a generalist? I believe if we looked at data science the right way, the only way to really do data science optimally is to be a generalist (once again, love to hear your thoughts and opinions in the comments below). Why? If we always start with the problem being the main focus, we will realize that if we wanted to solve the problem the best way possible, we cannot simply just do one part of data science and not the other part. Echoing Eric in his article, a generalist role provide all the things that drive job satisfaction: autonomy, mastery and purpose. Especially around mastery, if we always start with the problem, we can determine if our current toolkit can adequately answer the question or we need to branch deeper and apply new data science techniques or technology to help address the problem.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 29 Mar 2019 00:00:00 -0400</pubDate>
+        <link>/problems_before_tools_an-alternative_view_to_generalist_data_scientist/</link>
+        <guid isPermaLink="true">/problems_before_tools_an-alternative_view_to_generalist_data_scientist/</guid>
+        
+        
+        <category>Art of Marketing Science</category>
+        
+      </item>
     
       <item>
         <title>Geo Experiments Part 1: What Is It and How Will It Help You In Marketing?</title>
