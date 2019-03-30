@@ -5,15 +5,15 @@
     <description>Data science in marketing with practical examples</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 29 Mar 2019 20:52:37 -0400</pubDate>
-    <lastBuildDate>Fri, 29 Mar 2019 20:52:37 -0400</lastBuildDate>
+    <pubDate>Fri, 29 Mar 2019 21:24:27 -0400</pubDate>
+    <lastBuildDate>Fri, 29 Mar 2019 21:24:27 -0400</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
         <title>Problems before tools: An alternative perspective to the full stack data science generalist</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/tape.gif&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;I recently read an &lt;a href=&quot;[https://multithreaded.stitchfix.com/blog/2019/03/11/FullStackDS-Generalists/&quot;&gt;article&lt;/a&gt; from Eric Colson, Chief Algorithm Officer at Stitch Fix, where he talked about how we should avoid building data science teams like a manufacturing plant, comprising of highly specialized individuals operating different parts of a manufacturing process. Instead data science teams should be built with a full stack approach where data scientists are considered to be generalists. Generalists refers to the capability of performing diverse functions from conception to modelling to implementation to measurement. I won’t go into a detail summary of the article here but you should read Eric’s article before continuing on.&lt;/p&gt;
+&lt;p&gt;I recently read an &lt;a href=&quot;https://multithreaded.stitchfix.com/blog/2019/03/11/FullStackDS-Generalists/&quot;&gt;article&lt;/a&gt; from Eric Colson, Chief Algorithm Officer at Stitch Fix, where he talked about how we should avoid building data science teams like a manufacturing plant, comprising of highly specialized individuals operating different parts of a manufacturing process. Instead data science teams should be built with a full stack approach where data scientists are considered to be generalists. Generalists refers to the capability of performing diverse functions from conception to modelling to implementation to measurement. I won’t go into a detail summary of the article here but you should read Eric’s article before continuing on.&lt;/p&gt;
 
 &lt;p&gt;The purpose of this article is to provide a complementary view into Eric’s philosophy. In his article, he took a very top down approach to describing why a data science team should be built with generalists. I believe the same conclusion can be drawn through the lens of a bottoms up approach, from a perspective of a practitioner of data science and what it really means to be in data science.&lt;/p&gt;
 
