@@ -3,6 +3,7 @@ layout: post
 title:  "Remember Jack and Rose?"
 author: data_sandbox
 categories: ["Data Sandbox"]
+description: "Kaggle Titanic prediction problem with solution in Python"
 image: /assets/images/2018-01-27-project-kaggle_titanic/jack_rose.jpg
 ---
 

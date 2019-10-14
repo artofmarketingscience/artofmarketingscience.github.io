@@ -4,6 +4,7 @@ title:  "Regression Modelling Strategies"
 author: data_sandbox
 category_ds: true
 categories: ["Data Sandbox"]
+description: "Summary of Regression Modelling Strategies course taught by Frank Harell at the University of Vanderbilt"
 image: assets/images/2018-06-02-regression_modelling_strategies/vanderbilt_university.jpg
 featured: true
 ---

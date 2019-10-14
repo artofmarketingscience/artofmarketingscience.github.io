@@ -3,6 +3,7 @@ layout: post
 title:  "Intro To Python and Pandas"
 author: data_sandbox
 categories: ["Data Sandbox"]
+description: "A quick introduction to Python and Pandas for data analysis"
 image: /assets/images/2017-02-18-intro_to_python_and_pandas/gangster_panda.jpg
 ---
 

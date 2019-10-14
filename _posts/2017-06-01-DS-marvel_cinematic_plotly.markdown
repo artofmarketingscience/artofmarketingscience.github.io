@@ -3,6 +3,7 @@ layout: post
 title:  "Marvel Cinematic Data Visualization With Plot.ly"
 author: data_sandbox
 categories: ["Data Sandbox"]
+description: "3D network graph of Marvel characters using Plot.ly"
 image: /assets/images/2017-06-01-marvel-cinematic-plotly/marvel-cinematic.png
 ---
 

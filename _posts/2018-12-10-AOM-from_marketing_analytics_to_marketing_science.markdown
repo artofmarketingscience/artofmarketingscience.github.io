@@ -3,6 +3,7 @@ layout: post
 title:  "From Marketing Analytics To Marketing Science"
 author: art_of_marketing_science
 categories: ["Art of Marketing Science"]
+description: "Evolving from marketing analytics to marketing science"
 image: /assets/images/2018-12-10-from_marketing_analytics_to_marketing_science/marketing_science_experiment.png
 ---
 
@@ -26,7 +27,7 @@ But since then, the move from purely analytics approach to more science-based ha
 
 **Science approach** → interpreting data and drawing inference with scientific rigor
 - Attempting to find causality between variables, what’s causing what and at what magnitude
-- Looking at data in terms of estimate, probability, confidence interview, posterior distribution. I’m not sure what X is but I’m fairly it’s between Y and Z
+- Looking at data in terms of estimate, probability, confidence interval, posterior distribution etc. I’m not sure what X is but I’m fairly it’s between Y and Z
 - Experimental design to prove/disprove hypothesis. Running randomized trial.
 
 One science approach that marketing has adopted is experimental design in the form of A/B testing. Although widely used within marketing (and other areas), I’d argue a lot of the designed experiments implemented in many corporations are questionable. This will be a separate post. 

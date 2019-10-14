@@ -3,6 +3,7 @@ layout: post
 title:  "Dimension Reduction Examples - Part 1"
 author: data_sandbox
 categories: ["Data Sandbox"]
+description: "Dimensionality reduction with feature selection and extraction"
 image: /assets/images/2017-04-27-dimension-reduction-examples-part1/strange.jpg
 ---
 
