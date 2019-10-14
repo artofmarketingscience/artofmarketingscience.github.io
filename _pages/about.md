@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 permalink: /about
+description: "About Art of Marketing Science"
 comments: true
 ---
 

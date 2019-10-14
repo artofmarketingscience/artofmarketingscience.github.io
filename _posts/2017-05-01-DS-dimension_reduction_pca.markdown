@@ -3,6 +3,7 @@ layout: post
 title:  "Dimension Reduction with Principal Component Analysis"
 author: data_sandbox
 categories: ["Data Sandbox"]
+description: "Principal Component Analysis explained with example in Python"
 image: /assets/images/2017-05-01-dimension-reduction-pca/pca_dimension.jpg
 ---
 
