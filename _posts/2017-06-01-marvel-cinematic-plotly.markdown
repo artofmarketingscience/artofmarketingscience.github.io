@@ -5,6 +5,7 @@ author: data_sandbox
 categories: ["Data Sandbox"]
 description: "3D network graph of Marvel characters using Plot.ly"
 image: /assets/images/2017-06-01-marvel-cinematic-plotly/marvel-cinematic.png
+redirect_from: /DS-marvel_cinematic_plotly/
 ---
 
 I’m a huge sucker for Marvel cinematic and in this article I will do a fun exercise with building a simple interactive 3D network graph based on the relationship between Marvel characters. I will be using one of my favourite plotting libraries in Python, Plot.ly. Plot.ly is very easy to use and the way graphs are constructed is very intuitive. The dataset can be found on my GitHub or at the following link: <https://www.kaggle.com/csanhueza/the-marvel-universe-social-network>

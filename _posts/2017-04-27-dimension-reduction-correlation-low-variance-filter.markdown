@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Dimension Reduction Examples - Part 1"
+title:  "Dimension Reduction Correlation & Low Variance Filter"
 author: data_sandbox
 categories: ["Data Sandbox"]
 description: "Dimensionality reduction with feature selection and extraction"
 image: /assets/images/2017-04-27-dimension-reduction-examples-part1/strange.jpg
+redirect_from: /DS-dimension_reduction_examples_part1/
 ---
 
 What is dimensionality reduction? The name might sound fancier than what it actually is. It is simply the process of reducing the number of dimensions in a dataset aka reducing the number of attributes/features/columns while retaining key information in the dataset.
@@ -722,7 +723,7 @@ sns.heatmap(corr_fil_food_data.drop(
 ![png](/assets/images/2017-04-27-dimension-reduction-examples-part1/output_32_1.png)
 
 
-## Result
+### Result
 
 Using these three simple techniques for dimension reduction, we've reduce this dataset from 161 variables down to 49. Do keep in mind that the goal of dimension reduction is to remove attributes that are not very informative. More data does not necessarily mean better and at the same time less data does not necessarily mean better as well. The art is to find a set of attributes within a high dimension data set that will provide sufficient information.
 

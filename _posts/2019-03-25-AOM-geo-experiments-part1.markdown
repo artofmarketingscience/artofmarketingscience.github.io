@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Geo Experiments Part 1: What Is It and How Will It Help You In Marketing?"
+title:  "Geo Experiments Part 1: What Is It and How Will It Help You In Marketing?" ## TOO LONG
 author: art_of_marketing_science
 categories: ["Art of Marketing Science"]
-description: "What is Geo Experiment and how will it help you in marketing"
+description: "What is Geo Experiment and how will it help you in marketing" ## TOO SHORT
 image: /assets/images/2019-01-23-geo_experiments_part1_what_is_it_and_how_will_it_help_you_in_marketing/map_with_action_figure.jpeg
 ---
 

@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "One Thing Marketing Analysts Should Have In Their Analytics Toolkit"
+title:  "Regression, a must have for Marketing Analysts"
 author: art_of_marketing_science
 categories: ["Art of Marketing Science"]
 description: "Regression is a must have tool for marketing analysts"
 image: /assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//toolbox.jpeg
+redirect_from: /AOM-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit/
 ---
 
 Let’s be real here, being a data scientist ain’t easy. Have you seen what a modern data scientist should know?! 😱

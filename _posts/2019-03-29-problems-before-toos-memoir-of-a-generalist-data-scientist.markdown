@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Problems before tools: An alternative perspective to the full stack data science generalist"
+title:  "Problems before tools: Memoir of a generalist data scientist"
 author: art_of_marketing_science
 categories: ["Art of Marketing Science"]
 description: "An alternative perspective to the full stack data science generalist"
 image: /assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/rubix.png
+redirect_from: /problems_before_tools_an-alternative_view_to_generalist_data_scientist/
 
 
 ---

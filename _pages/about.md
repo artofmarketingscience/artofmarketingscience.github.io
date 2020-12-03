@@ -26,7 +26,6 @@ comments: true
 
 <p>My name is <b>Jason Fong</b> but more popularly referred to as  <b>fongmanfong</b>. I currently lead the marketing data science team at Shopify.</p>
 
-<center><a href="fongmanfong.github.io" target="_blank"><b>Learn more about me</b> </a></center>
 
 </div>
 </div>

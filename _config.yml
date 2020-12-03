@@ -1,8 +1,9 @@
 # Site
 name: "The Art of Marketing Science"
 title: "The Art of Marketing Science"
-description: "Data science in marketing with practical examples"
-meta_description: "Data science in marketing with practical examples"
+tagline: "Data science in Marketing"
+description: "A blog dedicated to Marketing Science covering from concepts to practical examples with code."
+meta_description: "A blog dedicated to Marketing Science covering from concepts to practical examples with code. Oh, it's also my personal data science sandbox where tinker with things and go on data science rants."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
@@ -40,6 +41,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-redirect-from  #https://blog.webjeda.com/jekyll-redirect/
     
 # Archives
 jekyll-archives:
