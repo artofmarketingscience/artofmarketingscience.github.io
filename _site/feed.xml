@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>The Art of Marketing Science</title>
-    <description>Data science in marketing with practical examples</description>
+    <description>A blog dedicated to Marketing Science covering from concepts to practical examples with code. Oh, it's also my personal data science sandbox for tinkering with data things and go on data science rants.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 20 Oct 2019 12:28:24 -0400</pubDate>
-    <lastBuildDate>Sun, 20 Oct 2019 12:28:24 -0400</lastBuildDate>
+    <pubDate>Sat, 05 Dec 2020 20:51:10 -0500</pubDate>
+    <lastBuildDate>Sat, 05 Dec 2020 20:51:10 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
-        <title>Problems before tools: An alternative perspective to the full stack data science generalist</title>
-        <description>An alternative perspective to the full stack data science generalist</description>
+        <title>Problems before tools: A story of the full-stack data scientist</title>
+        <description>A perspective into the benefits of a full-stack data science generalists over narrow functional specialists</description>
         <pubDate>Fri, 29 Mar 2019 00:00:00 -0400</pubDate>
-        <link>/problems_before_tools_an-alternative_view_to_generalist_data_scientist/</link>
-        <guid isPermaLink="true">/problems_before_tools_an-alternative_view_to_generalist_data_scientist/</guid>
+        <link>/problems-before-tools-story-full-stack-data-scientist/</link>
+        <guid isPermaLink="true">/problems-before-tools-story-full-stack-data-scientist/</guid>
         
         
         <category>Art of Marketing Science</category>
@@ -22,11 +22,11 @@
       </item>
     
       <item>
-        <title>Geo Experiments Part 1: What Is It and How Will It Help You In Marketing?</title>
-        <description>What is Geo Experiment and how will it help you in marketing</description>
+        <title>What are Geo Experiments and how it is used in marketing</title>
+        <description>Geo Experments are used to measure causality and incrementality when traditional A/B testing cannot be used</description>
         <pubDate>Mon, 25 Mar 2019 00:00:00 -0400</pubDate>
-        <link>/AOM-geo-experiments-part1/</link>
-        <guid isPermaLink="true">/AOM-geo-experiments-part1/</guid>
+        <link>/what-are-geo-experiments/</link>
+        <guid isPermaLink="true">/what-are-geo-experiments/</guid>
         
         
         <category>Art of Marketing Science</category>
@@ -34,11 +34,11 @@
       </item>
     
       <item>
-        <title>One Thing Marketing Analysts Should Have In Their Analytics Toolkit</title>
+        <title>Regression, a must have for Marketing Analysts</title>
         <description>Regression is a must have tool for marketing analysts</description>
         <pubDate>Mon, 31 Dec 2018 00:00:00 -0500</pubDate>
-        <link>/AOM-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit/</link>
-        <guid isPermaLink="true">/AOM-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit/</guid>
+        <link>/regression-must-have-for-marketing-analysts/</link>
+        <guid isPermaLink="true">/regression-must-have-for-marketing-analysts/</guid>
         
         
         <category>Art of Marketing Science</category>
@@ -49,8 +49,8 @@
         <title>From Marketing Analytics To Marketing Science</title>
         <description>Evolving from marketing analytics to marketing science</description>
         <pubDate>Mon, 10 Dec 2018 00:00:00 -0500</pubDate>
-        <link>/AOM-from_marketing_analytics_to_marketing_science/</link>
-        <guid isPermaLink="true">/AOM-from_marketing_analytics_to_marketing_science/</guid>
+        <link>/from-marketing-analytics-to-marketing-science/</link>
+        <guid isPermaLink="true">/from-marketing-analytics-to-marketing-science/</guid>
         
         
         <category>Art of Marketing Science</category>
@@ -58,23 +58,11 @@
       </item>
     
       <item>
-        <title>Regression Modelling Strategies</title>
+        <title>Vanderbilt Regression Modelling Strategies Course</title>
         <description>Summary of Regression Modelling Strategies course taught by Frank Harell at the University of Vanderbilt</description>
         <pubDate>Sat, 02 Jun 2018 00:00:00 -0400</pubDate>
-        <link>/DS-regression_modelling_strategies/</link>
-        <guid isPermaLink="true">/DS-regression_modelling_strategies/</guid>
-        
-        
-        <category>Data Sandbox</category>
-        
-      </item>
-    
-      <item>
-        <title>Remember Jack and Rose?</title>
-        <description>Kaggle Titanic prediction problem with solution in Python</description>
-        <pubDate>Sun, 28 Jan 2018 00:00:00 -0500</pubDate>
-        <link>/DS-kaggle_titanic/</link>
-        <guid isPermaLink="true">/DS-kaggle_titanic/</guid>
+        <link>/vanderbilt-university-regression-modelling-strategies-course/</link>
+        <guid isPermaLink="true">/vanderbilt-university-regression-modelling-strategies-course/</guid>
         
         
         <category>Data Sandbox</category>
@@ -85,8 +73,8 @@
         <title>Marvel Cinematic Data Visualization With Plot.ly</title>
         <description>3D network graph of Marvel characters using Plot.ly</description>
         <pubDate>Thu, 01 Jun 2017 00:00:00 -0400</pubDate>
-        <link>/DS-marvel_cinematic_plotly/</link>
-        <guid isPermaLink="true">/DS-marvel_cinematic_plotly/</guid>
+        <link>/marvel-cinematic-plotly/</link>
+        <guid isPermaLink="true">/marvel-cinematic-plotly/</guid>
         
         
         <category>Data Sandbox</category>
@@ -97,8 +85,8 @@
         <title>Dimension Reduction with Principal Component Analysis</title>
         <description>Principal Component Analysis explained with example in Python</description>
         <pubDate>Mon, 01 May 2017 00:00:00 -0400</pubDate>
-        <link>/DS-dimension_reduction_pca/</link>
-        <guid isPermaLink="true">/DS-dimension_reduction_pca/</guid>
+        <link>/dimension-reduction-pca/</link>
+        <guid isPermaLink="true">/dimension-reduction-pca/</guid>
         
         
         <category>Data Sandbox</category>
@@ -106,23 +94,11 @@
       </item>
     
       <item>
-        <title>Dimension Reduction Examples - Part 1</title>
+        <title>Dimension Reduction Correlation &amp; Low Variance Filter</title>
         <description>Dimensionality reduction with feature selection and extraction</description>
         <pubDate>Thu, 27 Apr 2017 00:00:00 -0400</pubDate>
-        <link>/DS-dimension_reduction_examples_part1/</link>
-        <guid isPermaLink="true">/DS-dimension_reduction_examples_part1/</guid>
-        
-        
-        <category>Data Sandbox</category>
-        
-      </item>
-    
-      <item>
-        <title>Intro To Python and Pandas</title>
-        <description>A quick introduction to Python and Pandas for data analysis</description>
-        <pubDate>Sat, 18 Feb 2017 00:00:00 -0500</pubDate>
-        <link>/DS-intro_to_python_and_pandas/</link>
-        <guid isPermaLink="true">/DS-intro_to_python_and_pandas/</guid>
+        <link>/dimension-reduction-correlation-low-variance-filter/</link>
+        <guid isPermaLink="true">/dimension-reduction-correlation-low-variance-filter/</guid>
         
         
         <category>Data Sandbox</category>

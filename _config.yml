@@ -2,8 +2,8 @@
 name: "The Art of Marketing Science"
 title: "The Art of Marketing Science"
 tagline: "Data science in Marketing"
-description: "A blog dedicated to Marketing Science covering from concepts to practical examples with code."
-meta_description: "A blog dedicated to Marketing Science covering from concepts to practical examples with code. Oh, it's also my personal data science sandbox where tinker with things and go on data science rants."
+description: "A blog dedicated to Marketing Science covering from concepts to practical examples with code. Oh, it's also my personal data science sandbox for tinkering with data things and go on data science rants."
+meta_description: "A blog on Marketing Science covering from concepts to practical examples with code. Focused on applying data science to marketing problems."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
