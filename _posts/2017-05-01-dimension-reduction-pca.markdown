@@ -5,6 +5,7 @@ author: data_sandbox
 categories: ["Data Sandbox"]
 description: "Principal Component Analysis explained with example in Python"
 image: /assets/images/2017-05-01-dimension-reduction-pca/pca_dimension.jpg
+redirect_from: /DS-dimension_reduction_pca/
 ---
 
 
@@ -40,7 +41,7 @@ import matplotlib.pyplot as plt
 from sklearn import preprocessing
 ```
 
-## Defined # of Principal Components
+### Defined # of Principal Components
 
 We use the iris dataset from sklearn to demonstrate visually how to apply PCA on a 2D dataset and reduce to 1D and a 3D dataset into 2D.
 
@@ -159,7 +160,7 @@ ax2.set_zlabel('Z3')
 ![png](/assets/images/2017-05-01-dimension-reduction-pca/fig5.png)
 
 
-## Solving For Number Of Principal Components
+### Solving For Number Of Principal Components
 
 Whats powerful about sklearn is that the same modules we used previously for PCA, under the circumstances that we don't know the number of principal components prior to applying the reduction, can be used to solve for the number of principal components required to keep a certain % of variance within the dataset. Typically we want to retain 90%, 95% or 99% of the variance but depends on use case.
 
@@ -234,7 +235,7 @@ print "The % of variance explained by each component: " + str(p_30.explained_var
     The % of variance explained by each component: [ 0.67127544]
 
 
-#### Applying PCA on food nutrient dataset from Kaggle
+### Applying PCA on food nutrient dataset from Kaggle
 
 If you haven't already, check out [part 1](./dimension-reduction-examples-part1) of dimensionality reduction where I've applied simple feature selection methods to the same dataset.
 

@@ -9,7 +9,7 @@ image: /assets/images/2018-01-27-project-kaggle_titanic/jack_rose.jpg
 
 Remember Jack & Rose? Leo & Kate Winslet? Titanic movie? Nostalgia? I wish this project was half as romantic as the movie but I'd be lying to you if I said it was.
 
-## TL;DR
+### TL;DR
 
 This exercise is the infamous Titanic dataset that all Kaggle newbs start out with. It is a classification problem where we need to predict if passengers will survive. Accuracy is used to evaluate predictions. At the time of submission, I was ranked 391/9642, top 4% on the leaderboard with an accuracy of 81.8%. By no means is this a perfect submission, nor did I write beautiful Python code. At the end, I have a section on considerations and improvements.
 
@@ -17,7 +17,7 @@ This exercise is the infamous Titanic dataset that all Kaggle newbs start out wi
 
 I won't include all the analysis and code in this post, just the key areas of my analysis and prediction. If you want the detailed step by step, checkout my [GitHub here](https://github.com/fongmanfong/kaggle_competitions/blob/master/titanic/Titanic.ipynb).
 
-## Table of Contents
+### Table of Contents
 - [Introduction](#introduction)
 - [Feature Exploration / Cleaning / Engineering](#feature)
 	- [Sex](#sex)
@@ -126,11 +126,11 @@ Information provided in the data sets:
     Train: Total People 891 
 
 
-## <a name="feature"> Feature Exploration / Cleaning / Engineering </a>
+### <a name="feature"> Feature Exploration / Cleaning / Engineering </a>
 
 Here we'll go through one feature at a time, exploring it, cleaning it if necessary and do feature engineering if it make sense.
 
-### <a name="sex">Sex</a>
+#### <a name="sex">Sex</a>
 
 First off, we see from above Sex is a categorical variable so I'll define a simple function map it to numerical values. It would be interesting to just see if there is a correlation between gender and survival. We see females has a significantly higher chance of survival.
 
@@ -183,7 +183,7 @@ train.groupby('Sex')['Survived'].aggregate((np.sum, len, np.mean))
 
 
 
-### <a name="embarked">Embarked</a>
+#### <a name="embarked">Embarked</a>
 
 We noticed that Embarked has one missing value in the training set. Since its a categorical, it would intuitively make sense that we can use the probability of the missing value being S, C, Q. We noticed that there is the highest chance of the missing value being S. Segmenting this by Survived, we see people Embarked = C is slightly correlated with survival rate vs S & Q
 
@@ -204,7 +204,7 @@ sns.barplot(x="Embarked", y="Survived", hue="Embarked", data=train, ci=None);
 ![png](/assets/images/2018-01-27-project-kaggle_titanic/output_23_0.png)
 
 
-### <a name="name">Name</a>
+#### <a name="name">Name</a>
 
 Name is a little more interesting. At face value, there are many different names but we see they all have a title. We know Mr. is different than Mrs. and we also see some interesting titles like Master. and Lady. Doing some research on Google we can see how these titles are used. We also notice that there are a lot of titles with similar meaning as well as titles that identify personnel with a different social class. We can group these titles together into intuitive categories to see if they have correlation with survival rate.
 
@@ -278,7 +278,7 @@ sns.barplot(x="Title", y="Survived", hue="Title", data=train, ci=None);
 ![png](/assets/images/2018-01-27-project-kaggle_titanic/output_33_0.png)
 
 
-### <a name="sibspparch">SibSp & Parch</a>
+#### <a name="sibspparch">SibSp & Parch</a>
 
 These two variables give us information about the passengers family, (spouse, siblings, parents, children). The tricky part is we don't really know if someone has a sibling or a spouse, similarly a parent or a child. We can probably take some time to infer, which may give us better insight into whether that person is a mother with certain number of child. This could be a good signal since we know mothers and children tend to be saved first in situations like Titanic. Given that blurb, in this exercise, I've kept it basic. 
 
@@ -539,7 +539,7 @@ train.groupby('Family Size')['Survived'].aggregate((np.sum, len, np.mean))
 
 
 
-### <a name="cabin">Cabin</a>
+#### <a name="cabin">Cabin</a>
 
 As seen above, we noticed that there are a lot of missing data points for cabin. Although I just replace this information with unknown, I can probably do a better job of inferring what cabin person could be in. For example inferring which passengers belong to the same family and use knowledge that family prefer to stay close to each other. Maybe we can use name and see which members have the same last name, look at SibSP, Parch and Family size, are they in the same Pclass.
 
@@ -665,7 +665,7 @@ One thing to notice here is that the test set does not have cabin T. As a result
 train['Cabin - Parsed'] = train['Cabin - Parsed'].map(lambda x: x if x in test['Cabin - Parsed'].value_counts().index.tolist() else 'U')
 ```
 
-### <a name="ticket">Ticket</a>
+#### <a name="ticket">Ticket</a>
 
 The approach that I've taken here is to look at the ticket label. Similar intuition as cabin, ticket label usually identify a certain type of ticket for certain types of passenger. Looking at the ticket values below, we see that there are a lot of clean up work to be done, like cleaning up empty spaces. I've made a simple assumption here that the periods are just noise. One hypothesis is that tickets were hand written back then so there could of been more variation to how tickets were labelled, like some people wrote A and some wrote A (period). Tickets with no identifier I've given it a no identifier label. Ticket labels with a / I've considered it to have two labels and introduced a label count variable.
 
@@ -820,7 +820,7 @@ train.groupby(('Ticket - First Label'))['Survived'].aggregate((np.sum, len, np.m
 
 
 
-### Age
+#### Age
 
 Age is probably the most interesting attribute here. We have around 150 missing records and we need to do something with them. One simple way of handling this is to simple populate it with a sample statistic like mean or median. This would lose a lot of information (~1/8 of the training set would be labeled with median / average age). Instead we can consider segmenting our data set to see if we can find more meaning ways of inferring age. 
 
@@ -1125,7 +1125,7 @@ print train['Fare'].median()
     14.4542
 
 
-## <a name="model">Modelling and Making Prediction</a>
+### <a name="model">Modelling and Making Prediction</a>
 
 Alright now that we have cleaned up our features. We have a lot of extra columns when we were doing feature engineering and we won't be using everything. Let's only look at what we want to use.
 
@@ -1398,7 +1398,7 @@ X_train_pruned.shape
     (891, 18)
 
 
-## <a name="results">Results</a>
+### <a name="results">Results</a>
 
 ```python
 from sklearn.model_selection import cross_val_score
@@ -1447,7 +1447,7 @@ test[['PassengerId', 'Survived']].to_csv('titanic_prediction.csv')
 
 ```
 
-## <a name="considerations">Considerations / Improvements</a>
+### <a name="considerations">Considerations / Improvements</a>
 
 As mentioned in this post, the solution here is not perfect and there are many improvements and iterations that can be done on top of this to get a better score. There are a lot of people in this Kaggle competition that has a perfect score, which shows that there are ways to go with this solution. To summarize, if I had more time in the future, I would love to explore different improvements including:
 
