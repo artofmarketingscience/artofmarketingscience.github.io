@@ -32,7 +32,7 @@ A/B testing has been the bread and butter for marketers to do tests and learn. B
 
 **Give it some thought.**
 
-![geo_experiment_hour_glass](/assets/images/2019-01-23-geo_experiments_part1_what_is_it_and_how_will_it_help_you_in_marketing/hour_glass.gif "geo experiment hour glass")
+![hour class to think about geo experiment](/assets/images/2019-01-23-geo_experiments_part1_what_is_it_and_how_will_it_help_you_in_marketing/hour_glass.gif "hour class to think about geo experiment")
 
 Let’s go through each question and see why our favourite A/B test doesn’t work:
 
@@ -48,7 +48,7 @@ Sometimes bread and butter just isn't enough and you got to switch things up. Br
 
 Let’s use the Facebook question above as an example and assume we are running the ad campaign in the United States. First, we randomize a set of cities in the United States putting them into treatment and control group. Just like A/B tests, randomization is a critical part of the experimental design. Then in Facebook Business Manager, we set the campaign to only run in the cities in the treatment group. We run the campaign for a duration of time and we measure the incremental customers acquired (agnostic of an attribution model) by comparing the difference between the control vs. treatment group. For example, we may see something like:
 
-![geo_experiment_results](/assets/images/2019-01-23-geo_experiments_part1_what_is_it_and_how_will_it_help_you_in_marketing/geo_experiment_package.png "geo experiment results")
+![geo experiment results](/assets/images/2019-01-23-geo_experiments_part1_what_is_it_and_how_will_it_help_you_in_marketing/geo_experiment_package.png "Results from Google's Geo Experiment Research R package")
 
 This is a graph produced by the [GeoexperimentsResearch](https://github.com/google/GeoexperimentsResearch) R package developed at Google which implements the Geo Experiment methodology and provides an easy way to perform the analysis. I’ll be demonstrating how to use this R package in Part 3! But at a high level, the y-axis can be customer conversion for our example purposes, the x-axis is divided into three distinct periods:
 
@@ -60,7 +60,7 @@ The top graph illustrates the observed response metric overtime vs the predicted
 
 My explanation above is an oversimplification of the methodology. To truly understand what’s going on, you need to go inside the hood and look at the engine. The methodology and math behind Geo Experiment are different from a traditional A/B test but the overall idea is similar. As mentioned, I will be leaving the detailed explanation of the mathematics to Part 2 of this series. The methodology that I’ll be going through in Part 2 is research from Google, so if you are interested, take a look first. A one-liner explanation: a regression model is used to learn the exchangeability factor between the control regions and the treatment regions and then used to predict the counterfactual during the intervention period. Maybe this sentence doesn’t make any sense to you at all. Don’t worry, I will be breaking this down in simple terms! Stay tuned!
 
-I want to take a short moment to highlight that Geo Experiments are another use case of regression in marketing science. If you haven’t read my article ["Regression, a must have for Marketing Analysts"](./regression-must-have-for-marketing-analysts), take a look to see why regression is a tool every Marketing Analyst should have in their toolkit.
+I want to take a short moment to highlight that Geo Experiments are another use case of regression in marketing science. If you haven’t read my article ["Regression, a must have for Marketing Analysts"](/regression-must-have-for-marketing-analysts), take a look to see why regression is a tool every Marketing Analyst should have in their toolkit.
 
 By no means are Geo Experiments designed to replace traditional A/B test. They serve very different purposes and answers different questions but both are equally important. Just as they say, “there is no one size fits all”, you shouldn’t just have butter with your bread. Go ahead and add some variety, olive oil is great too!
 

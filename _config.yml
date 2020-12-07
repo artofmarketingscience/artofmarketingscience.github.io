@@ -1,9 +1,8 @@
 # Site
 name: "The Art of Marketing Science"
 title: "The Art of Marketing Science"
-tagline: "Data science in Marketing"
+tagline: "Data Science in Marketing"
 description: "A blog dedicated to Marketing Science covering from concepts to practical examples with code. Oh, it's also my personal data science sandbox for tinkering with data things and go on data science rants."
-meta_description: "A blog on Marketing Science covering from concepts to practical examples with code. Focused on applying data science to marketing problems."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: 
@@ -22,7 +21,7 @@ authors:
     # gravatar: e56154546cf4be74e393c62d1ae9f9d4
     avatar: /assets/images/avatar/purple.png
     email: fongjason23@gmail.com
-    web: https://fongmanfong.github.io
+    web: https://artofmarketingscience.github.io/about
     twitter: https://twitter.com/fongmanfong
     description: "Using data science & engineering to understand and solve marketing problems"
   data_sandbox:
@@ -31,7 +30,7 @@ authors:
     # gravatar: e56154546cf4be74e393c62d1ae9f9d4
     avatar: /assets/images/avatar/green.png
     email: fongjason23@gmail.com
-    web: https://fongmanfong.github.io
+    web: https://artofmarketingscience.github.io/about
     twitter: https://twitter.com/fongmanfong
     description: "Playing is the most natural way to learn. These are the artifacts in my sandbox playground."
 # Plugins
@@ -41,7 +40,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
-  - jekyll-redirect-from  #https://blog.webjeda.com/jekyll-redirect/
+  - jekyll-redirect-from 
     
 # Archives
 jekyll-archives:

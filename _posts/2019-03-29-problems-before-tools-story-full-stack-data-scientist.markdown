@@ -11,7 +11,7 @@ redirect_from:	/problems_before_tools_an-alternative_view_to_generalist_data_sci
 
 ---
 
-![](/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/tape.gif)
+![using the wrong tool for the problem](/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/tape.gif "using the wrong tool for the problem")
 
 I recently read an [article](https://multithreaded.stitchfix.com/blog/2019/03/11/FullStackDS-Generalists/) from Eric Colson, Chief Algorithm Officer at Stitch Fix, where he talked about how we should avoid building data science teams like a manufacturing plant, comprising of highly specialized individuals operating different parts of a manufacturing process. Instead data science teams should be built with a full stack approach where data scientists are considered to be generalists. Generalists refers to the capability of performing diverse functions from conception to modelling to implementation to measurement. I won’t go into a detail summary of the article here but you should read Eric’s article before continuing on. 
 
@@ -31,11 +31,11 @@ Let’s start this discussion of with just defining data science. What exactly i
 
 These are some nicely crafted definitions (way better than I would have been able to articulate it) but an observable and consistent pattern across these definitions (along with numerous other on the internet) is that data science tends to be defined by doing a set of specific tasks or using a set of specific tools. If you do X, Y, Z and use A, B, C then that’s considered data science. The causal chain would look something this:
 
-![png](/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/wrong_causal_diagram.jpg)
+![incorect way to think about full-stack data science](/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/wrong_causal_diagram.jpg "incorrect way to think about full-stack data science")
 
 **Data Science - The Most Unsexy Field In The 21st Century**
 
-![png](/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/right_causal_diagram.jpg)
+![correct way to think about full-stack data science](/assets/images/2019-03-29-problems-before-tools-an-alternative-view-to-generalist-data-scientist/right_causal_diagram.jpg "correct way to think about full-stack data science")
 
 Practicing data science will lead you to use math and statistics, apply machine learning algorithm, learn programming, increase domain expertise. Why? First, I think through the process of packaging up and marketing data science to be this sexy field, we have incorrectly defined the definition of data science. I don’t think the definitions mentioned above are incorrect but I think a definition like this one is more authentic:
 

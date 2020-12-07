@@ -9,9 +9,9 @@ redirect_from: /DS-dimension_reduction_pca/
 ---
 
 
-PCA is one of the most popular techniques for dimensionality reduction. If you have no idea what I mean by dimensionality reduction, check out [part 1](./dimension-reduction-examples-part1) of this topic. In this article, we’ll explore PCA with a more applied approach rather than mathematical and we’ll keep certain details in a blackbox for future discussions.
+PCA is one of the most popular techniques for dimensionality reduction. If you have no idea what I mean by dimensionality reduction, check out [part 1](/dimension-reduction-correlation-low-variance-filter) of this topic. In this article, we’ll explore PCA with a more applied approach rather than mathematical and we’ll keep certain details in a blackbox for future discussions.
 
-What is PCA? PCA is an algorithm that transforms a dataset to lower dimensional dataset. The keyword here is transform which is different from feature selection that I’ve talked about in [part 1](./dimension-reduction-examples-part1). The difference being that features are not removed from the dataset but instead the dataset itself is transformed. Simple hypothetical example:
+What is PCA? PCA is an algorithm that transforms a dataset to lower dimensional dataset. The keyword here is transform which is different from feature selection that I’ve talked about in [part 1](/dimension-reduction-correlation-low-variance-filter). The difference being that features are not removed from the dataset but instead the dataset itself is transformed. Simple hypothetical example:
 
 ![png](/assets/images/2017-05-01-dimension-reduction-pca/fig1.png)
 

@@ -5,8 +5,7 @@ author: art_of_marketing_science
 categories: ["Art of Marketing Science"]
 description: "Evolving from marketing analytics to marketing science"
 image: /assets/images/2018-12-10-from_marketing_analytics_to_marketing_science/marketing_science_experiment.png
-redirect_from: /from_marketing_analytics_to_marketing_science/
-excerpt: "test test test"
+redirect_from: /AOM-from_marketing_analytics_to_marketing_science/
 ---
 
 _“Half the money I spend on advertising is wasted; the trouble is I don’t know which half.”_
