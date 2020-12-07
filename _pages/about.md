@@ -17,16 +17,10 @@ comments: true
 	In addition, this blog includes a `Data Sandbox` section that serves as a personal data science playground for me. You'll find a variety of topics in this topic including tutorials, examples, random data thoughts and rants.
 </p>
 
-</div>
-
-<div class="col-md-4">
-    
-<div class="sticky-top sticky-top-80">
 <h5>The Author</h5>
 
 <p>My name is <b>Jason Fong</b> but more popularly referred to as  <b>fongmanfong</b>. I currently lead the marketing data science team at Shopify.</p>
 
 
-</div>
 </div>
 </div>

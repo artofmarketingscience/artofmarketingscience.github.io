@@ -1,16 +1,18 @@
 ---
-layout: post
-title:  "Regression, a must have for Marketing Analysts"
-author: art_of_marketing_science
-categories: ["Art of Marketing Science"]
-description: "Regression is a must have tool for marketing analysts"
-image: /assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//toolbox.jpeg
-redirect_from: /AOM-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit/
+layout:			post
+title:			"Regression, a must have for Marketing Analysts"
+tagline:		"Regression, a must have for Marketing Analysts"
+author:			art_of_marketing_science
+categories:		["Art of Marketing Science"]
+description: 	"Regression is a must have swiss army knife for marketing analysts, with application like geo experiments and customer lifetime value models."
+excerpt:		"Regression is a must have swiss army knife for marketing analysts, with application like geo experiments and customer lifetime value models."
+image:			/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//toolbox.jpeg
+redirect_from:	/AOM-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit/
 ---
 
 Let’s be real here, being a data scientist ain’t easy. Have you seen what a modern data scientist should know?! 😱
 
-![png](/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//modern_data_scientist.png)
+![the modern data scientist](/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//modern_data_scientist.png "the modern data scientist")
 
 That’s a pretty extensive list of requirements but how feasible and practical is it to know everything on this list? In my opinion, not that feasible nor practical. In reality, a data scientist shouldn’t need to know everything mentioned (at least with the same level of competency). Instead, the problem space that a data scientist is working in should define the set of tools he/she needs. Similar to doctors, you either have family doctors who are generalists or you have doctors specializing in different areas. You don’t expect one doctor to know everything and be a specialist in everything.
 
@@ -29,7 +31,7 @@ And to answer this question, we should think about what problems or questions a 
 
 In theory, a good tool should help with answering some of these questions (but it would be naive to think that there is one tool that can solve all the problems aka No Free Lunch Theorem). In addition to just answering these questions, what’s equally as important for a CMO is understanding what levers are moving the needle.
 
-![gif](/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//levers.gif)
+![pulling the right lever](/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//levers.gif "pulling the right lever")
 
 For example, it’s not enough to know whether a company is growing or if revenue is increasing, a CMO needs to know what is moving the needle. Who is at risk of churning and what signals indicate a high risk of churning? Therefore a good tool in marketing should not only help with answering some of these questions but also provide insight into what variables are moving the needle.
 
@@ -42,7 +44,7 @@ Customers Acquired = B0 + B1 * AdWords_Spend + B2 * Facebook_Spend + B3 * Snapch
 
 ### Oh No, Equations and Formulas 😰
 
-![gif](/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//oh_no.gif)
+![oh no not equations](/assets/images/2018-12-31-one_thing_marketing_analysts_should_have_in_their_analytics_toolkit//oh_no.gif "oh no not equations")
 
 The beauty of regression lies in the equation. Why? Because if we’ve modeled the data appropriately, we can make interpretations of the coefficients (the Betas) in the equation to **make decisions**. This is different than some of the more popular machine learning techniques like deep learning, random forest etc. which are powerful tools for making predictions but the blackbox nature of the method makes it not interpretable.
 
@@ -52,7 +54,7 @@ _Customers Acquire = 100+ 2.0 * AdWords_Spend + 1.3 * Facebook_Spend + 0.5 * Sna
 
 In other words, the coefficients can be interpreted as the levers that a CMO would be interested in knowing.
 
-Regression also provides nice statistical properties including, but not limited to, statistical significance, confidence interval, & standard error of each estimator (our coefficients of interest) which provides a CMO with upper/lower bound of estimates and level of confidence for our estimates. ([In From Marketing Analytics To Marketing Science](https://artofmarketingscience.github.io/AOM-from_marketing_analytics_to_marketing_science/) I talk more about why we should look at marketing problems from more of a scientific lens)
+Regression also provides nice statistical properties including, but not limited to, statistical significance, confidence interval, & standard error of each estimator (our coefficients of interest) which provides a CMO with upper/lower bound of estimates and level of confidence for our estimates. ([From Marketing Analytics To Marketing Science](/from-marketing-analytics-to-marketing-science/) I talk more about why we should look at marketing problems from more of a scientific lens)
 
 ### Swiss Army Knife of Data Science
 

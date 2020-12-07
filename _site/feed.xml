@@ -5,8 +5,8 @@
     <description>A blog dedicated to Marketing Science covering from concepts to practical examples with code. Oh, it's also my personal data science sandbox for tinkering with data things and go on data science rants.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Dec 2020 20:51:10 -0500</pubDate>
-    <lastBuildDate>Sat, 05 Dec 2020 20:51:10 -0500</lastBuildDate>
+    <pubDate>Sun, 06 Dec 2020 23:13:26 -0500</pubDate>
+    <lastBuildDate>Sun, 06 Dec 2020 23:13:26 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
     
       <item>
@@ -35,7 +35,7 @@
     
       <item>
         <title>Regression, a must have for Marketing Analysts</title>
-        <description>Regression is a must have tool for marketing analysts</description>
+        <description>Regression is a must have swiss army knife for marketing analysts, with application like geo experiments and customer lifetime value models.</description>
         <pubDate>Mon, 31 Dec 2018 00:00:00 -0500</pubDate>
         <link>/regression-must-have-for-marketing-analysts/</link>
         <guid isPermaLink="true">/regression-must-have-for-marketing-analysts/</guid>
