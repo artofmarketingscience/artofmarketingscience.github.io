@@ -6,7 +6,7 @@
 
 <link rel="icon" href="/assets/images/logo.png">
     
-<!-- <title>Intro To Python and Pandas | The Art of Marketing Science</title>-->
+<!-- <title>Detecting Conversion Change Using Bayesian Change Point | The Art of Marketing Science</title>-->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -20,17 +20,19 @@
 <script src="/assets/js/jquery.min.js"></script>
 
 <!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Intro To Python and Pandas | The Art of Marketing Science</title>
+<title>Detecting Conversion Change Using Bayesian Change Point | The Art of Marketing Science</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Intro To Python and Pandas" />
-<meta name="author" content="data_sandbox" />
+<meta property="og:title" content="Detecting Conversion Change Using Bayesian Change Point" />
+<meta name="author" content="art_of_marketing_science" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="A quick introduction to Python and Pandas for data analysis" />
-<meta property="og:description" content="A quick introduction to Python and Pandas for data analysis" />
+<meta name="description" content="Baysian Change Point analysis using PyMC3 to detect changes in marketing conversions. A real life example using analysis done at Shopify during COVID-19 pandemic." />
+<meta property="og:description" content="Baysian Change Point analysis using PyMC3 to detect changes in marketing conversions. A real life example using analysis done at Shopify during COVID-19 pandemic." />
 <meta property="og:site_name" content="The Art of Marketing Science" />
-<meta property="og:image" content="/assets/images/2017-02-18-intro_to_python_and_pandas/gangster_panda.jpg" />
+<meta property="og:image" content="/assets/images/2020-12-08-detecting-conversion-changes-using-bayesian-change-point/article_image.jpeg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-12-08T00:00:00-05:00" />
 <script type="application/ld+json">
-{"description":"A quick introduction to Python and Pandas for data analysis","author":{"@type":"Person","name":"data_sandbox"},"@type":"WebPage","url":"/archived_posts/2017-02-18-DS-intro_to_python_and_pandas/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"},"name":"data_sandbox"},"image":"/assets/images/2017-02-18-intro_to_python_and_pandas/gangster_panda.jpg","headline":"Intro To Python and Pandas","@context":"http://schema.org"}</script>
+{"description":"Baysian Change Point analysis using PyMC3 to detect changes in marketing conversions. A real life example using analysis done at Shopify during COVID-19 pandemic.","author":{"@type":"Person","name":"art_of_marketing_science"},"@type":"BlogPosting","url":"/detecting-conversion-changes-using-bayesian-change-point/","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/assets/images/logo.png"},"name":"art_of_marketing_science"},"image":"/assets/images/2020-12-08-detecting-conversion-changes-using-bayesian-change-point/article_image.jpeg","headline":"Detecting Conversion Change Using Bayesian Change Point","dateModified":"2020-12-08T00:00:00-05:00","datePublished":"2020-12-08T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"/detecting-conversion-changes-using-bayesian-change-point/"},"@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -350,19 +352,19 @@ $(function() {
     </p>
     <ul>
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://twitter.com/intent/tweet?text=Intro To Python and Pandas&url=/archived_posts/2017-02-18-DS-intro_to_python_and_pandas/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <a target="_blank" href="https://twitter.com/intent/tweet?text=Detecting Conversion Change Using Bayesian Change Point&url=/detecting-conversion-changes-using-bayesian-change-point/" onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
         <i class="fab fa-twitter"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://facebook.com/sharer.php?u=/archived_posts/2017-02-18-DS-intro_to_python_and_pandas/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://facebook.com/sharer.php?u=/detecting-conversion-changes-using-bayesian-change-point/" onclick="window.open(this.href, 'facebook-share', 'width=550,height=435');return false;">
         <i class="fab fa-facebook-f"></i>
         </a>
         </li>
         
         <li class="ml-1 mr-1">
-        <a target="_blank" href="https://plus.google.com/share?url=/archived_posts/2017-02-18-DS-intro_to_python_and_pandas/" onclick="window.open(this.href, 'facebook-google', 'width=550,height=435');return false;">
+        <a target="_blank" href="https://plus.google.com/share?url=/detecting-conversion-changes-using-bayesian-change-point/" onclick="window.open(this.href, 'facebook-google', 'width=550,height=435');return false;">
         <i class="fab fa-google"></i>
         </a>
         </li>
@@ -391,358 +393,333 @@ $(function() {
                 				
 				<div class="row post-top-meta">
 					<div class="col-md-2">
-						<!--<img class="author-thumb" src="https://www.gravatar.com/avatar/?s=250&d=mm&r=x" alt="Data Sandbox">-->
-                        <img class="author-thumb" src="/assets/images/avatar/green.png?s=250&d=mm&r=x" alt="Data Sandbox">
+						<!--<img class="author-thumb" src="https://www.gravatar.com/avatar/?s=250&d=mm&r=x" alt="Art of Marketing Science">-->
+                        <img class="author-thumb" src="/assets/images/avatar/purple.png?s=250&d=mm&r=x" alt="Art of Marketing Science">
 					</div>
 					<div class="col-md-10">
-						<a target="_blank" class="link-dark" href="https://artofmarketingscience.github.io/about">Data Sandbox</a><a target="_blank" href="https://twitter.com/fongmanfong" class="btn follow">Follow</a>
-						<span class="author-description">Playing is the most natural way to learn. These are the artifacts in my sandbox playground.</span>						
+						<a target="_blank" class="link-dark" href="https://artofmarketingscience.github.io/about">Art of Marketing Science</a><a target="_blank" href="https://twitter.com/fongmanfong" class="btn follow">Follow</a>
+						<span class="author-description">Using data science & engineering to understand and solve marketing problems</span>						
 					</div>
 				</div>				
                 
                 
                 <!-- Post Title -->
-				<h1 class="posttitle">Intro To Python and Pandas</h1> 
+				<h1 class="posttitle">Detecting Conversion Change Using Bayesian Change Point</h1> 
                 
 			</div>
 
 			<!-- Post Featured Image -->
-			<!-- <img class="featured-image img-fluid" src="/assets/images/2017-02-18-intro_to_python_and_pandas/gangster_panda.jpg" alt="Intro To Python and Pandas"> -->
+			<!-- <img class="featured-image img-fluid" src="/assets/images/2020-12-08-detecting-conversion-changes-using-bayesian-change-point/article_image.jpeg" alt="Detecting Conversion Change Using Bayesian Change Point"> -->
 			<!-- End Featured Image -->
 
 			<!-- Post Content -->
 			<div class="article-post">
-				<p>Python is one of the most popular and fastest growing software languages used in data analytics today and there are many reasons for that. I will cover majority of the topics in this blog in Python and occasionally R.</p>
+				<p>In this blog article we’ll explore a fairly simple yet powerful analysis method called Bayesian Change Point analysis.
+We’ll apply this nifty tool to a real life analysis (using simulated data) I did at Shopify to detect changes in marketing conversions. The model is built in PyMC3 and the Python code that is included demonstrates both a single change point as well as a double change point.</p>
 
-<p>For those who are completely new to Python and programming, I encourage you to check out Codeacademy and do their free Python course. It’s important to get a good feel for this language and understand some fundamental concepts like syntax, libraries, data structures etc. The course is very straight forward and suitable for all level.</p>
+<h3 id="what-is-bayesian-change-point-analysis">What is Bayesian Change Point Analysis?</h3>
 
-<p>pandas is a Python library (prewritten code for us to use) and is the bread &amp; butter for data analysis. I’m assuming everyone that’s reading this used Excel or some sort of spreadsheet before. Pandas essentially stores data in a tabular format (rows and columns like a spreadsheet) with predefined functionalities to manipulate &amp; analyze data. After learning about basic Python, I encourage you to check out this tutorial from Greg Reda on how to use pandas.</p>
+<p>Bayesian Change Point or Bayesian Switchpoint analysis is a method used to detect whether the mean, variance or periodicity of data changed abruptly at some point in time and when that change occured. I won’t be going into detail on the math behind the analysis and how to set the priors for this Bayesian analysis. I’ll likely leave that for another article. A lot of the code shared here is borrowed from my previous Director &amp; mentor <a href="https://twitter.com/Cmrn_DP">Cameron Davidson Pilon’s</a> book <a href="https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers">Bayesian for Hackers</a>. I’d highly encourage taking a read for more information. I’ll be adding additional example to illustrate how to include multiple switchpoints in the Bayesian Change Point model.</p>
 
-<p>In this series of blog articles, I will instead focus on this Panda’s cheatsheet and additional common functionalities, walking through some examples and relating to how you would use it on a day to day task. Lets start with creating Series an DataFrames, getting some data and removing some data.</p>
+<h3 id="the-shopify-covid-19-story">The Shopify COVID-19 Story</h3>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<p>In Growth Marketing, we pay close attention to the marketing funnel and the conversions at each step of the funnel. At Shopify, signing up for a free trial is one of the main marketing conversions the team focuses on monitoring and optimizing. This is a very important conversion point as it is highly correlated to how many merchants are signing up onto the Shopify platform and Shopify’s overall growth.</p>
+
+<p>In March of 2020, when the world started to shut down in response to the COVID-19 pandemic, we saw abnormal changes in various KPIs; free trial sign-up being one of metrics that were impacted. There were worries across the executive leadership team that sign-up will be negatively impacted with the world shutting down. At the same time, Shopify decided to extend its 14-day free trial to 90 days to <a href="https://www.shopify.ca/covid19">help small businesses get through the hard times</a>.</p>
+
+<p>The worries turned out to be wrong and, surprisingly, the opposite happened. It actually appeared as if sign-ups increased across different countries at similar but slightly different times during March. In hindsight, the need to move online is fairly clear and an increase in sign-ups makes sense, but it was definitely not clear at that moment in time.</p>
+
+<p>I approached this problem using Bayesian Change Point model to understand if there was actually a change in sign-ups and if so, inferred the probability of when it happened. What I found from the analysis was highly interesting. Firstly, we are very confident that there was an abrupt change in sign-ups during March. Secondly and more interestingly, the change in sign-ups across different countries aligned exactly on the dates of when those countries went into nationwide lockdown. For a bit more context, <a href="https://twitter.com/solmaz_sh?lang=en">Solmaz Shahalizadeh</a>, VP of Data Science and Engineering, briefly talks about this insight on the <a href="https://anchor.fm/lifeatshopify/episodes/Data-Science-and-Engineering-with-Solmaz-el46v4/a-a3i51b5">Life @ Shopify podcast</a>.</p>
+
+<p>I extended this Bayesian Switchpoint analysis to understand if the introduction of the 90-day free trial had an effect on the change in sign-ups. I modelled two switches into the analysis and low and behold the model was able to detect two changes, one from nationwide lockdown and the other from 90-day free trial, both switches occuring on explanable dates!</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">import</span> <span class="nn">pymc3</span> <span class="k">as</span> <span class="n">pm</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">from</span> <span class="nn">IPython.core.pylabtools</span> <span class="kn">import</span> <span class="n">figsize</span>
+<span class="kn">from</span> <span class="nn">matplotlib</span> <span class="kn">import</span> <span class="n">pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="n">warnings</span><span class="o">.</span><span class="n">filterwarnings</span><span class="p">(</span><span class="s">'ignore'</span><span class="p">)</span>
 </code></pre></div></div>
 
-<h2 id="creating-series-and-dataframe">Creating Series and DataFrame</h2>
+<h3 id="detecting-one-switchpoint">Detecting one switchpoint</h3>
 
-<p>Lets first define a Series. A Series is simply a one dimensional array, kind of like your Excel spreadsheet but with one column.</p>
+<p>Let’s begin by simulating some sign-up data to run our Bayesian Change Point model on. We mock up sign-up data across 31 days in March with one change in average daily sign ups some time in March due to lockdown. I’ve fixed the change to occur some time in mid-March. The change could have happened in early March or tail end of March and we can easily extend the time horizon into April in our real analysis.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">mu_1</span> <span class="o">=</span> <span class="mi">1000</span> <span class="c1"># average daily sign up pre lockdown
+</span><span class="n">mu_2</span> <span class="o">=</span> <span class="mi">1100</span> <span class="c1"># average daily sign up post lockdown
+</span>
+<span class="n">num_days</span> <span class="o">=</span> <span class="mi">31</span>
+
+<span class="n">lockdown</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span> <span class="c1"># simulating the change sometime mid March. 
+</span><span class="k">print</span> <span class="p">(</span><span class="n">lockdown</span><span class="p">)</span>
+
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0    3
-1   -5
-2    7
-3    4
-dtype: int64
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>20
 </code></pre></div></div>
 
-<p>The 0, 1, 2, 3 here is the index of the series. They are like the row #s in excel. We can also have predefined index labels for our Series. Lets label it a, b, c, d</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">4</span><span class="p">],</span> <span class="n">index</span><span class="o">=</span><span class="p">[</span><span class="s">'a'</span><span class="p">,</span> <span class="s">'b'</span><span class="p">,</span> <span class="s">'c'</span><span class="p">,</span> <span class="s">'d'</span><span class="p">])</span>
-<span class="n">s</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Simulate March sign up data
+</span><span class="n">signup_pre_lock</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span><span class="o">=</span><span class="n">mu_1</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="n">lockdown</span><span class="p">))</span>
+<span class="n">signup_post_lock</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span><span class="o">=</span><span class="n">mu_2</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="n">num_days</span> <span class="o">-</span> <span class="n">lockdown</span><span class="p">))</span>
+<span class="n">signup</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">([</span><span class="n">signup_pre_lock</span><span class="p">,</span> <span class="n">signup_post_lock</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a    3
-b   -5
-c    7
-d    4
-dtype: int64
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">num_days</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">signup</span><span class="p">)</span> <span class="c1"># Check to make sure days line up
+</span></code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
 </code></pre></div></div>
 
-<p>DataFrame on the other hand is like a Series but two dimensional, so like your full Excel sheet instead of one column. There are many ways to create a DataFrame with your data, its quite flexible and up to you what is the easiest based on the data set you have.</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">#if your data is already in dictionary form
-</span><span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s">'Country'</span><span class="p">:</span> <span class="p">[</span><span class="s">'Belgium'</span><span class="p">,</span> <span class="s">'India'</span><span class="p">,</span> <span class="s">'Brazil'</span><span class="p">],</span>
-        <span class="s">'Capital'</span><span class="p">:</span> <span class="p">[</span><span class="s">'Brussels'</span><span class="p">,</span> <span class="s">'New Delhi'</span><span class="p">,</span> <span class="s">'Brasília'</span><span class="p">],</span>
-        <span class="s">'Population'</span><span class="p">:</span> <span class="p">[</span><span class="mi">11190846</span><span class="p">,</span> <span class="mi">1303171035</span><span class="p">,</span> <span class="mi">207847528</span><span class="p">]}</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
-<span class="n">df</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">figsize</span><span class="p">(</span><span class="mf">12.5</span><span class="p">,</span> <span class="mf">3.5</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">signup</span><span class="p">)),</span> <span class="n">signup</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">"#348ABD"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"Day"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Sign Ups"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Did Shopify Sign Up Change During March?"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">signup</span><span class="p">));</span>
 </code></pre></div></div>
 
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Capital</th>
-      <th>Country</th>
-      <th>Population</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Brussels</td>
-      <td>Belgium</td>
-      <td>11190846</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>New Delhi</td>
-      <td>India</td>
-      <td>1303171035</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Brasília</td>
-      <td>Brazil</td>
-      <td>207847528</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<p><img src="/assets/images/2020-12-08-detecting-conversion-changes-using-bayesian-change-point/output_8_0.png" alt="shopify sign up per day" title="shopify sign up per day" /></p>
 
-<p>Or you could have some Series you already defined and want to put them together into a DataFrame. The NaN here means there is unknown value.</p>
+<p>For more details around syntax of PyMC3, I’d encourage you to read through documentation or Bayesian for Hackers. In our PyMC3 model, we define the priors of each of the parameters we are inferring, the proposed data generation scheme using switch function, and tying our observed sign up data with data generation scheme.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s1</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">7</span><span class="p">,</span> <span class="mi">4</span><span class="p">])</span>
-<span class="n">s2</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">Series</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">6</span><span class="p">])</span>
-<span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">({</span>
-        <span class="s">'s1'</span><span class="p">:</span> <span class="n">s1</span><span class="p">,</span>
-        <span class="s">'s2'</span><span class="p">:</span> <span class="n">s2</span><span class="p">})</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="n">pm</span><span class="o">.</span><span class="n">Model</span><span class="p">()</span> <span class="k">as</span> <span class="n">model</span><span class="p">:</span>
+    <span class="n">alpha</span> <span class="o">=</span> <span class="mf">1.0</span><span class="o">/</span><span class="n">signup</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>  <span class="c1"># See Bayesian for Hackers
+</span>    <span class="n">signup_pre_lock_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">Exponential</span><span class="p">(</span><span class="s">"signup_pre_lock_param"</span><span class="p">,</span> <span class="n">alpha</span><span class="p">)</span> <span class="c1"># Prior - Average daily sign up pre lockdown
+</span>    <span class="n">signup_post_lock_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">Exponential</span><span class="p">(</span><span class="s">"signup_post_lock_param"</span><span class="p">,</span> <span class="n">alpha</span><span class="p">)</span> <span class="c1"># Prior - Average daily sign up post lockdown
+</span>    
+    <span class="n">lockdown_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">DiscreteUniform</span><span class="p">(</span><span class="s">"lockdown_param"</span><span class="p">,</span> <span class="n">lower</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">upper</span><span class="o">=</span><span class="n">num_days</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="c1">#Prior - Day of when switch occured 
+</span>    
+    <span class="n">idx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">num_days</span><span class="p">)</span> <span class="c1"># Index
+</span>    <span class="n">signup_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">math</span><span class="o">.</span><span class="n">switch</span><span class="p">(</span><span class="n">lockdown_param</span> <span class="o">&gt;</span> <span class="n">idx</span><span class="p">,</span> <span class="n">signup_pre_lock_param</span><span class="p">,</span> <span class="n">signup_post_lock_param</span><span class="p">)</span> <span class="c1"># Model a switch after a certain point in time
+</span>    
+    <span class="n">observation</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">Poisson</span><span class="p">(</span><span class="s">"obs"</span><span class="p">,</span> <span class="n">signup_param</span><span class="p">,</span> <span class="n">observed</span><span class="o">=</span><span class="n">signup</span><span class="p">)</span> <span class="c1"># Feed model observations
+</span></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="n">model</span><span class="p">:</span>
+    <span class="n">trace</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10000</span><span class="p">,</span> <span class="n">tune</span><span class="o">=</span><span class="mi">5000</span><span class="p">,</span> <span class="n">chains</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
 </code></pre></div></div>
 
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>s1</th>
-      <th>s2</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>3</td>
-      <td>1.0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>-5</td>
-      <td>3.0</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>7</td>
-      <td>6.0</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>4</td>
-      <td>NaN</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<h2 id="retrieving-data">Retrieving Data</h2>
-
-<p>Remember previously your Series by default is indexed by number (0,1,2,3) and you also labeled the index. You can get information either way, using index number or your label</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="n">s</span><span class="p">[</span><span class="s">'a'</span><span class="p">]</span>
-<span class="k">print</span> <span class="n">s</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
-</code></pre></div></div>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>3
-3
-</code></pre></div></div>
-
-<p>DataFrame is similar. Earlier we created a DataFrame with country information. We can get a column by specifying the column name</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="p">[</span><span class="s">'Country'</span><span class="p">]</span>
-</code></pre></div></div>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>0    Belgium
-1      India
-2     Brazil
-Name: Country, dtype: object
-</code></pre></div></div>
-
-<p>Or multiple columns</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="p">[[</span><span class="s">'Country'</span><span class="p">,</span> <span class="s">'Capital'</span><span class="p">]]</span>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Multiprocess sampling (4 chains in 2 jobs)
+CompoundStep
+&gt;NUTS: [signup_post_lock_param, signup_pre_lock_param]
+&gt;Metropolis: [lockdown_param]
 </code></pre></div></div>
 
 <div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Country</th>
-      <th>Capital</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Belgium</td>
-      <td>Brussels</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>India</td>
-      <td>New Delhi</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Brazil</td>
-      <td>Brasília</td>
-    </tr>
-  </tbody>
-</table>
+    <style>
+        /* Turns off some styling */
+        progress {
+            /* gets rid of default border in Firefox and Opera. */
+            border: none;
+            /* Needs to be in here for Safari polyfill so background images work as expected. */
+            background-size: auto;
+        }
+        .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
+            background: #F44336;
+        }
+    </style>
+  <progress value="60000" class="" max="60000" style="width:300px; height:20px; vertical-align: middle;"></progress>
+  100.00% [60000/60000 01:22&lt;00:00 Sampling 4 chains, 0 divergences]
 </div>
 
-<p>And to select a range of rows, we use the : operator. It simply means select from this index value up to this index value. E.g. 0:2 means select row index 0 and 1</p>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sampling 4 chains for 5_000 tune and 10_000 draw iterations (20_000 + 40_000 draws total) took 94 seconds.
+The number of effective samples is smaller than 25% for some parameters.
+</code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">2</span><span class="p">]</span>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pm</span><span class="o">.</span><span class="n">traceplot</span><span class="p">(</span><span class="n">trace</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p><img src="/assets/images/2020-12-08-detecting-conversion-changes-using-bayesian-change-point/output_12_0.png" alt="bayesian change point pymc3 traceplot" title="bayesian change point pymc3 traceplot" /></p>
+
+<p>The traceplot provides a summary of the sampling. On the left is the posterior distribution of the parameters we are inferring and on the right highlights how well the sampling “mixed”. What you’re looking for is convergence of the distribution as well as the traces mixing well. A more visual way to put it, you want your mix plot look like a caterpillar.</p>
+
+<p>As we see belong, the Bayesian Swtichpoint model is able to correctly infer when the switch occured, the average daily sign ups before and after the switch.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">signup_pre_lock_param_samples</span> <span class="o">=</span>  <span class="n">trace</span><span class="p">[</span><span class="s">'signup_pre_lock_param'</span><span class="p">]</span>
+<span class="n">signup_post_lock_param_samples</span> <span class="o">=</span> <span class="n">trace</span><span class="p">[</span><span class="s">'signup_post_lock_param'</span><span class="p">]</span>
+<span class="n">lockdown_param_samples</span> <span class="o">=</span> <span class="n">trace</span><span class="p">[</span><span class="s">'lockdown_param'</span><span class="p">]</span>
+
+<span class="n">prob_lock_post_greater_pre</span> <span class="o">=</span> <span class="p">(</span><span class="n">signup_post_lock_param_samples</span> <span class="o">&gt;</span> <span class="n">signup_pre_lock_param_samples</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+<span class="n">prob_lockdown_day</span> <span class="o">=</span> <span class="p">(</span><span class="n">lockdown_param_samples</span> <span class="o">==</span> <span class="n">lockdown</span><span class="p">)</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">print</span> <span class="p">(</span><span class="s">"Average Sign Up Before Switch : </span><span class="si">%</span><span class="s">s. vs. actual </span><span class="si">%</span><span class="s">s. "</span> <span class="o">%</span> <span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">signup_pre_lock_param_samples</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span> <span class="mi">0</span><span class="p">),</span> <span class="n">mu_1</span><span class="p">))</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">"Average Sign up After Swtich : </span><span class="si">%</span><span class="s">s. vs. actual </span><span class="si">%</span><span class="s">s. "</span>  <span class="o">%</span> <span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">signup_post_lock_param_samples</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span> <span class="mi">0</span><span class="p">),</span> <span class="n">mu_2</span><span class="p">))</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">"Day of Switch : </span><span class="si">%</span><span class="s">s. vs. actual </span><span class="si">%</span><span class="s">s. "</span> <span class="o">%</span> <span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">lockdown_param_samples</span><span class="o">.</span><span class="n">mean</span><span class="p">(),</span> <span class="mi">0</span><span class="p">),</span> <span class="n">lockdown</span> <span class="o">-</span> <span class="mi">1</span><span class="p">))</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">"Probability Signup Post &gt; Pre : </span><span class="si">%</span><span class="s">s. "</span> <span class="o">%</span> <span class="p">(</span><span class="nb">round</span><span class="p">(</span><span class="n">prob_lock_post_greater_pre</span><span class="p">,</span> <span class="mi">2</span><span class="p">)))</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">"Probability Switch on Day </span><span class="si">%</span><span class="s">s. : </span><span class="si">%</span><span class="s">s. "</span> <span class="o">%</span> <span class="p">(</span><span class="n">lockdown</span><span class="p">,</span> <span class="n">prob_lockdown_day</span><span class="p">))</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Average Sign Up Before Switch : 982.0. vs. actual 1000. 
+Average Sign up After Swtich : 1112.0. vs. actual 1100. 
+Day of Switch : 20.0. vs. actual 18. 
+Probability Signup Post &gt; Pre : 1.0. 
+Probability Switch on Day 19. : 0.00095. 
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">figsize</span><span class="p">(</span><span class="mf">12.5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">N</span> <span class="o">=</span> <span class="n">lockdown_param_samples</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">signups_per_day</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">num_days</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">day</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">num_days</span><span class="p">):</span>
+    <span class="n">ix</span> <span class="o">=</span> <span class="n">day</span> <span class="o">&lt;</span> <span class="n">lockdown_param_samples</span>
+    <span class="n">signups_per_day</span><span class="p">[</span><span class="n">day</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">signup_pre_lock_param_samples</span><span class="p">[</span><span class="n">ix</span><span class="p">]</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span> <span class="o">+</span> <span class="n">signup_post_lock_param_samples</span><span class="p">[</span><span class="o">~</span><span class="n">ix</span><span class="p">]</span><span class="o">.</span><span class="nb">sum</span><span class="p">())</span> <span class="o">/</span> <span class="n">N</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">num_days</span><span class="p">),</span> <span class="n">signups_per_day</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">"#E24A33"</span><span class="p">,</span>
+         <span class="n">label</span><span class="o">=</span><span class="s">"Expected Shopify Sign Ups Per Day"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">num_days</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"Day"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Shopify Sign Ups"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Expected Shopify Sign Ups Per Day"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">num_days</span><span class="p">),</span> <span class="n">signup</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">"#348ABD"</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.65</span><span class="p">,</span>
+        <span class="n">label</span><span class="o">=</span><span class="s">"Oberseved Sign Ups"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">vlines</span><span class="p">(</span><span class="n">lockdown</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1200</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">linestyles</span><span class="o">=</span><span class="s">'solid'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'Lockdown'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">"lower left"</span><span class="p">);</span>
+</code></pre></div></div>
+
+<p><img src="/assets/images/2020-12-08-detecting-conversion-changes-using-bayesian-change-point/output_16_0.png" alt="bayesian switch point graphed" title="bayesian switch point graphed" /></p>
+
+<h3 id="detecting-multiple-switchpoints">Detecting multiple switchpoints</h3>
+
+<p>We can easily extend our Bayesian Change Point detection to model two switchpoints. We’ll simulate an additional switchpoint in sign-ups due to the 90-day free trial. Instead of modelling pre- and post-, we will have an additional parameter for sign-ups post free trial introduction as well as an additional day of when switch occurs.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">mu_3</span> <span class="o">=</span> <span class="mi">1200</span> <span class="c1"># average daily signups after 90d free trial
+</span><span class="n">num_days</span> <span class="o">=</span> <span class="mi">45</span> <span class="c1"># extend out to look at 1.5 months of signups
+</span>
+<span class="n">lockdown</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">12</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span> <span class="c1"># simulating the change sometime mid March. 
+</span><span class="n">free_trial</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">25</span><span class="p">,</span> <span class="mi">35</span><span class="p">)</span> <span class="c1"># simulating the change late March - early April
+</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">lockdown</span><span class="p">)</span>
+<span class="k">print</span> <span class="p">(</span><span class="n">free_trial</span><span class="p">)</span>
+
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>19
+33
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Simulate March sign up data
+</span><span class="n">signup_pre_lock</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span><span class="o">=</span><span class="n">mu_1</span><span class="p">,</span> <span class="n">size</span><span class="o">=</span><span class="p">(</span><span class="n">lockdown</span><span class="p">))</span>
+<span class="n">signup_post_lock</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span><span class="o">=</span><span class="n">mu_2</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="n">free_trial</span> <span class="o">-</span> <span class="n">lockdown</span><span class="p">))</span>
+<span class="n">signup_post_trial</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">random</span><span class="o">.</span><span class="n">poisson</span><span class="p">(</span><span class="n">lam</span><span class="o">=</span><span class="n">mu_3</span><span class="p">,</span> <span class="n">size</span> <span class="o">=</span> <span class="p">(</span><span class="n">num_days</span> <span class="o">-</span> <span class="n">free_trial</span><span class="p">))</span>
+<span class="n">signup</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">concatenate</span><span class="p">([</span><span class="n">signup_pre_lock</span><span class="p">,</span> <span class="n">signup_post_lock</span><span class="p">,</span> <span class="n">signup_post_trial</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">num_days</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">signup</span><span class="p">)</span> <span class="c1"># Check to make sure days line up
+</span></code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>True
+</code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="n">pm</span><span class="o">.</span><span class="n">Model</span><span class="p">()</span> <span class="k">as</span> <span class="n">model_2</span><span class="p">:</span>
+    
+    <span class="n">alpha</span> <span class="o">=</span> <span class="mf">1.0</span><span class="o">/</span><span class="n">signup</span><span class="o">.</span><span class="n">mean</span><span class="p">()</span>  <span class="c1"># See Bayesian for Hackers
+</span>    
+    <span class="n">signup_pre_lock_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">Exponential</span><span class="p">(</span><span class="s">"signup_pre_lock_param"</span><span class="p">,</span> <span class="n">alpha</span><span class="p">)</span> <span class="c1"># Prior - Average daily sign up pre lockdown
+</span>    <span class="n">signup_post_lock_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">Exponential</span><span class="p">(</span><span class="s">"signup_post_lock_param"</span><span class="p">,</span> <span class="n">alpha</span><span class="p">)</span> <span class="c1"># Prior - Average daily sign up post lockdown
+</span>    <span class="n">signup_post_trial_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">Exponential</span><span class="p">(</span><span class="s">"signup_post_trial_param"</span><span class="p">,</span> <span class="n">alpha</span><span class="p">)</span> <span class="c1"># Prior - Average daily sign up post free trial
+</span>    
+    <span class="n">lockdown_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">DiscreteUniform</span><span class="p">(</span><span class="s">"lockdown_param"</span><span class="p">,</span> <span class="n">lower</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">upper</span><span class="o">=</span><span class="n">num_days</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="c1"># Prior - Day of when lockdown switch occured 
+</span>    <span class="n">trial_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">DiscreteUniform</span><span class="p">(</span><span class="s">"trial_param"</span><span class="p">,</span> <span class="n">lower</span><span class="o">=</span><span class="n">lockdown_param</span><span class="p">,</span> <span class="n">upper</span><span class="o">=</span><span class="n">num_days</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span> <span class="c1"># Prior - Day of when free trial switch occured
+</span>    
+    <span class="n">idx</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">num_days</span><span class="p">)</span> <span class="c1"># Index    
+</span>    <span class="n">signup_param</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">math</span><span class="o">.</span><span class="n">switch</span><span class="p">(</span><span class="n">trial_param</span> <span class="o">&gt;=</span> <span class="n">idx</span><span class="p">,</span> <span class="n">pm</span><span class="o">.</span><span class="n">math</span><span class="o">.</span><span class="n">switch</span><span class="p">(</span><span class="n">lockdown_param</span> <span class="o">&gt;=</span> <span class="n">idx</span><span class="p">,</span> <span class="n">signup_pre_lock_param</span><span class="p">,</span> <span class="n">signup_post_lock_param</span><span class="p">),</span> <span class="n">signup_post_trial_param</span><span class="p">)</span> <span class="c1"># Model a switch after a certain point in time
+</span>    
+    <span class="n">observation</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">Poisson</span><span class="p">(</span><span class="s">"obs"</span><span class="p">,</span> <span class="n">signup_param</span><span class="p">,</span> <span class="n">observed</span><span class="o">=</span><span class="n">signup</span><span class="p">)</span> <span class="c1"># Feed model observations
+</span></code></pre></div></div>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">with</span> <span class="n">model_2</span><span class="p">:</span>
+    <span class="n">trace_2</span> <span class="o">=</span> <span class="n">pm</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="mi">10000</span><span class="p">,</span> <span class="n">tune</span><span class="o">=</span><span class="mi">5000</span><span class="p">,</span> <span class="n">chains</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+</code></pre></div></div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Multiprocess sampling (4 chains in 2 jobs)
+CompoundStep
+&gt;NUTS: [signup_post_trial_param, signup_post_lock_param, signup_pre_lock_param]
+&gt;CompoundStep
+&gt;&gt;Metropolis: [trial_param]
+&gt;&gt;Metropolis: [lockdown_param]
 </code></pre></div></div>
 
 <div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Capital</th>
-      <th>Country</th>
-      <th>Population</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Brussels</td>
-      <td>Belgium</td>
-      <td>11190846</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>New Delhi</td>
-      <td>India</td>
-      <td>1303171035</td>
-    </tr>
-  </tbody>
-</table>
+    <style>
+        /* Turns off some styling */
+        progress {
+            /* gets rid of default border in Firefox and Opera. */
+            border: none;
+            /* Needs to be in here for Safari polyfill so background images work as expected. */
+            background-size: auto;
+        }
+        .progress-bar-interrupted, .progress-bar-interrupted::-webkit-progress-bar {
+            background: #F44336;
+        }
+    </style>
+  <progress value="60000" class="" max="60000" style="width:300px; height:20px; vertical-align: middle;"></progress>
+  100.00% [60000/60000 01:09&lt;00:00 Sampling 4 chains, 0 divergences]
 </div>
 
-<h2 id="deleting-data">Deleting Data</h2>
-
-<p>Sometimes we dont need all the data in our DataFrame or Series. Pandas provide a very convenient way of removing the  data using the drop function</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s">'a'</span><span class="p">)</span>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Sampling 4 chains for 5_000 tune and 10_000 draw iterations (20_000 + 40_000 draws total) took 79 seconds.
+The number of effective samples is smaller than 25% for some parameters.
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>b   -5
-c    7
-d    4
-dtype: int64
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pm</span><span class="o">.</span><span class="n">traceplot</span><span class="p">(</span><span class="n">trace_2</span><span class="p">);</span>
 </code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">s</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s">'a'</span><span class="p">,</span><span class="s">'d'</span><span class="p">])</span>
+<p><img src="/assets/images/2020-12-08-detecting-conversion-changes-using-bayesian-change-point/output_23_0.png" alt="bayesian switch point pymc3 traceplot" title="bayesian switch point pymc3 traceplot" /></p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Draw double switch graph
+</span><span class="n">signup_pre_lock_param_samples</span> <span class="o">=</span>  <span class="n">trace_2</span><span class="p">[</span><span class="s">'signup_pre_lock_param'</span><span class="p">]</span>
+<span class="n">signup_post_lock_param_samples</span> <span class="o">=</span> <span class="n">trace_2</span><span class="p">[</span><span class="s">'signup_post_lock_param'</span><span class="p">]</span>
+<span class="n">signup_post_trial_param_samples</span> <span class="o">=</span> <span class="n">trace_2</span><span class="p">[</span><span class="s">'signup_post_trial_param'</span><span class="p">]</span>
+
+<span class="n">lockdown_param_samples</span> <span class="o">=</span> <span class="n">trace_2</span><span class="p">[</span><span class="s">'lockdown_param'</span><span class="p">]</span>
+<span class="n">trial_param_samples</span> <span class="o">=</span> <span class="n">trace_2</span><span class="p">[</span><span class="s">'trial_param'</span><span class="p">]</span>
 </code></pre></div></div>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>b   -5
-c    7
-dtype: int64
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">figsize</span><span class="p">(</span><span class="mf">12.5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
+<span class="n">N</span> <span class="o">=</span> <span class="n">lockdown_param_samples</span><span class="o">.</span><span class="n">shape</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">signups_per_day</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">num_days</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">day</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">num_days</span><span class="p">):</span>
+    <span class="n">ix</span> <span class="o">=</span> <span class="n">day</span> <span class="o">&lt;=</span> <span class="n">lockdown_param_samples</span>
+    <span class="n">ix2</span> <span class="o">=</span> <span class="p">(</span><span class="n">lockdown_param_samples</span> <span class="o">&lt;</span> <span class="n">day</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">day</span> <span class="o">&lt;=</span> <span class="n">trial_param_samples</span><span class="p">)</span>
+    <span class="n">signups_per_day</span><span class="p">[</span><span class="n">day</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="n">signup_pre_lock_param_samples</span><span class="p">[</span><span class="n">ix</span><span class="p">]</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span> <span class="o">+</span> 
+                            <span class="n">signup_post_lock_param_samples</span><span class="p">[</span><span class="n">ix2</span><span class="p">]</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span> <span class="o">+</span>
+                            <span class="n">signup_post_trial_param_samples</span><span class="p">[(</span><span class="o">~</span><span class="n">ix2</span> <span class="o">&amp;</span> <span class="o">~</span><span class="n">ix</span><span class="p">)]</span><span class="o">.</span><span class="nb">sum</span><span class="p">()</span>
+                           <span class="p">)</span> <span class="o">/</span> <span class="n">N</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="n">num_days</span><span class="p">),</span> <span class="n">signups_per_day</span><span class="p">,</span> <span class="n">lw</span><span class="o">=</span><span class="mi">4</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">"#E24A33"</span><span class="p">,</span>
+         <span class="n">label</span><span class="o">=</span><span class="s">"Expected Shopify Sign Ups Per Day"</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">num_days</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s">"Day"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s">"Shopify Sign Ups"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s">"Expected Shopify Sign Ups Per Day"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="n">num_days</span><span class="p">),</span> <span class="n">signup</span><span class="p">,</span> <span class="n">color</span><span class="o">=</span><span class="s">"#348ABD"</span><span class="p">,</span> <span class="n">alpha</span><span class="o">=</span><span class="mf">0.65</span><span class="p">,</span>
+        <span class="n">label</span><span class="o">=</span><span class="s">"Oberseved Sign Ups"</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">vlines</span><span class="p">(</span><span class="n">lockdown</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1100</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="s">'black'</span><span class="p">,</span> <span class="n">linestyles</span><span class="o">=</span><span class="s">'solid'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'Lockdown'</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">vlines</span><span class="p">(</span><span class="n">free_trial</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">1300</span><span class="p">,</span> <span class="n">colors</span><span class="o">=</span><span class="s">'yellow'</span><span class="p">,</span> <span class="n">linestyles</span><span class="o">=</span><span class="s">'solid'</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s">'Free Trial'</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s">"lower left"</span><span class="p">);</span>
 </code></pre></div></div>
 
-<p>DataFrame has an extra parameter that you need to specif, axis. Axis = 0 means you are looking to remove a row. Axis = 1 means you want to remove a column.</p>
+<p><img src="/assets/images/2020-12-08-detecting-conversion-changes-using-bayesian-change-point/output_25_0.png" alt="bayesian change point multiple switch graphed" title="bayesian change point multiple switch graphed" /></p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="s">'Capital'</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-</code></pre></div></div>
+<h3 id="things-to-notes">Things to Notes:</h3>
 
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Country</th>
-      <th>Population</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Belgium</td>
-      <td>11190846</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>India</td>
-      <td>1303171035</td>
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>Brazil</td>
-      <td>207847528</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+<p>The Bayesian Switchpoint analysis is a simple and useful tool to have in your repertoire. Inferring the probability of a switchpoint and when it occurs can be particularly useful when you have a predefined hypothesis prior to running the model. For example, I had a prior belief that there may be an impact on sign-up because of countries going into lockdown and the introduction of the 90-day free trial. When the inference matches my hypothesis across various different countries, it gives me stronger confidence that my hypothesis is correct.</p>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Capital</th>
-      <th>Country</th>
-      <th>Population</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Brussels</td>
-      <td>Belgium</td>
-      <td>11190846</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
-<p>A very simple function in Python is the range function, which allows you to define a range of number range([start],[stop])</p>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span>
-</code></pre></div></div>
-
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[0, 1]
-</code></pre></div></div>
-
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">2</span><span class="p">))</span>
-</code></pre></div></div>
-
-<div>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Capital</th>
-      <th>Country</th>
-      <th>Population</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2</th>
-      <td>Brasília</td>
-      <td>Brazil</td>
-      <td>207847528</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+<p>It’s also important to note that the Bayesian Switchpoint model doesn’t answer any questions around causality or incrementality. Meaning I can’t really use this tool to answer how many incremental customers the 90-day free trial generated. Lastly, as with any analysis dependent on time, the time range selected for analysis is important. This highly depends on your domain knowledge and context on the scope of the problem. For example, it would be naive to assume the lockdown has a multi-year effect on sign-up. This is why we limited to the scope of analysis close to the time of the event.</p>
 
 			</div>
 
             <!-- Post Date -->
             <p>
             <small>
-                <span class="post-date"><time class="post-date" datetime=""></time></span>           
+                <span class="post-date"><time class="post-date" datetime="2020-12-08">08 Dec 2020</time></span>           
                 
                 </small>
             </p>
@@ -753,7 +730,7 @@ dtype: int64
                     
                     
                     <li>                        
-                     <a class="smoothscroll" href="/categories.html#data sandbox">Data Sandbox</a>
+                     <a class="smoothscroll" href="/categories.html#art of marketing science">Art of Marketing Science</a>
                     </li>
                     
 				</ul>
@@ -762,6 +739,8 @@ dtype: int64
             
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
+            
+            <a class="prev d-block col-md-6" href="/problems-before-tools-story-full-stack-data-scientist/"> &laquo; Problems before tools: A story of the full-stack data scientist</a>
             
             
             <div class="clearfix"></div>
