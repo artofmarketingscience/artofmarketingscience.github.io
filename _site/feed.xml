@@ -5,9 +5,21 @@
     <description>A blog dedicated to Marketing Science covering from concepts to practical examples with code. Oh, it's also my personal data science sandbox for tinkering with data things and go on data science rants.</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 07 Dec 2020 10:28:05 -0500</pubDate>
-    <lastBuildDate>Mon, 07 Dec 2020 10:28:05 -0500</lastBuildDate>
+    <pubDate>Tue, 08 Dec 2020 09:43:31 -0500</pubDate>
+    <lastBuildDate>Tue, 08 Dec 2020 09:43:31 -0500</lastBuildDate>
     <generator>Jekyll v3.8.5</generator>
+    
+      <item>
+        <title>Detecting Conversion Change Using Bayesian Change Point</title>
+        <description>Baysian Change Point analysis using PyMC3 to detect changes in marketing conversions. A real life example using analysis done at Shopify during COVID-19 pandemic.</description>
+        <pubDate>Tue, 08 Dec 2020 00:00:00 -0500</pubDate>
+        <link>/detecting-conversion-changes-using-bayesian-change-point/</link>
+        <guid isPermaLink="true">/detecting-conversion-changes-using-bayesian-change-point/</guid>
+        
+        
+        <category>Art of Marketing Science</category>
+        
+      </item>
     
       <item>
         <title>Problems before tools: A story of the full-stack data scientist</title>
