@@ -1,3 +1,6 @@
+![jpeg](/assets/images/logo_medium.png)
+
+
 # About The Art of Marketing Science
 The Art of Marketing Science is a blog focused on applying data science in marketing, sharing from concepts to practical code for readers. Here we explore different ways to apply data science to marketing problems, think about marketing data, and implement various algorithms in Python & R.
 
