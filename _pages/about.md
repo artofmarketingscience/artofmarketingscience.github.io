@@ -15,7 +15,7 @@ comments: true
 
 <p>
 
-	Data science is widely applied in marketing as every company on this planet is looking to better understand their marketing efforts in hopes to reduce inefficiencies and maximize effectiveness but there is a lack of resources covering practical application of data science in marketing. This blog is geared towards data scientist currently working in marketing and marketing analysts looking to expand beyond traditional analytics.
+	Data science is applied widely in marketing as every company on this planet is looking to better understand their marketing efforts in hopes to reduce inefficiencies and maximize effectiveness but there is a lack of consolidate resources covering practical application of data science in marketing. This blog is geared towards data scientist currently working in marketing and marketing analysts looking to expand beyond traditional analytics.
 
 </p>
 
@@ -40,19 +40,8 @@ comments: true
 </ul>
 </p>
 
-<p>
-	Marketing is a complex domain and I'm just scratching the surface. My hope is that readers will learn something from this blog and I can connect with other folks working in this domain space.
-</p>
-
 <p> 
 	I'm also one of the co-founders at <a href="https://www.mudaven.com">MUDAVEN</a>, where we take a technology first approach to real estate. We help real estate agents with creating 3D virtual tours, modern web design, digital marketing and more.
-</p>
-
-
-<h5>Contribute</h5>
-
-<p>
-	This blog is currently open to guest blogging. If you're interested in contributing as a guest blogger, please open up an <a href="https://github.com/artofmarketingscience/artofmarketingscience.github.io/issues"> issue in the github repo </a>specifying your topic. Similarily, if there is a topic you'd like to discuss or want me to write about, please open up an issue in the github repo.
 </p>
 
 </div>
