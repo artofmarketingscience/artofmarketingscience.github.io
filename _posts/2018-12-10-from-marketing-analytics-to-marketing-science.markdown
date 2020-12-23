@@ -4,7 +4,7 @@ title:  "From Marketing Analytics To Marketing Science"
 author: art_of_marketing_science
 categories: ["Art of Marketing Science"]
 description: "Evolving from marketing analytics to marketing science"
-image: /assets/images/2018-12-10-from_marketing_analytics_to_marketing_science/marketing_science_experiment.png
+image: /assets/images/2018-12-10-from_marketing_analytics_to_marketing_science/flask.png
 redirect_from: /AOM-from_marketing_analytics_to_marketing_science/
 ---
 
